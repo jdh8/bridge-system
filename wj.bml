@@ -1,0 +1,109 @@
+#+TITLE: Litten Polish Club
+
+#+AUTHOR: Chen-Pang He (jdh8)
+
+#+DESCRIPTION: My pet Polish Club bidding system
+
+* Litten Polish Club
+
+Welcome to Litten Polish Club!  Polish Club is a 5-card major small club
+bidding system, where the 1!c opening is forcing but not necessarily strong.
+Notably, *we swap the natural suits between 1!c and 1!d* by courtesy of Ting-Yu
+Ye (TpKotoba).  In other words, 1!d shows clubs, and 1!c has various options
+including a diamond suit.
+
+This bidding system is also based on /Polish Club 2020: Expert./  Changes
+are made with /Good, Better, Best/ and my improvisation.
+
+We use the distribution syntax and abbreviations provided by WBF.
+
+http://www.worldbridge.org/wp-content/uploads/2017/04/Guidetocompletion.pdf
+
+The ACBL convention card of this system is at
+
+https://bridgewinners.com/convention-card/print/litten-polish-club/98013
+
+** Notable differences from /Polish Club 2020: Expert/
+
+*** Constructive auctions
+
+- The minor suit interchange: we open 1!d for clubs!
+- We use natural 2/1 after 1!h and swapped 2/1 after 1!s.
+- After 1M, we have 4-card support step responses from 2NT to 3M.
+- In our 3-way checkback over 1X-1M-1NT, the 2!c relay contains 2-level
+  signoffs like Gladiator.
+
+*** Preempts
+
+- We modified continuations after the 2X preempts.
+- BTU Namyats replace natural 4m.
+
+*** Slam try
+
+- We use kickback RKCB 0314 for all suits.
+- When we have found two fits X and Y, 4Y+1 is 7-key Blackwood (7KCB), RKCB in
+  both suits with each trump Q regarded as half a keycard.
+- New suits above RKCB are control asking RKCB.  Return to 5X if you lack a
+  control in that suit.  Otherwise, use the other steps like RKCB.
+- We also suggest using the non-serious 3NT, Optional Minorwood, and Last Train
+  in slam tries.
+
+** References
+
+- Krzysztof Jassem & Tomek Brus.  /Polish Club 2020: Expert./  ISBN 978-1771402248
+- Krzysztof Jassem & Tomek Brus.  /Polish Club 2020: Standard./  ISBN 978-1771402231
+- Jan Eric Larsson.  /Good, Better, Best: A comparison of bridge bidding
+  systems and conventions by computer simulation./  ISBN 978-1771402415
+- Krzysztof Jassem.
+  [Wspólny Język 2020 Standard](https://jassem.pl/wp-content/uploads/2019/12/wj2020-25-59.pdf)
+- Piotr Cegielski.
+  [Wspólny Język DUCE](https://iccs.pl/wp-content/uploads/2020/11/Wspolny-Jezyk-DUCE-wersja-Q1.2021.pdf)
+- Krzysztof Jassem.
+  [Polish Club International 2010](https://jassem.pl/wp-content/uploads/2016/08/Polish_Club-2010.html)
+- Krzysztof Jassem.
+  [Wspólny Język 2005 (Polish Standard)](https://par.cse.nsysu.edu.tw/~kbc/class/Polish_Club/WJ2005Full_original.pdf)
+
+#INCLUDE common/evaluation.bml
+
+* Opening bids
+
+We have the minor suit interchange here.  This treatment fixes several problems
+such as rebidding clubs over 1!c.  This treatment also introduces lesser
+problems, but I believe they can be solved by further adjustments.
+
+1C = !F, Polish Club with diamonds instead of clubs:
+     (a) 12--14 HCP, 2--4!s, 2--4!h, 2--4!d, 2--4!c
+     (b) 11--17 HCP, 5+!d or 4441
+     (c) 18+ HCP
+1D = !TRF, 11--17 HCP, 5+!c or (441)4
+1H = 11--17 HCP, 5+!h
+1S = 11--17 HCP, 5+!s
+1N = 15--17 HCP, 2--4!s, 2--4!h, 2--6!d, 2--6!c
+2C = !PRE, 4--10 HCP, 4+!s, 4+!h
+2D = !PRE, 4--10 HCP, 6+M, 
+2M = PRE, 4--10 HCP, 5=#, 4+m, 
+2N = !UNT, 4--10 HCP, 5+!d, 5+!c
+3X = PRE, 4--10 HCP, 7+#
+3N = !Gambling, SOL 7+m, 0--1 outside A/K
+4C = !PRE, S-SOL 8+M, 0--1 outside A/K
+4D = !PRE, SOL 8+M, no outside A/K
+4M = PRE, 8+#
+4N = !UNT, 11--15 HCP, 6+!d, 6+!c
+
+** The notrump ladder
+
+- *12--14*: 1!c-1!d-1M
+- *15--17*: 1NT
+- *18--20*: 1!c-1!d-1NT
+- *21--23*: 1!c-1!d-2NT
+- *24+*: 1!c-1!d-2!d-2!h-2NT
+
+#INCLUDE wj/1C.bml
+#INCLUDE wj/1D.bml
+#INCLUDE wj/1M.bml
+#INCLUDE common/STR-NT.bml
+#INCLUDE wj/2C.bml
+#INCLUDE common/Multi.bml
+#INCLUDE wj/2M.bml
+#INCLUDE common/UNT.bml
+#INCLUDE common/BTU-4X.bml

@@ -1,0 +1,29 @@
+* Ekren 2!c
+
+Ekren is an artificial preempt showing 4+ cards in each major.  This preempt is
+not only frequent (5--6%) but also frees major preempts from the other major.
+Ekren is slightly less frequent than a wild 5-card natural preempt (6--7%) but
+much more frequent than a traditional 6-card preempt (2.2--2.7%).
+
+Ekren is originally at 2!d.  We move it to 2!c to fill in the removed
+/Precision/ and leave space for Multi.
+
+Unlike natural preempts, we have 2NT as a nonforcing natural invitation.  Since
+Ekren hands can be fairly balanced, 2NT can be the sweet spot on misfit.
+
+2C-
+2D = !(R)
+  2H = MIN
+  2S = MIN, 5+!s
+  2N = !MAX, 5+!s, 5+!h
+  3C = !MAX, 44(xx)
+  3D = !MAX TRF, 5+!h
+  3H = !MAX TRF, 5+!s
+2M = S/O
+2N = !NF NAT
+3C = !FG (R)
+  3D = ! 44(xx)
+  3H = !Smolen, 5+!s
+  3S = !Smolen, 5+!h
+  3N = ! 5+!s, 5+!h
+3D = !NF NAT

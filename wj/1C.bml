@@ -1,0 +1,482 @@
+* Polish 1!c opening with the minor suit interchange
+
+The minor suit interchange replaces the natural variant of Polish Club.  The
+variants are as follows:
+
+- 12--14 HCP, 2--4!s, 2--4!h, 2--4!d, 2--4!c
+- 11--17 HCP, 5+!d or 4441
+- 18+ HCP
+
+This treatment makes the 1!d negative relay non-forcing.  We not only threaten
+to play 1!d but also make 1!c-1!d-2!c stronger and more constructive.  In order
+to pass 1!d easily, it must become a pure negative relay.  We move invitational
+hands elsewhere.
+
+1C-
+1D = !NF NEG, 0--9 HCP
+1H = F, 7+ HCP, 4+!h
+1S = F, 7+ HCP, 4+!s
+1N = BAL INV, 9--11 HCP, 2--3!s, 2--3!h, 2--5!d, 2--5!c
+2C = !FG, 5+!c
+2D = !FG, 5+!d
+2H = !P/C, 7--9 HCP, 4+!h, 5+!s
+2S = !INV, 9--11 HCP, (54)+ in minors
+2N = !FG, 2--3!s, 2--3!h, 3--4!d, 3--4!c
+3C = !INV, 9--11 HCP, 6+!c
+3D = !INV, 9--11 HCP, 6+!d
+3M = !PRE, 3--6 HCP, 7+#
+3N = 12--15 HCP, 33(43)
+4M = PRE, 0--4 HCP, 8+#
+
+Note that due to the minor suit interchange, *rebidding clubs by the 1!c opener
+often shows diamonds* instead of clubs.  Responder can then bid diamonds as
+negative or P/C.  This is a significant change from the standard and fairly
+natural variant of Polish Club.
+
+** The 1!d relay
+
+In our version of Polish Club, the 1!d relay denies invitational values.  This
+relay contains weak hands without another suitable bid.
+
+We swap the 2!d and 2NT responses for better constructiveness by courtesy of
+Ting-Yu Ye (TpKotoba).
+
+1C-1D-
+P  = 11--14 HCP, 4+!d
+1H = 12--20 HCP, 4+!h or 3334
+1S = 12--20 HCP, 4+!s
+1N = 18--20 HCP, 2--4!s, 2--4!h, 2--6!d, 2--6!c
+2C = !NF, 15--20 HCP, 0--3!s, 0--3!h, 5+!d or 18--20 HCP 5+!c
+2D = !NF, 21--23 HCP, 0--4!s, 0--4!h, 0--5!d, 0--5!c
+2H = 20--23 HCP, 5+!h
+2S = 20--23 HCP, 5+!s
+2N = !FG, 24+ HCP
+3C = 21--23 HCP, 6+!c
+3D = 21--23 HCP, 6+!d
+3N = !Gambling, SOL 7+!d, likely stops in two side suits
+
+1C-1D-1H-
+1S = 4--6 HCP, 4+!s
+1N = 5--9 HCP, 2--3!s, 2--3!h, 2--5!d, 2--5!c
+2C = 5--9 HCP, 5+!c
+2D = 5--9 HCP, 5+!d
+2H = 4--6 HCP, 4+!h
+
+1C-1D-1S-
+1N = 5--9 HCP, 1--3!s, 2--4!h, 2--5!d, 2--5!c
+2C = 5--9 HCP, 5+!c
+2D = 5--9 HCP, 5+!d
+2H = 4--6 HCP, 5+!h
+2S = 4--6 HCP, 4+!s
+
+The bidding structure at 1!c-1!d-1NT is similar to the 1NT opening.  We don't
+need minor transfers here since we have already bid both minors.  Therefore, we
+change 2!s to a minor suit Multi/Stayman.
+
+1C-1D-1N-
+2C = !STAY, may be Garbage
+2D = !TRF, 5+!h
+2H = !TRF, 5+!s
+2S = !Minor suit Multi/STAY, 6+m or 4+!d 4+!c
+  2N = 1--3!d, 1--3!c
+  3C = ! 4+!d
+  3D = ! 4+!c
+2N = NAT INV
+3C = INV, 6+!c
+3D = INV, 6+!d
+3H = !SPL, 0--1!h, 2--3!s, 4--5!d, 4--5!c
+3S = !SPL, 0--1!s, 2--3!h, 4--5!d, 4--5!c
+3N = S/O
+4C = !Gerber, ask for aces
+  4D = ! 0 or 4 aces
+  4H = ! 1 ace
+  4S = ! 2 aces
+  4N = ! 3 aces
+4D = !Texas TRF, 6+!h
+4H = !Texas TRF, 6+!s
+4S = !FG, 5+!d, 5+!c
+4N = QUANT INV to 6NT
+
+1C-1D-2C-
+2D = P/C
+2H = NF, 4--6 HCP, 5+!h
+2S = NF, 4--6 HCP, 5+!s
+2N = NAT INV, 7--9 HCP
+3C = P/C
+3D = P/C
+3H = NF, 4--6 HCP, 6+!h
+3S = NF, 4--6 HCP, 6+!s
+
+1C-1D-2D-
+2H = !TRF, 5+!s
+2S = !TRF to 2NT
+  2N = 2--4!s, 2--4!h, 2--6!d, 2--6!c
+    3C = !STAY, may be Garbage
+    3D = !TRF, 5+!h, not BAL
+    4D = !Texas TRF, 6+!h
+  3C = 5+!c, not BAL
+  3D = 5+!d, not BAL
+  3H = !FRAG, 44(41)
+  3S = !FRAG, 4144
+  3N = !FRAG, 1444
+2N = !TRF, 6+!c or S/T 5+!d 5+!c
+3C = !TRF, 6+!d
+3D = !TRF, 5!h(332), choice of games
+3H = !SPL, 0--1!h, 2--3!s, 4--5!d, 4--5!c
+3S = !SPL, 0--1!s, 2--3!h, 4--5!d, 4--5!c
+3N = !Choice of games, 22(54)
+
+1C-1D-2N-
+3C = !Muppet STAY, 3+M
+3D = !TRF, 5+!h
+  3H = 2+!h
+    3S = !(R), 0--3!s
+    3N = !TRF, 4+!s
+  3S = 5+!s
+  3N = 0--1!h, 0--4!s
+3H = !TRF, 5+!s
+3N = S/O
+4D = !Choice of games, 5+!s, 5+!h
+4H = !SPL, 0--1!h, 2--3!s, 4--5!d, 4--5!c
+4S = !SPL, 0--1!s, 2--3!h, 4--5!d, 4--5!c
+4N = QUANT INV to 6NT
+
+1C-1D-2N-3C-
+3D = !(R), 4=M
+  3H = !TRF, 4+!s
+    3S = 3=!s
+    3N = 0--2!s
+    4S = To play, 4+!s
+  3S = !TRF, 4+!h
+  3N = To play
+  4C = !S/T, 4+!s, 4+!h
+  4D = !Choice of games, 4+!s, 4+!h
+  4N = QUANT INV to 6NT
+3H = !NEG, 0--3!s, 0--3!h
+  3S = !(R), 0--4!s
+  3N = !TRF, 5+!s
+  4N = QUANT INV to 6NT
+3S = 5+!s
+  4N = QUANT INV to 6NT
+3N = !TRF, 5+!h
+  4C = !TRF, 5+!s
+  4D = !PUP
+  4N = QUANT INV to 6NT
+
+** Positive 1M responses
+
+Opener's 2!d rebid is Odwrotka, a fit reverse showing a game-forcing 3+ card
+support.  Moreover, opener's 2!c rebid is a transfer to diamonds, which makes
+the whole structure similar to XYZ (turned 180 degrees).
+
+The jump reverse of the other major shows a game-forcing minor two suiter to
+alleviate the burden on 2NT.
+
+1C-1H-
+1S = F, 4+!s
+1N = BAL 12--14 HCP, 2--3!s, 2--3!h
+2C = !TRF, 12--17 HCP, 5+!d, 0--3!s, 0--3!h
+2D = !FG, 3+!h
+2H = 12--14 HCP, 4=!h
+2S = !FG, 18+ HCP, 5+!d, 5+!c
+2N = FG, 18+ HCP, 2--3!s, 1--2!h, 3--5!d, 3--5!c
+3C = FG, 18+ HCP, 6+!c
+3D = FG, 18+ HCP, 6+!d
+3H = INV, 15--17 HCP, 4+!h, 4+!d
+3S = !SPL, 0--1!s, 4+!h
+3N = SOL 7+!d, partial stops in !s and !c
+4C = !SPL, 0--1!c, 4+!h
+4D = !SPL, 0--1!d, 4+!h
+
+1C-1S-
+1N = BAL 12--14 HCP, 2--3!s, 2--4!h
+2C = !TRF, 12--17 HCP, 5+!d, 0--3!s
+2D = !FG, 3+!s
+2H = FG, 18+ HCP, 5+!h
+2S = 12--14 HCP, 4=!s
+2N = FG, 18+ HCP, 0--2!s, 2--4!h, 2--5!d, 2--5!c
+3C = FG, 18+ HCP, 6+!c
+3D = FG, 18+ HCP, 6+!d
+3H = !FG, 18+ HCP, 5+!d, 5+!c
+3S = INV, 15--17 HCP, 4+!s, 4+!d
+3N = SOL 7+!d, partial stops in !h and !c
+4C = !SPL, 0--1!c, 4+!s
+4D = !SPL, 0--1!d, 4+!s
+4H = !SPL, 0--1!h, 4+!s
+
+*** Three-way checkback for 1!c-1!h-1!s
+
+There are 3 artificial relays in the three-way checkback:
+
+- *2!c*: minimum 5+!d, any invitation, or a choice of games of 44(32)
+- *2!d*: game-forcing 5+!h or a slam try (maybe balanced)
+- *2NT*: transfer to clubs
+
+As a corollary, 3X become shaped slam tries.
+
+1C-1H-1S-
+1N = MIN, 0--3!s
+2C = !XYZ, MIN 5+!d or any INV or CoG 44(32)
+2D = !FG XYZ, 5+!h or S/T
+2H = MIN, 5+!h
+2S = MIN, 4+!s
+2N = !TRF, 7--9 HCP, 6+!c
+3C = S/T, 5+!c, 5+!h
+3D = S/T, 5+!d, 5+!h
+3H = S/T, 6+!h
+3S = S/T, 4+!s
+3N = 12--15 HCP, 0--3!s, 4=!h, 0--5!d, 0--5!c
+
+1C-1H-1S-2C-
+2D = !MIN, 12--14 HCP
+2H = FG, 18+ HCP, 5+!s, 3=!h
+2S = FG, 18+ HCP, 5+!s, 0--2!h
+2N = FG, 18+ HCP, 4=!s
+3C = !P/C, 15+ HCP, 5+!d
+3D = !FG TRF, 18+ HCP, 5+!c
+
+1C-1H-1S-2C-2D-
+2H = INV, 5+!h
+2S = INV, 4+!s
+2N = BAL INV
+3C = INV, 6+!c
+3D = INV, 6+!d
+3H = MAX INV, 6+!h
+3S = INV, 4+!s, 5+!h
+3N = Choice of games, 12--15 HCP, 44(32)
+
+1C-1H-1S-2D-
+2H = MIN, 12--14 HCP, 3=!h
+2S = FG, 18+ HCP, 5+!s, 0--2!h
+2N = MIN, 12--14 HCP, 0--2!h
+3C = !FG TRF, 15+ HCP, 5+!d
+3D = !FG TRF, 18+ HCP, 5+!c
+3H = FG, 18+ HCP, 5+!s, 3=!h
+
+1C-1H-1S-2D-2H-
+2N = BAL S/T
+3C = S/T, 4+!c, 5+!h
+3D = S/T, 4+!d, 5+!h
+3H = S/T, 5+!h
+3S = S/T, 4+!s
+3N = Choice of games, 12--15 HCP, 5!h(332)
+
+1C-1H-1S-2D-2N-
+3C = S/T, 4+!c
+3D = S/T, 4+!d
+3H = 6+!h
+3S = S/T, 3+!s
+3N = S/O
+
+*** Three-way checkback for 1!c-1!h!s-1NT
+
+We use BTU-style 3-way checkback to a 1NT rebid.  The 2!c response is a
+Gladiator-like relay because it puppets to 2!d anyway.  The contents of 2!c
+by further responses are:
+
+- *Pass and 2M*: signoff
+- *2NT*: balanced invitation
+- *3NT*: choice of games with 5M(332)
+- *Other suit bids*: strong invitations
+
+1C-1H-1N-
+2C = !Gladiator, PUP
+2D = !FG XYZ (R)
+  2H = 3=!h
+  2N = 2=!h
+2H = INV, 5+!h
+2S = FG, 4+!s
+2N = !TRF, 7--9 HCP, 6+!c
+3C = S/T, 5+!c, 5+!h
+3D = S/T, 5+!d, 5+!h
+3H = S/T, 6+!h
+3S = !SPL, 0--1!s, 6+!h
+3N = 12--15 HCP, 4=!h
+4C = !SPL, 0--1!c, 6+!h
+4D = !SPL, 0--1!d, 6+!h
+
+1C-1H-1N-2C-2D-
+P  = 5+!d
+2H = 5+!h
+2S = INV, 4+!s, 6+!h
+2N = BAL INV
+3C = INV, 6+!c
+3D = INV, 6+!d
+3H = MAX INV, 6+!h
+3N = Choice of games, 5!h(332)
+
+1C-1S-1N-
+2C = !Gladiator, PUP
+2D = !FG XYZ (R)
+  2H = 4+!h
+  2S = 3=!s
+  2N = 2=!s
+2H = INV, 4+!h, 5+!s
+2S = INV, 5+!s
+2N = !TRF, 7--9 HCP, 6+!c
+3C = S/T, 5+!c, 5+!s
+3D = S/T, 5+!d, 5+!s
+3H = S/T, 5+!h, 5+!s
+3S = S/T, 6+!s
+3N = 12--15 HCP, 4=!s
+4C = !SPL, 0--1!c, 6+!s
+4D = !SPL, 0--1!d, 6+!s
+4H = !SPL, 0--1!h, 6+!s
+
+1C-1S-1N-2C-2D-
+P  = 5+!d
+2H = INV, 5+!h, 5+!s
+2S = 5+!s
+2N = BAL INV
+3C = INV, 6+!c
+3D = INV, 6+!d
+3H = INV, 4+!h, 6+!s
+3S = MAX INV, 6+!s
+3N = Choice of games, 5(332)
+
+*** Odwrotka with the strong 2!h relay
+
+We use the relay structure in /Polish Club 2020: Expert./  The 2!h response to
+Odwrotka is a slam try with 11+ HCP or a certain fit and <= 8.0 NLTC.
+
+1C-1M-2D-
+2H = !S/T (R)
+  2S = !(R)
+2S = ! 4=M, 7--10 HCP
+  2N = !(R)
+2N = ! 5=M, not BAL, 7--10 HCP
+  3C = !(R)
+3C = ! 5+!c, 4=M, 9--11 HCP
+3D = ! 5+!d, 4=M, 9--11 HCP
+3M = !BAL 5=M, 7--10 HCP
+3oM = !SPL, 0--1#, 6+M, 7--10 HCP
+3N = ! 6+M, 2+oM, 2+!d, 2+!c, 7--10 HCP
+4C = !SPL, 0--1!c, 6+M, 7--10 HCP
+4D = !SPL, 0--1!d, 6+M, 7--10 HCP
+
+1C-1M-2D-2H-2S-
+2N = ! 4=M
+  3C = !(R)
+3C = ! 4+!c, 5=M
+3D = ! 4+!d, 5=M
+3M = !BAL 5=M
+3oM = ! 4+#, 5=M
+3N = !6+M, 2+!d, 2+!c
+4C = !SPL, 0--1!c, 6+M
+4D = !SPL, 0--1!d, 6+M
+
+1C-1H-2D-2H-2S-2N-3C-
+3D = ! 4=!d
+3H = ! 4=!c
+3S = ! 44(xx)
+3N = ! 3433
+
+1C-1S-2D-2H-2S-2N-3C-
+3D = ! 4=!d
+3S = ! 4=!c
+3N = ! 4333
+
+1C-1H-2D-2S-2N-
+3C = ! 5+!c, 7--8 HCP
+3D = ! 5+!d, 7--8 HCP
+3H = ! 1444
+3S = ! 44(xx)
+3N = BAL
+
+1C-1S-2D-2S-2N-
+3C = ! 5+!c, 7--8 HCP
+3D = ! 5+!d, 7--8 HCP
+3S = ! 4144
+3N = BAL
+
+1C-1M-2D-2N-3C-
+3D = ! 4+!d
+3M = ! 4+!c
+3oM = ! 4+#
+
+** Balanced positive responses
+
+Balanced positive responses are pretty descriptive, so opener's rebids are
+mostly natural except the minor suit interchange.
+
+1C-1N-
+2C = !(R), 5+!d or 18+ HCP
+  2D = MIN P/C
+  2N = MAX, 1--2!d
+  3D = MAX P/C, 3+!d
+2D = !TRF, 5+!c or (441)4, 18+ HCP
+2H = 5+!h, 18+ HCP
+2S = 5+!s, 18+ HCP
+2N = INV, 14 HCP, 2--4!d
+3C = 6+!c, 18+ HCP
+3D = 6+!d, 18+ HCP
+3H = 7+!h, 18+ HCP
+3S = 7+!s, 18+ HCP
+3N = 15--17 HCP, 4441
+
+1C-2N-
+3C = !TRF, 5+!d or 15+ HCP
+3D = !TRF, 5+!c or (441)4, 18+ HCP
+3H = 5+!h, 18+ HCP
+3S = 5+!s, 18+ HCP
+3N = 12--14 HCP, 2--4!d
+4N = QUANT INV to 6NT, 18--19 HCP
+
+** Game-forcing 2m responses
+
+Here come the exceptions where opener's club rebids are natural.
+
+Like over 2/1 responses, opener jumps with extra values to utilize higher steps
+to send information.  This avoids an awkward situation Bridge World calls "two
+temporizers and zero describers".
+
+1C-2C-
+2D = 5+!d
+2H = 4+!h
+2S = 4+!s
+2N = 12--14 or 18+ HCP, 2--4!d
+3C = S/T, 15+ HCP, 3+!c
+3D = S/T, 18+ HCP, 5+!d
+3H = S/T, 18+ HCP, 5=!h or 7+!h
+3S = S/T, 18+ HCP, 5=!s or 7+!s
+3N = S/T, 15--17 HCP, 4441
+
+1C-2D-
+2H = 4+!h
+2S = 4+!s
+2N = 12--14 or 18+ HCP
+3C = S/T, 18+ HCP, 5+!c
+3D = S/T, 18+ HCP, 3+!d
+3H = S/T, 18+ HCP, 5=!h or 7+!h
+3S = S/T, 18+ HCP, 5=!s or 7+!s
+3N = S/T, 15--17 HCP, 4+!d
+4C = !S/T FRAG, 15--17 HCP, 5+!d, 0--1!s or 0--1!h
+4D = S/T, 15--17 HCP, 4+!d, usually 0--1!c or 6+!d
+
+** Reverse Flannery 2!h
+
+The 2!h response shows a minimum positive with 5+ spades and 4+ hearts.
+
+1C-2H-
+2S = S/P S/O, 2+!s, 12--15 HCP
+2N = !FG (R)
+3C = !INV+ TRF, 0--2!s, 0--3!h, 5+!d, 15+ HCP
+3D = !FG TRF, 5+!c, 0--2!s, 0--3!h, 18+ HCP
+3H = INV, 4+!h, 15--17 HCP
+3S = INV, 3+!s, 15--17 HCP
+3N = S/O, 0--2!s, 1--3!h, 3--5!d, 3--5!c, 18+ HCP
+4H = S/O, 4+!h, 18+ points
+4S = S/O, 3+!s, 18+ points
+4N = QUANT INV to 6NT
+
+** Unbalanced invitational 2!s
+
+The 2!s response shows an invitation with (54) or more in the minor suits.
+
+1C-2S-
+2N = NF, 3--4!s, 3--4!h, 2--3!d, 2--3!c
+3C = NF, 4+!c
+3D = NF, 4+!d
+3H = FG, 5+!h or ask for !s stopper
+3S = FG, 5+!s or ask for !h stopper
+3N = S/O

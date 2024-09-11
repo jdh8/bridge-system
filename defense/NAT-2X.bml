@@ -1,0 +1,86 @@
+* Over natural (2X)
+
+(2Y)-
+D  = T/O 26+ ZP (12+ HCP) or any 36+ ZP (19+ HCP)
+2Z = 5+#, 26--35 ZP (12--18 HCP)
+2N = 30--35 ZP (16--18 HCP) w/ likely stop
+3X = 5+#, 26--35 ZP (12--18 HCP), FREQ 6+#
+3Z = 6+#, 30--35 ZP (15--18 HCP)
+3N = 36+ ZP (20+ HCP) or trick-based w/ likely stop
+
+(2m)-
+3m  = !Ask for stopper
+4m  = !Leaping Michaels, 5+!s, 5+!h
+4om = !Leaping Michaels, 5+#, 5+M
+
+(2M)-
+3M = !Leaping Michaels, 5+!d, 5+!c
+4m = !Leaping Michaels, 5+#, 5+oM
+4M = !STR T/O
+
+** Reverse Lebensohl
+
+Though usually treated the same, there is a significant difference between
+(2X)-Dbl and 1NT-(2X): we cannot pass boring hands in the former situation!
+After a long discussion, we came to a conclusion that reverse Lebensohl with
+Rubens advances is a better alternative than transfer or standard counterparts.
+
+As opposed to the standard/original Lebensohl, this 2NT relay handles
+constructive hands (8+ HCP or 7+ HCP by passed hand) while directly bidding a
+suit below 3X is weak.  Since an in-shape takeout is short in the adverse suit,
+advancer is more likely to have a stopper.  Inviting with 2NT right-sides the
+contract more often than not.
+
+There are subtle differences among adverse suits.  We adjust them case by
+case.
+
+(2C)-D-
+2X = COMP, 4+#
+2N = !INV+ (R)
+  3C = !NF MIN (R)
+  3X = FG, 4+#
+  3N = MAX BAL
+3C = !TRF INV+, 4+!d
+3D = !TRF INV+, 4+!h
+3H = !TRF INV+, 4+!s
+3S = !Ask for stopper
+
+(2D)-D-
+2M = COMP, 4+#
+2N = !INV+ (R)
+  3C = !NF MIN (R)
+  3D = !FG, 4+!c
+  3M = FG, 4+#
+  3N = MAX BAL
+3C = !STAY
+3D = !TRF INV+, 4+!h
+3H = !TRF INV+, 4+!s
+3S = !Ask for stopper
+
+(2H)-D-
+2S = COMP, 4+!s
+2N = !INV+ (R)
+  3C = !NF MIN (R)
+  3D = FG, 4+!d
+  3H = !FG, 4+!c
+  3S = FG, 4+!s
+  3N = MAX BAL
+3C = COMP, 4+!c
+3D = COMP, 4+!d
+3H = !TRF INV+, 4+!s
+3S = INV, 5+!s
+
+(2S)-D-
+2N = !INV+ (R)
+  3C = !NF MIN (R)
+  3D = !FG, 3=!h
+  3H = FG, 4+!h
+  3S = !FG, 0--2!h
+  3N = MAX BAL
+3X = COMP, 4+#
+3S = !Ask for stopper
+4C = F, 5+!c
+4D = F, 5+!d
+
+Note that this structure also works for artificial (2m) openings without
+further modification.

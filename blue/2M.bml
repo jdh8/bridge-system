@@ -1,0 +1,30 @@
+* Exactly 5-card weak twos
+
+Weak twos in this bidding system show exactly 5 cards in the bid major and an
+unspecified suit.  Multi 2!d already takes care of 6+ cards.
+
+Non-jump new suits are non-forcing because sometimes we need to escape from a
+certain misfit.  With a strong misfit and a lower-ranking suit, we tend to buy
+3NT with a minor suit.  Otherwise, we go through 2NT and try to introduce
+hearts in the next round.
+
+2H-
+2S = !P/C
+2N = !INV+
+  3C = MIN, 4+!c
+  3D = MIN, 4+!d
+  3H = MIN, 4+!s
+  3S = !MAX, 4+m
+  3N = !MAX, 4+!s
+3C = !P/C
+  3H = 4+!s
+3D = !INV+, 3+!h
+
+2S-
+2N = !INV+
+  3C = MIN, 4+!c
+  3D = MIN, 4+!d
+  3H = !MAX, 4+!c
+  3S = !MAX, 4+!d
+3C = !P/C
+3D = !INV+, 3+!s
