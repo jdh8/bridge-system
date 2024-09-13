@@ -207,3 +207,18 @@ R  = BAL INV+, 5+ HCP
 3H = !TRF, PRE 7+!s or MIN FG SOL 6+!s
 3S = !Gambling, SOL 7+ suit without stopper
 3N = !Gambling, SOL 7+ suit with stopper
+
+Competing over (1NT) is quite straightforward.
+
+1C-(1N)-
+D  = INV+, 5+ HCP, fairly BAL
+2C = NF, 5+!c
+2D = NF, 5+!d
+2H = NF, 5+!h
+2S = NF, 5+!s
+2N = !FG CUE, usually 5+X 5+Y
+3C = FG, 6+!c
+3D = FG, 6+!d
+3H = FG, 6+!h
+3S = FG, 6+!s
+3N = !Gambling, SOL 7+ suit
