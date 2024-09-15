@@ -222,3 +222,13 @@ D  = INV+, 5+ HCP, fairly BAL
 3H = FG, 6+!h
 3S = FG, 6+!s
 3N = !Gambling, SOL 7+ suit
+
+The nature of 1!c-(2X) is similar to 1NT-(2X), yet there are some differences.
+We use plain Rubinsohl instead of Transfer Lebensohl here.  The 1!c opener is
+unlimited and perhaps unbalanced.  Preempting with a long suit is no longer
+a good idea:
+
+- The preemptive value is overvalued due to a probable misfit.
+- Opener can bid again with extra values.
+
+[TODO: actual continuations over 1!c-(2X)]
