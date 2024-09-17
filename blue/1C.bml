@@ -231,4 +231,14 @@ a good idea:
 - The preemptive value is overvalued due to a probable misfit.
 - Opener can bid again with extra values.
 
-[TODO: actual continuations over 1!c-(2X)]
+There is extra space over 1!c-(2!c), so we transfer at the 2-level as well.
+
+1C-(2C)-
+D  = INV+, 5+ HCP, fairly BAL
+2D = !G/T TRF, 5+!h
+2H = !G/T TRF, 5+!s
+2S = !NF T/O, usually 4=!s
+2N = !G/T TRF, usually 6+!d
+3C = !FG T/O
+3X = FG, 6+#
+3N = Choice of games, 6+!c
