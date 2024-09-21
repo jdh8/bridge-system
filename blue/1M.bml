@@ -1,72 +1,44 @@
 * Major suit openings
 
-Unlike most strong club systems, we play 2/1 FG here.  Since the 2NT response
-is conventional, the wide-range 1NT must include invitational hands.  Most of
-the time, 1NT is a decent contract for a minimum opener.  F2NT would miss the
-chance to stop at 1NT.
-
 1H-
-1S = F, 4+!s, 8+ HCP
-1N = NF, 8--11 HCP
-2C = FG, 4+!c or STR 3433
-2D = FG, 4+!d
-2H = S/O, 4=!h, 3--9 HCP
-2S = WJS, 6+!s, 0--7 HCP
-2N = !INV+, 4=!h
-3C = !FG, 5+!h
-3D = !INV or S/T, 5+!h
-3H = !CONST, 5+!h
+1S = F, 3+!s, usually 4+!s
+1N = NF, 9--11 HCP, 0--3!h
+2C = !F1, FG 3+!c or INV 3=!h or 7--9 HCP 4=!h
+  2D = !MIN, 4=!h
+  2H = MIN, 5+!h
+2D = !FG, 4+!d or 5+!s
+  2H = MIN, 5+!h
+  2S = MIN, 3+!s
+  2N = MIN, 4=!h, 0--2!s
+2H = PRE, 7--9 HCP 3=!h or 0--7 HCP 4+!h
+2S = PRE, 0--7 HCP, 6+!s
+2N = !FG, 4+!h
+3C = INV, 9--11 HCP, 6+!c, 0--2!h
+3D = INV, 9--11 HCP, 6+!d, 0--2!h
+3H = INV, 10--11 HCP 4=!h or 7--9 HCP 5+!h
 3S = !SPL, 0--1!s, 4+!h
-3N = !Choice of games, 3(433), 12--15 HCP
+3N = !Choice of games, 33(43), 12--15 HCP
 4C = !SPL, 0--1!c, 4+!h
 4D = !SPL, 0--1!d, 4+!h
-4H = S/O, 4+!h
-
-We swap 2!c and 2!h over 1!s, inspired by Twisted 2/1 by Ting-Yu Ye (TpKotoba).
-
-https://hackmd.io/@TpKotoba/refx
-
-When there are 5 hearts in 1!s-1NT, it must be an invitation without a spade
-fit.
+4H = S/O, 5+!h
 
 1S-
-1N = NF, 0--3!s, 0--5!h, 8--11 HCP
-2C = ! 5+!h 8+ HCP or FG 4+!h, but not INV 5=!h
-2D = FG, 4+!d or STR 4333
-2H = !FG, 4+!c
-2S = S/O, 4=!s, 3--9 HCP
-2N = !INV+, 4=!s
-3C = !FG, 5+!s
-3D = !INV or S/T, 5+!s
-3H = !INV, 5+!h, 4+!s
-3S = !CONST, 5+!s
-3N = !Choice of games, (4333), 12--15 HCP
+1N = NF, 0--3!s
+2C = !F1, FG 3+!c or INV (4=!h or 3=!s) or 7--9 HCP 4=!s
+  2D = !MIN, 4=!s, 0--3!h
+  2H = MIN, 4+!h
+  2S = MIN, 5+!s
+2D = !FG, 4+!d or 5+!h
+  2H = MIN, 3+!h
+  2S = MIN, 5+!s
+  2N = MIN, 4=!s, 0--2!h
+2H = !NF INV, 9--11 HCP, 5+!h
+2S = PRE, 7--9 HCP 3=!s or 0--7 HCP 4+!s
+2N = !FG, 4+!s
+3C = INV, 9--11 HCP, 6+!c, 0--2!s
+3D = INV, 9--11 HCP, 6+!d, 0--2!s
+3H = INV, 9--11 HCP, 6+!h, 3=!s
+3S = INV, 10--11 HCP 4=!s or 7--9 HCP 5+!s
+3N = !Choice of games, 3(433), 12--15 HCP
 4X = !SPL, 0--1#, 4+!s
-4S = S/O, 4+!s
-
-1S-2C-
-2D = !(R), MIN 4--5!s 0--1!h or MAX 5+!s 3+!h
-2H = MIN, 2--3!h
-2S = MIN, 6+!s
-2N = MAX, 1--2!h
-3C = MAX, 5+!s, 4+!c
-3D = MAX, 5+!d
-3H = MIN, 4+!h
-3S = MAX, 6+!s
-4H = MAX, 5+!h
-
-** Natural invitational 2/1 by passed hand
-
-#SEAT 34
-
-1H-
-2C = INV, 5+!c
-2D = INV, 5+!d
-
-1S-
-2C = INV, 5+!c
-2D = INV, 5+!d
-2H = INV, 5+!h
-
-#SEAT 0
-
+4S = S/O, 5+!s
