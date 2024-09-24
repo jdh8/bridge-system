@@ -90,6 +90,9 @@ problems, but I believe they can be solved by further adjustments.
 4M = PRE, 8+#
 4N = !UNT, 11--15 HCP, 6+!d, 6+!c
 
+When preempting with 4+!s and longer hearts, open 2!c with maximum (8--10 HCP)
+and 2!h with minimum (4--8 HCP).
+
 ** The notrump ladder
 
 - *12--14*: 1!c-1!d-1M
@@ -104,6 +107,6 @@ problems, but I believe they can be solved by further adjustments.
 #INCLUDE common/STR-NT.bml
 #INCLUDE wj/2C.bml
 #INCLUDE common/Multi.bml
-#INCLUDE wj/2M.bml
+#INCLUDE common/2M.bml
 #INCLUDE common/UNT.bml
 #INCLUDE common/BTU-4X.bml

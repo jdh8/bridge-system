@@ -1,0 +1,27 @@
+* Extended Muiderberg
+
+Weak twos in this bidding system show exactly 5 cards in the bid major and a
+side suit.  Multi 2!d already takes care of 6+ cards.  In Muiderberg, the side
+suit must be a minor suit.  We extend 2!h to include *minimum* 4+!s.
+
+2H-
+2S = !P/C
+2N = !INV+ (R)
+  3C = MIN, 4+!c
+  3D = MIN, 4+!d
+  3H = MIN, 4+!s
+  3S = !MAX, 4+!c
+  3N = !MAX, 4+!d
+3C = !P/C
+  3D = !P/C, 4+!s
+  3H = !P/C, 4+!d
+3D = !INV+, 3+!h
+
+2S-
+2N = !INV+ (R)
+  3C = MIN, 4+!c
+  3D = MIN, 4+!d
+  3H = !MAX, 4+!c
+  3S = !MAX, 4+!d
+3C = !P/C
+3D = !INV+, 3+!s

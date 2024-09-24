@@ -30,7 +30,7 @@ strong notrump works better than a weak or wide-ranged one.
 The precedence for opening a 4-card suit is !h > !s > !d.  Opening 1!h for 44
 in majors provides better constructiveness.
 
-We don't care about suit quality in constructive bidding.  Nonforcing raises
+We don't care about suit quality in constructive bidding.  Non-forcing raises
 are mixed to some extent.  There is either extra strength or a good fit, but
 not both.
 
@@ -79,6 +79,9 @@ applies to minimum game force.
 Note that we don't open 11 HCP balanced hands.  Unlike aggressive sibling
 systems, we keep our opening range narrow for easier responses.
 
+Besides, we don't preempt with maximum (9--10 HCP) 4+!s and 5+!h.  Anticipate
+partner to open and respond to find a game.
+
 ** Choice of suit openings
 
 Contrary to popular belief, a modern Blue Club is pretty natural.
@@ -98,7 +101,7 @@ There is also canapé for minimum 4M5!c.  We open 1M so that 4M5!c hands in the
 2!c opening are strong enough for the 2!d relay.
 
 - 12--13 HCP
-- >= 7.0 NLTC
+- >= 7.5 NLTC
 - A 4-card major and 5 clubs
 
 ** The notrump ladder
@@ -116,6 +119,6 @@ There is also canapé for minimum 4M5!c.  We open 1M so that 4M5!c hands in the
 #INCLUDE common/STR-NT.bml
 #INCLUDE blue/2C.bml
 #INCLUDE common/Multi.bml
-#INCLUDE blue/2M.bml
+#INCLUDE common/2M.bml
 #INCLUDE common/UNT.bml
 #INCLUDE common/BTU-4X.bml

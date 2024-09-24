@@ -1,14 +1,13 @@
 * Ekren 2!c
 
-Ekren is an artificial preempt showing 4+ cards in each major.  This preempt is
-not only frequent (5--6%) but also frees major preempts from the other major.
-Ekren is slightly less frequent than a wild 5-card natural preempt (6--7%) but
-much more frequent than a traditional 6-card preempt (2.2--2.7%).
+Ekren is an artificial preempt showing 4+ cards in each major.  It is originally
+at 2!d.  We move it to 2!c to fill in the removed /Precision/ and leave space
+for Multi.
 
-Ekren is originally at 2!d.  We move it to 2!c to fill in the removed
-/Precision/ and leave space for Multi.
+In this version of Polish Club, we open minimum 4+!s and longer hearts with 2!h.
+This makes a tendency that spades are longer than hearts in Ekren hands.
 
-Unlike natural preempts, we have 2NT as a nonforcing natural invitation.  Since
+Unlike natural preempts, we have 2NT as a non-forcing natural invitation.  Since
 Ekren hands can be fairly balanced, 2NT can be the sweet spot on misfit.
 
 2C-
