@@ -30,10 +30,12 @@ strong notrump works better than a weak or wide-ranged one.
 The precedence for opening a 4-card suit is !h > !s > !d.  Opening 1!h for 44
 in majors provides better constructiveness.
 
-We don't care about suit quality in constructive bidding.  Responder does not
-consider 3-card suits as biddable.
+We don't care about suit quality in constructive bidding.  Nonforcing raises
+are mixed to some extent.  There is either extra strength or a good fit, but
+not both.
 
-We use natural 2/1 over 1!d!h and swapped 2/1 over 1!s.
+Nebulous 2/1 responses are natural game forces or something constructive with
+a major suit, yet 1!s-2!h is a negative free bid.
 
 The responses to 1!c are natural Polish-like instead of control-showing.  MAFIA
 applies to minimum game force.

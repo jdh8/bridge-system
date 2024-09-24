@@ -3,13 +3,10 @@
 1H-
 1S = F, 3+!s, usually 4+!s
 1N = NF, 9--11 HCP, 0--3!h
-2C = !F1, FG 3+!c or INV 3=!h or 7--9 HCP 4=!h
+2C = !F1, FG 3+!c or INV 3=!h or 7--9 HCP 4=!h, not 4=!s
   2D = !MIN, 4=!h
   2H = MIN, 5+!h
-2D = !FG, 4+!d or 5+!s
-  2H = MIN, 5+!h
-  2S = MIN, 3+!s
-  2N = MIN, 4=!h, 0--2!s
+2D = !FG, 4+!d, not 4=!s
 2H = PRE, 7--9 HCP 3=!h or 0--7 HCP 4+!h
 2S = PRE, 0--7 HCP, 6+!s
 2N = !FG, 4+!h
