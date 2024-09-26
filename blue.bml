@@ -86,8 +86,9 @@ partner to open and respond to find a game.
 
 Contrary to popular belief, a modern Blue Club is pretty natural.
 
+- Treat two suiters longer than 5-5 as 5-5
 - Bid the longest suit
-- Bid the higher-ranking suit but choose 1!h for 44 in majors
+- Bid the higher-ranking suit but choose 1!h for 4-4 in majors
 
 *** Variants of the 2!c opening
 
@@ -101,11 +102,14 @@ We choose 1!d over 2!c for (xx)45 like most strong club systems.
 
 *** Maximum canapé (14--15 HCP)
 
-Sometimes we open the secondary suit on purpose.  We canapé for maximum
-non-club two suiters, planning to reverse in the primary suit later.
+For maximum unbalanced opening hands, we open the secondary suit on purpose.
+If there is a second round, opener reverses with the primary suit.  However,
+canapé cannot happen if either the primary or secondary suit is clubs because
+2!c must be long.
 
-- 14--15 HCP
-- At least (54) in two of !s!h!d
+- *5-5 or longer two suiter*: open the lower ranking suit if it is not clubs
+- *(54) not involving clubs*: open the 4-card suit
+- *4441*: open 1!d
 
 ** The notrump ladder
 

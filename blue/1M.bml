@@ -19,6 +19,11 @@ compete.
 2C = !F1, FG 3+!c or INV 3=!h or 7--9 HCP 4=!h, not 4=!s
   2D = !MIN, 4=!h
   2H = MIN, 5+!h
+  2S = MAX canapé, 5+!s
+  2N = BAL MAX, 5!h(332)
+  3C = MAX, 4+!c
+  3D = MAX canapé, 5+!d
+  3H = MAX, 6+!h
 2D = !FG, 4+!d, not 4=!s
 2H = PRE, 7--9 HCP 3=!h or 0--7 HCP 4+!h
 2S = PRE, 0--7 HCP, 6+!s
@@ -51,11 +56,21 @@ compete.
 2D = !MIN, 4=!s, 0--3!h
 2H = MIN, 4+!h
 2S = MIN, 5+!s
+2N = BAL MAX, 5(332)
+3C = MAX, 4+!c
+3D = MAX canapé, 5+!d
+3H = MAX canapé, 5+!h
+3S = MAX, 6+!s
 
 1S-2D-
 2H = MIN, 3+!h
 2S = MIN, 5+!s
 2N = MIN, 4=!s, 0--2!h
+3C = MAX, 4+!c
+3D = MAX canapé, 5+!d
+3H = MAX canapé, 5+!h
+3S = MAX, 6+!s
+3N = BAL MAX, 5(332)
 
 In this bidding system of limited openings, opener usually wants to reverse with
 a maximum.  However, keep in mind that there are hands with nowhere to jump over
