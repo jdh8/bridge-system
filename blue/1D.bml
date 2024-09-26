@@ -1,16 +1,19 @@
 * The 1!d opening
 
 1D-
-1H = F, 4+!h
+1H = F, 4+!h or S/T 5+!c
 1S = F, 4+!s
-1N = NF, 4+!c, 8--11 HCP
-2C = !F, 6+M 3--9 HCP or FG 0--3!s 0--3!h
-2D = S/O, 4=!d, 3--9 HCP
-2H = !P/C, 4+!h, 5+!s, 7--9 HCP
-2S = !TRF INV+, 6+!c, 10+ HCP
-2N = !PRE, 5+!d, 0--6 HCP
-3C = !Mixed raise, 5+!d, 7--9 HCP
-3D = INV, 5+!d, 10--11 HCP
-3H = !SPL, 0--1!h, 4+!d
-3S = !SPL, 0--1!s, 4+!d
+1N = NF, 3+!c
+2C = !F, Multi:
+     (a) NAT FG, 4+!c
+     (b) PRE TRF, 0--7 HCP, 5+!d
+     (c) PRE, 0--7 HCP, 6+M
+2D = CONST, 8--9 HCP, 5+!d
+2H = !INV+, 4+!d, shows !h stopper or asks for !s stopper
+2S = !INV+, 4+!d, shows !s stopper or asks for !h stopper
+2N = !PRE, 0--7 HCP, 6+!d
+3C = !Mixed raise, 8--9 HCP, 6+!d
+3D = INV, 10--11 HCP, 6+!d
+3H = Choice of games, 6+!h
+3S = Choice of games, 6+!s
 3N = 33(43), 12--15 HCP
