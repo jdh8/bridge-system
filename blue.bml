@@ -60,11 +60,11 @@ applies to minimum game force.
 * Opening bids
 
 1C = !STR F, 16+ HCP
-1D = 4+!d or 3334, 11--15 HCP
+1D = 2+!d, 11--15 HCP
 1H = 4+!h, 11--15 HCP
 1S = 4+!s, 11--15 HCP
 1N = 2--4!s, 2--4!h, 2--5!d, 2--5!c, 14--16 HCP
-2C = !NAT, 5+!c, 11--16 HCP
+2C = NAT UNBAL 5+!c, 11--16 HCP
 2D = !PRE, 6+M, 4--10 HCP
 2H = PRE, 5+!h, 4+X, 4--10 HCP
 2S = PRE, 5+!s, 4+m, 4--10 HCP
@@ -89,20 +89,23 @@ Contrary to popular belief, a modern Blue Club is pretty natural.
 - Bid the longest suit
 - Bid the higher-ranking suit but choose 1!h for 44 in majors
 
-*** Canapé
+*** Variants of the 2!c opening
+
+We removed the balanced variant (332)5 from the 2!c opening.  The remaining
+variants are:
+
+- 6+!c
+- 4M(xx)5 (but not 4M225, which is considered balanced)
+
+We choose 1!d over 2!c for (xx)45 like most strong club systems.
+
+*** Maximum canapé (14--15 HCP)
 
 Sometimes we open the secondary suit on purpose.  We canapé for maximum
 non-club two suiters, planning to reverse in the primary suit later.
 
 - 14--15 HCP
 - At least (54) in two of !s!h!d
-
-There is also canapé for minimum 4M5!c.  We open 1M so that 4M5!c hands in the
-2!c opening are strong enough for the 2!d relay.
-
-- 12--13 HCP
-- >= 7.5 NLTC
-- A 4-card major and 5 clubs
 
 ** The notrump ladder
 

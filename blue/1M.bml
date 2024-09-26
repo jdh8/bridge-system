@@ -85,3 +85,14 @@ a maximum.  However, keep in mind that there are hands with nowhere to jump over
 3C = MAX, 4+!c, 5+!h
 3D = MAX canapé, 5+!d
 3H = MAX, good 6+!h
+
+1S-1N-
+2C = 4+!c
+2D = 4+!d
+2H = MIN, 4+!h
+2S = MIN 6+!s or MAX 5=!s
+2N = MAX, bad 6+!s
+3C = MAX, 4+!c, 5+!s
+3D = MAX canapé, 5+!d
+3H = MAX canapé, 5+!h
+3S = MAX, good 6+!s
