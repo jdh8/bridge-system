@@ -1,19 +1,31 @@
 * The 1!d opening
 
+The only case opener has only 2 diamonds is 3325.  Responder should assume that
+opener has 3+ diamonds.
+
 1D-
-1H = F, 4+!h or S/T 5+!c
+1H = F, 4+!h
 1S = F, 4+!s
-1N = NF, 3+!c
+1N = NF, 4+!c or 9--11 HCP 3343
 2C = !F, Multi:
      (a) NAT FG, 4+!c
-     (b) PRE TRF, 0--7 HCP, 5+!d
+     (b) PRE TRF, 0--7 HCP, 4--5!d
      (c) PRE, 0--7 HCP, 6+M
-2D = CONST, 8--9 HCP, 5+!d
+2D = CONST, 8--9 HCP, 4--5!d
 2H = !INV+, 4+!d, shows !h stopper or asks for !s stopper
 2S = !INV+, 4+!d, shows !s stopper or asks for !h stopper
-2N = !PRE, 0--7 HCP, 6+!d
-3C = !Mixed raise, 8--9 HCP, 6+!d
-3D = INV, 10--11 HCP, 6+!d
+2N = !F PRE, 0--7 HCP, 5+!d
+  3C = MIN 3325
+3C = !F, mixed raise, 8--9 HCP, unbalanced 5+!d
+3D = INV, 10--11 HCP, 5+!d
 3H = Choice of games, 6+!h
 3S = Choice of games, 6+!s
 3N = 33(43), 12--15 HCP
+
+1D-2C-
+2D = !P/C, MIN 2--4!d
+2H = !P/C, 5+!d
+2S = !P/C, 4+!h or MAX 3=!h
+2N = !F, MAX, 3+!s, 3+!h, 4+!d
+3C = !F, MIN SPL, 1=!c, 3+!s, 3+!h, 5+!d
+3D = !NF, MIN FRAG, 0=!c, 3+!s, 3+!h, 5+!d
