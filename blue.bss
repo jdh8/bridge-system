@@ -201,10 +201,10 @@
 001DP1H=NYYYYYY008F, 4+!h
 001DP1S=NYYYYYY008F, 4+!s
 001DP1N=NYYYYYY0NF, 4+!c or 9--11 HCP 3343
-001DP2C=NYYYYYY008!F, Multi:\n(a) NAT FG, 4+!c\n(b) PRE TRF, 0--7 HCP, 4--5!d\n(c) PRE, 0--7 HCP, 6+M
+001DP2C=NYYYYYY008!F, Multi:\n(a) NAT FG, 4+!c, 0--3!s, 0--3!h\n(b) PRE TRF, 0--7 HCP, 4--5!d\n(c) PRE, 0--7 HCP, 6+M
 001DP2D=NYYYYYY008CONST, 8--9 HCP, 4--5!d
-001DP2H=NYYYYYY008!INV+, 4+!d, shows !h stopper or asks for !s stopper
-001DP2S=NYYYYYY008!INV+, 4+!d, shows !s stopper or asks for !h stopper
+001DP2H=NYYYYYY008!INV+, 10+ HCP, 4+!d, shows !h stopper or asks for !s stopper
+001DP2S=NYYYYYY008!INV+, 10+ HCP, 4+!d, shows !s stopper or asks for !h stopper
 001DP2N=NYYYYYY0!F PRE, 0--7 HCP, 5+!d
 001DP2NP3C=NYYYYYY008MIN 3325
 001DP3C=NYYYYYY008!F, mixed raise, 8--9 HCP, unbalanced 5+!d

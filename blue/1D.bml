@@ -8,12 +8,12 @@ opener has 3+ diamonds.
 1S = F, 4+!s
 1N = NF, 4+!c or 9--11 HCP 3343
 2C = !F, Multi:
-     (a) NAT FG, 4+!c
+     (a) NAT FG, 4+!c, 0--3!s, 0--3!h
      (b) PRE TRF, 0--7 HCP, 4--5!d
      (c) PRE, 0--7 HCP, 6+M
 2D = CONST, 8--9 HCP, 4--5!d
-2H = !INV+, 4+!d, shows !h stopper or asks for !s stopper
-2S = !INV+, 4+!d, shows !s stopper or asks for !h stopper
+2H = !INV+, 10+ HCP, 4+!d, shows !h stopper or asks for !s stopper
+2S = !INV+, 10+ HCP, 4+!d, shows !s stopper or asks for !h stopper
 2N = !F PRE, 0--7 HCP, 5+!d
   3C = MIN 3325
 3C = !F, mixed raise, 8--9 HCP, unbalanced 5+!d
