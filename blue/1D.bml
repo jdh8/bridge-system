@@ -32,3 +32,29 @@ suit first, even when there is a longer minor suit.
 2N = !F, MAX, 3+!s, 3+!h, 4+!d
 3C = !F, MIN SPL, 1=!c, 3+!s, 3+!h, 5+!d
 3D = !NF, MIN FRAG, 0=!c, 3+!s, 3+!h, 5+!d
+
+** The 1M responses
+
+1D-1H-
+1S = 4+!s, can be MAX 4441
+1N = BAL MIN
+2C = 4+!c, can be MAX 3154
+2D = MIN, 6+!d
+2H = MIN, 4+!h or 1354
+2S = MAX canapé, 5+!s
+2N = MAX, 1354
+3C = MAX canapé, 5+!c
+3D = MAX, 6+!d
+3H = MAX canapé, 5+!h
+
+1D-1S-
+1N = BAL MIN
+2C = 4+!c, can be MAX 1354
+2D = MIN, 6+!d
+2H = MAX canapé, 5+!h
+2S = MIN, 4+!s or 3154
+2N = MAX, 3154
+3C = MAX canapé, 5+!c
+3D = MAX, 6+!d
+3H = MAX, 4441
+3S = MAX canapé, 5+!s
