@@ -3,6 +3,9 @@
 The only case opener has only 2 diamonds is 3325.  Responder should assume that
 opener has 3+ diamonds.
 
+With normal responding strength (8+ HCP), responder always bids a natural major
+suit first, even when there is a longer minor suit.
+
 1D-
 1H = F, 4+!h
 1S = F, 4+!s
