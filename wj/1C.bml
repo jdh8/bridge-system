@@ -465,8 +465,8 @@ The 2!h response shows a minimum positive with 5+ spades and 4+ hearts.
 3H = INV, 4+!h, 15--17 HCP
 3S = INV, 3+!s, 15--17 HCP
 3N = S/O, 0--2!s, 1--3!h, 3--5!d, 3--5!c, 18+ HCP
-4H = S/O, 4+!h, 18+ points
-4S = S/O, 3+!s, 18+ points
+4H = S/O, 4+!h
+4S = S/O, 3+!s
 4N = QUANT INV to 6NT
 
 ** Unbalanced invitational 2!s
