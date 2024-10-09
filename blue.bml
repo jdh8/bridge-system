@@ -60,10 +60,10 @@ applies to minimum game force.
 * Opening bids
 
 1C = !STR F, 16+ HCP
-1D = 3+!d or MIN 3325, 11--15 HCP
-1H = 4+!h, 11--15 HCP
-1S = 4+!s, 11--15 HCP
-1N = 2--4!s, 2--4!h, 2--5!d, 2--5!c, 14--16 HCP
+1D = 11--15 HCP, 3+!d or MIN 3325
+1H = 11--15 HCP, 4+!h
+1S = 11--15 HCP, 4+!s
+1N = 14--16 HCP, 2--5!s, 2--5!h, 2--6!d, 2--6!c
 2C = NAT UNBAL 5+!c, 11--16 HCP
 2D = !PRE, 6+M, 4--10 HCP
 2H = PRE, 5+!h, 4+X, 4--10 HCP
@@ -113,7 +113,7 @@ canapé cannot happen if either the primary or secondary suit is clubs because
 
 ** The notrump ladder
 
-- *11--13*: 1!d!h!s or 2!c
+- *11--13*: 1!d!h!s
 - *14--16*: 1NT
 - *17--19*: 1!c-1!d-1NT
 - *20--22*: 1!c-1!d-1!h-1!s-1NT
@@ -123,7 +123,7 @@ canapé cannot happen if either the primary or secondary suit is clubs because
 #INCLUDE blue/1C.bml
 #INCLUDE blue/1D.bml
 #INCLUDE blue/1M.bml
-#INCLUDE common/STR-NT.bml
+#INCLUDE blue/1NT.bml
 #INCLUDE blue/2C.bml
 #INCLUDE common/Multi.bml
 #INCLUDE common/2M.bml

@@ -1,0 +1,42 @@
+* The 1NT opening
+
+This bidding system has an at most intermediate notrump opening (at most 14--16
+HCP) that may contain a 5-card major.  When there is a 5-card major, it must be
+strictly balanced (5332).
+
+Instead of a Puppet Stayman, we use BTU 3-way Stayman to strengthen our
+competitive autions.  It is similar to XYZ or 3-way checkback.
+
+1N-
+2C = !NF STAY
+2D = !FG STAY
+2M = NF, usually 5+#
+2N = !F, 6+!c or choice of games
+3X = INV, 6+#
+3N = S/O
+4C = !Gerber, ask for aces
+  4D = ! 0 or 4 aces
+  4H = ! 1 ace
+  4S = ! 2 aces
+  4N = ! 3 aces
+4D = !Texas TRF, 6+!h
+4H = !Texas TRF, 6+!s
+4S = !FG, 5+!d, 5+!c
+
+The non-forcing Stayman takes care of
+
+- Most invitational hands
+- Weak hands that want to play 2!d
+
+Note that 2!c is limited.  Opener can pass it if they think it is the best
+contract.
+
+1N-2C-
+2D = !NF, 2--4!s, 2--4!h, 2--5!d, 2--5!c
+  2H = INV, 4--5!h
+  2S = INV, 4--5!s
+  2N = BAL INV
+2H = 5=!h
+2S = 5=!s
+2N = !TRF, 6=!d
+3C = 6=!c

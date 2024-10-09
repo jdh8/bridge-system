@@ -104,7 +104,7 @@ and 2!h with minimum (4--8 HCP).
 #INCLUDE wj/1C.bml
 #INCLUDE wj/1D.bml
 #INCLUDE wj/1M.bml
-#INCLUDE common/STR-NT.bml
+#INCLUDE wj/1NT.bml
 #INCLUDE wj/2C.bml
 #INCLUDE common/Multi.bml
 #INCLUDE common/2M.bml

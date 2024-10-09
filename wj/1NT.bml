@@ -1,5 +1,8 @@
 * Strong notrump opening
 
+This bidding system has a strong notrump opening (14+ HCP) that does not
+contain a 5-card major.
+
 We use the French-style 4-way transfers to preserve the natural invitation.  We
 invite naturally rather than via Stayman because 2NT hides information of the
 declarer.
@@ -36,18 +39,14 @@ Excluding opener's 5-card majors, the Stayman has its traditional meaning or a
 Garbage Stayman.
 
 - INV+, unspecified 4+M
-- WK, 4=!s, 4=!h, 4--5!d, 0--1!c
+- Weak T/O with short clubs
 
 1N-2C-
-2D = ! 2--3!s, 2--3!h
-2H = 4=!h
-2S = 4=!s, 2--3!h
-
-The Garbage Stayman takes advantage of that opener will eventually rebid within
-2!s!h!d, so we can bid 2!c as a weak takeout of clubs and pass in the next round.
-
-1N-2C-2X-
-P  = WK, 4=!s, 4=!h, 4--5!d, 0--1!c
+2D = !NF, 2--3!s, 2--3!h
+2H = NF, 4=!h, 2--3!s
+2S = NF, 4=!s, 2--3!h
+2N = !MIN, 44(xx)
+3C = !MAX, 44(xx)
 
 We only employ Smolen transfers at the 3-level.  The 2-level invitations are
 natrual so that we have a chance to stop at 2!h.
