@@ -28,7 +28,7 @@ https://bridgewinners.com/convention-card/print/litten-polish-club/98013
 *** Constructive auctions
 
 - The minor suit interchange: we open 1!d for clubs!
-- We use natural 2/1 after 1!h and swapped 2/1 after 1!s.
+- Natural 2/1 after 1!s may be hearts instead.  (Untwisted 2/1)
 - After 1M, we have 4-card support step responses from 2NT to 3M.
 - In our 3-way checkback over 1X-1M-1NT, the 2!c relay contains 2-level
   signoffs like Gladiator.
@@ -104,9 +104,9 @@ and 2!h with minimum (4--8 HCP).
 #INCLUDE wj/1C.bml
 #INCLUDE wj/1D.bml
 #INCLUDE wj/1M.bml
-#INCLUDE wj/1NT.bml
+#INCLUDE common/1NT-STR.bml
 #INCLUDE wj/2C.bml
-#INCLUDE common/Multi.bml
-#INCLUDE common/2M.bml
-#INCLUDE common/UNT.bml
-#INCLUDE common/BTU-4X.bml
+#INCLUDE common/2D-Multi.bml
+#INCLUDE common/2M-Muiderberg.bml
+#INCLUDE common/2NT-UNT.bml
+#INCLUDE common/4X-BTU.bml

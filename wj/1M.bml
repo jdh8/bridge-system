@@ -3,8 +3,8 @@
 1H-
 1S = F, 4+!s, 5+ HCP
 1N = NF, 0--3!h, 7--11 HCP
-2C = FG, 4+!c or STR 3433
-2D = FG, 4+!d
+2C = NAT FG
+2D = NAT FG
 2H = 3+!h, 8.5--9.5 NLTC
 2S = !INV, (54)+ in minors, 9--11 HCP
 2N = !FG, 4+!h
@@ -17,18 +17,11 @@
 4D = !FG SPL, 0--1!d, 4+!h
 4H = PRE, 4+!h
 
-We swap 2!c and 2!h over 1!s, inspired by Twisted 2/1 by Ting-Yu Ye (TpKotoba).
-
-https://hackmd.io/@TpKotoba/refx
-
-When there are 5 hearts in 1!s-1NT, it must be an invitation without a spade
-fit.
-
 1S-
 1N = NF, 0--3!s, 0--5!h, 7--11 HCP
-2C = ! 5+!h 7+ HCP or FG 4+!h
-2D = FG, 4+!d or STR 4333
-2H = !FG, 4+!c
+2C = !F, 5+!h or NAT FG
+2D = !FG, 5+!h or NAT
+2H = !NF INV, 5+!h
 2S = 3+!s, 8.5--9.5 NLTC
 2N = !FG, 4+!s
 3C = !INV or S/T, 0--1!d or 0--1!h, 4+!s
@@ -39,15 +32,35 @@ fit.
 4X = !FG SPL, 0--1#, 4+!s
 4S = PRE, 4+!s
 
+We play Untwisted 2/1 over 1!s.  The 2/1 bids are either natural or contain
+long hearts instead.  This treatment is inspired by Twisted 2/1 by Ting-Yu Ye
+(TpKotoba).  I untwist the 2/1 bids but keep weak hearts in 2!c.
+
+https://hackmd.io/@TpKotoba/refx
+
+When there are 5 hearts in 1!s-1NT, it must be a balanced invitation without a
+spade fit, i.e. 2533.
+
 1S-2C-
-2D = !(R), MIN 5=!s 0--1!h or MAX 3+!h
+2D = !(R), 0--2!h
 2H = MIN, 2--3!h
 2S = MIN, 6+!s
-2N = MAX, 5233
+2N = MAX, 3--4!h
+3C = MAX, 4+!c, 3--4!h
+3D = MAX, 4+!d, 3--4!h
+3H = MIN, 4+!h
+3S = MAX, 6+!s, 0--2!h
+3N = MAX, 5=!h
+
+1S-2D-
+2H = MIN, 3+!h
+2S = MIN, 0--2!h
+2N = MAX, 1--2!h
 3C = MAX, 4+!c
 3D = MAX, 4+!d
-3H = MIN, 4+!h
+3H = MAX, 4+!h
 3S = MAX, 6+!s
+3N = BAL MAX, 3=!h
 
 Note that we use difference 4-card raising structures for 1!h and 1!s.  Our
 spade raises cover all mini-Splinters and a mixed raise.  On the other hand, we

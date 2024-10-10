@@ -170,15 +170,11 @@ are made with
     for clubs!
    </li>
    <li>
-    We use natural 2/1 after 1
-    <span class="hcolor">
-     &hearts;
-    </span>
-    and swapped 2/1 after 1
+    Natural 2/1 after 1
     <span class="scolor">
      &spades;
     </span>
-    .
+    may be hearts instead.  (Untwisted 2/1)
    </li>
    <li>
     After 1M, we have 4-card support step responses from 2NT to 3M.
@@ -10203,11 +10199,7 @@ this fact to park minimum opening hands with 4+
           </span>
          </td>
          <td>
-          FG, 4+
-          <span class="ccolor">
-           &clubs;
-          </span>
-          or STR 3433
+          NAT FG
          </td>
         </tr>
        </table>
@@ -10222,10 +10214,7 @@ this fact to park minimum opening hands with 4+
           </span>
          </td>
          <td>
-          FG, 4+
-          <span class="dcolor">
-           &diams;
-          </span>
+          NAT FG
          </td>
         </tr>
        </table>
@@ -10433,32 +10422,6 @@ this fact to park minimum opening hands with 4+
     </li>
    </ul>
   </div>
-  <p>
-   We swap 2
-   <span class="ccolor">
-    &clubs;
-   </span>
-   and 2
-   <span class="hcolor">
-    &hearts;
-   </span>
-   over 1
-   <span class="scolor">
-    &spades;
-   </span>
-   , inspired by Twisted 2/1 by Ting-Yu Ye (TpKotoba).
-  </p>
-  <p>
-   https://hackmd.io/@TpKotoba/refx
-  </p>
-  <p>
-   When there are 5 hearts in 1
-   <span class="scolor">
-    &spades;
-   </span>
-   -1NT, it must be an invitation without a spade
-fit.
-  </p>
   <div class="tree">
    <ul>
     <li class="root">
@@ -10497,14 +10460,11 @@ fit.
           </span>
          </td>
          <td>
-          ! 5+
+          !F, 5+
           <span class="hcolor">
            &hearts;
           </span>
-          7+ HCP or FG 4+
-          <span class="hcolor">
-           &hearts;
-          </span>
+          or NAT FG
          </td>
         </tr>
        </table>
@@ -10519,11 +10479,11 @@ fit.
           </span>
          </td>
          <td>
-          FG, 4+
-          <span class="dcolor">
-           &diams;
+          !FG, 5+
+          <span class="hcolor">
+           &hearts;
           </span>
-          or STR 4333
+          or NAT
          </td>
         </tr>
        </table>
@@ -10538,9 +10498,9 @@ fit.
           </span>
          </td>
          <td>
-          !FG, 4+
-          <span class="ccolor">
-           &clubs;
+          !NF INV, 5+
+          <span class="hcolor">
+           &hearts;
           </span>
          </td>
         </tr>
@@ -10713,6 +10673,30 @@ fit.
     </li>
    </ul>
   </div>
+  <p>
+   We play Untwisted 2/1 over 1
+   <span class="scolor">
+    &spades;
+   </span>
+   .  The 2/1 bids are either natural or contain
+long hearts instead.  This treatment is inspired by Twisted 2/1 by Ting-Yu Ye
+(TpKotoba).  I untwist the 2/1 bids but keep weak hearts in 2
+   <span class="ccolor">
+    &clubs;
+   </span>
+   .
+  </p>
+  <p>
+   https://hackmd.io/@TpKotoba/refx
+  </p>
+  <p>
+   When there are 5 hearts in 1
+   <span class="scolor">
+    &spades;
+   </span>
+   -1NT, it must be a balanced invitation without a
+spade fit, i.e. 2533.
+  </p>
   <div class="tree">
    <ul>
     <li class="root">
@@ -10735,15 +10719,7 @@ fit.
           </span>
          </td>
          <td>
-          !(R), MIN 5=
-          <span class="scolor">
-           &spades;
-          </span>
-          0&ndash;1
-          <span class="hcolor">
-           &hearts;
-          </span>
-          or MAX 3+
+          !(R), 0&ndash;2
           <span class="hcolor">
            &hearts;
           </span>
@@ -10794,7 +10770,10 @@ fit.
           2NT
          </td>
          <td>
-          MAX, 5233
+          MAX, 3&ndash;4
+          <span class="hcolor">
+           &hearts;
+          </span>
          </td>
         </tr>
        </table>
@@ -10813,6 +10792,10 @@ fit.
           <span class="ccolor">
            &clubs;
           </span>
+          , 3&ndash;4
+          <span class="hcolor">
+           &hearts;
+          </span>
          </td>
         </tr>
        </table>
@@ -10830,6 +10813,10 @@ fit.
           MAX, 4+
           <span class="dcolor">
            &diams;
+          </span>
+          , 3&ndash;4
+          <span class="hcolor">
+           &hearts;
           </span>
          </td>
         </tr>
@@ -10853,7 +10840,7 @@ fit.
         </tr>
        </table>
       </li>
-      <li class="last node">
+      <li class="node">
        <table>
         <tr>
          <td class="node" rowspan="1">
@@ -10866,6 +10853,179 @@ fit.
           MAX, 6+
           <span class="scolor">
            &spades;
+          </span>
+          , 0&ndash;2
+          <span class="hcolor">
+           &hearts;
+          </span>
+         </td>
+        </tr>
+       </table>
+      </li>
+      <li class="last node">
+       <table>
+        <tr>
+         <td class="node" rowspan="1">
+          3NT
+         </td>
+         <td>
+          MAX, 5=
+          <span class="hcolor">
+           &hearts;
+          </span>
+         </td>
+        </tr>
+       </table>
+      </li>
+     </ul>
+    </li>
+   </ul>
+  </div>
+  <div class="tree">
+   <ul>
+    <li class="root">
+     1
+     <span class="scolor">
+      &spades;
+     </span>
+     -2
+     <span class="dcolor">
+      &diams;
+     </span>
+     <ul>
+      <li class="node">
+       <table>
+        <tr>
+         <td class="node" rowspan="1">
+          2
+          <span class="hcolor">
+           &hearts;
+          </span>
+         </td>
+         <td>
+          MIN, 3+
+          <span class="hcolor">
+           &hearts;
+          </span>
+         </td>
+        </tr>
+       </table>
+      </li>
+      <li class="node">
+       <table>
+        <tr>
+         <td class="node" rowspan="1">
+          2
+          <span class="scolor">
+           &spades;
+          </span>
+         </td>
+         <td>
+          MIN, 0&ndash;2
+          <span class="hcolor">
+           &hearts;
+          </span>
+         </td>
+        </tr>
+       </table>
+      </li>
+      <li class="node">
+       <table>
+        <tr>
+         <td class="node" rowspan="1">
+          2NT
+         </td>
+         <td>
+          MAX, 1&ndash;2
+          <span class="hcolor">
+           &hearts;
+          </span>
+         </td>
+        </tr>
+       </table>
+      </li>
+      <li class="node">
+       <table>
+        <tr>
+         <td class="node" rowspan="1">
+          3
+          <span class="ccolor">
+           &clubs;
+          </span>
+         </td>
+         <td>
+          MAX, 4+
+          <span class="ccolor">
+           &clubs;
+          </span>
+         </td>
+        </tr>
+       </table>
+      </li>
+      <li class="node">
+       <table>
+        <tr>
+         <td class="node" rowspan="1">
+          3
+          <span class="dcolor">
+           &diams;
+          </span>
+         </td>
+         <td>
+          MAX, 4+
+          <span class="dcolor">
+           &diams;
+          </span>
+         </td>
+        </tr>
+       </table>
+      </li>
+      <li class="node">
+       <table>
+        <tr>
+         <td class="node" rowspan="1">
+          3
+          <span class="hcolor">
+           &hearts;
+          </span>
+         </td>
+         <td>
+          MAX, 4+
+          <span class="hcolor">
+           &hearts;
+          </span>
+         </td>
+        </tr>
+       </table>
+      </li>
+      <li class="node">
+       <table>
+        <tr>
+         <td class="node" rowspan="1">
+          3
+          <span class="scolor">
+           &spades;
+          </span>
+         </td>
+         <td>
+          MAX, 6+
+          <span class="scolor">
+           &spades;
+          </span>
+         </td>
+        </tr>
+       </table>
+      </li>
+      <li class="last node">
+       <table>
+        <tr>
+         <td class="node" rowspan="1">
+          3NT
+         </td>
+         <td>
+          BAL MAX, 3=
+          <span class="hcolor">
+           &hearts;
           </span>
          </td>
         </tr>

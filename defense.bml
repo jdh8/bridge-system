@@ -16,8 +16,8 @@ improvisation.
 
 #INCLUDE common/evaluation.bml
 #INCLUDE defense/1X.bml
-#INCLUDE defense/F1C.bml
-#INCLUDE defense/STR-NT.bml
-#INCLUDE defense/WK-NT.bml
-#INCLUDE defense/STR-2C.bml
-#INCLUDE defense/NAT-2X.bml
+#INCLUDE defense/1C-F.bml
+#INCLUDE defense/1NT-STR.bml
+#INCLUDE defense/1NT-WK.bml
+#INCLUDE defense/2C-STR.bml
+#INCLUDE defense/2X-NAT.bml
