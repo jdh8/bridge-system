@@ -55,12 +55,12 @@ spade fit, i.e. 2533.
 1S-2D-
 2H = MIN, 3+!h
 2S = MIN, 0--2!h
-2N = MAX, 1--2!h
+2N = MAX, 53(32)
 3C = MAX, 4+!c
 3D = MAX, 4+!d
 3H = MAX, 4+!h
 3S = MAX, 6+!s
-3N = BAL MAX, 3=!h
+3N = MAX, 5233
 
 Note that we use difference 4-card raising structures for 1!h and 1!s.  Our
 spade raises cover all mini-Splinters and a mixed raise.  On the other hand, we
