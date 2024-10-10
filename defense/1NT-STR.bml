@@ -1,35 +1,19 @@
 * Over strong notrump
 
-Recommended by /Good, Better, Best,/ we play (Meckwell) DONT against a strong
-notrump.  We consider a natural notrump opening strong if at least half of the
-hands contain 15+ HCP.  For instance, 14--16 is considered strong but 13--15 is
-not.
-
-#SEAT 1
-
-Over the first seat (1NT), we use the original DONT except that the other suit
-in 2!c is always a major.  Responses are natural P/C.  Responder can also
-convert the constructive double to penalty with INV+ hands.
+/Good, Better, Best/ recommends using conventional double over a strong
+notrump.  We play Woolsey in all seats.  We consider a natural notrump opening
+strong if at least half of the hands contain 15+ HCP. For instance, 14--16 is
+considered strong but 13--15 is not.
 
 (1N)-
-D  = 6+X, 10--15 HCP
-  2X = P/C
-  2N = FG, so unbalanced that defending 1NTx can be dangerous
-2C = 4+!c, 4+M, 5--11 HCP
-2D = 4+!d, 4+M, 5--11 HCP
-2H = 4+!h, 4+!s, 5--11 HCP
-2S = 6+!s, 5--11 HCP
-2N = 5+!d, 5+!c, 5--11 HCP
-
-#SEAT 0
-
-We use Meckwell DONT in the other seats.  Potential penalty is not that useful
-since at least one of us has a passed hand.
-
-(1N)-
-D  = 6+m or 4+!s 4+!h
-2C = 4+!c, 4+M
-2D = 4+!d, 4+M
-2H = 6+!h
-2S = 6+!s
-2N = 5+!d, 5+!c
+D  = !CONST, 4+M, 5+m
+  2C = !P/C
+  2D = !Ask for the major suit
+2C = !UNBAL PRE, 4+!s, 4+!h, usually (54)(xx)
+  2D = !Equal preference
+  2N = !INV+
+  3C = !INV+, 3+!s
+  3D = !INV+, 3+!h
+2D = !PRE, 6+M
+2M = !PRE, 5+#, 4+m
+2N = !UNT, 5+!d, 5+!c
