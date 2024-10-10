@@ -73,14 +73,14 @@ spade fit, i.e. 2533.
 3N = BAL MAX, 3=!h
 
 1S-2D-
-2H = MIN, 3+!h
+2H = F, 3+!h, MIN or BAL MAX
 2S = !MIN, 4=!s, 0--2!h
-2N = !F, 5+!s
+2N = !MAX, 6+!s
 3C = MAX, 4+!c
 3D = MAX canapé, 5+!d
 3H = MAX canapé, 5+!h
-3S = MAX, 6+!s
-3N = BAL MAX, 3=!h
+3S = MIN, 6+!s
+3N = MAX, 5233
 
 In this bidding system of limited openings, opener usually wants to reverse with
 a maximum.  However, keep in mind that there are hands with nowhere to jump over
