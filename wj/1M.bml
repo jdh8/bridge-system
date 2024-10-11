@@ -42,15 +42,15 @@ When there are 5 hearts in 1!s-1NT, it must be a balanced invitation without a
 spade fit, i.e. 2533.
 
 1S-2C-
-2D = !(R), 0--2!h
+2D = !(R), 0--2!h or 5+!h
 2H = MIN, 2--3!h
 2S = MIN, 6+!s
-2N = MAX, 3--4!h
-3C = MAX, 4+!c, 3--4!h
-3D = MAX, 4+!d, 3--4!h
-3H = MIN, 4+!h
-3S = MAX, 6+!s, 0--2!h
-3N = MAX, 5=!h
+2N = BAL MAX, 3=!h
+3C = MAX, 4+!c, 3=!h
+3D = MAX, 4+!d, 3=!h
+3H = MIN, 4=!h
+3S = MAX, 6+!s, 3=!h
+3N = MAX, 4=!h
 
 1S-2D-
 2H = MIN, 3+!h
