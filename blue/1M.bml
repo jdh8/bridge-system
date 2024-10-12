@@ -16,7 +16,7 @@ compete.
 1H-
 1S = F, 3+!s, usually 4+!s
 1N = NF, 9--11 HCP, 0--3!s, 0--3!h
-2C = !F, CONST 4=!h or INV 3=!h or NAT FG, not 4=!s
+2C = !NAT FG, CONST 4=!h, or INV 3=!h.  Not 4=!s
   2D = !MIN, 4=!h
   2H = MIN, 5+!h
   2S = MAX canapé, 5+!s
@@ -24,7 +24,7 @@ compete.
   3C = MAX, 4+!c
   3D = MAX canapé, 5+!d
   3H = MAX, 6+!h
-2D = !FG, 4+!d, not 4=!s
+2D = !NAT FG, not 4=!s
 2H = PRE 4+!h or CONST 3=!h
 2S = PRE, 6+!s
 2N = !FG, 4+!h
@@ -38,9 +38,9 @@ compete.
 4H = S/O, 5+!h
 
 1S-
-1N = NF, 0--3!s
-2C = !F, 5+!h or NAT FG
-2D = !F, CONST 4=!s or INV 3=!s or NAT FG
+1N = NF, 0--3!s, 0--4!h
+2C = !NAT FG, NF 5+!h, or CONST 4=!s
+2D = !NAT FG, FG 5+!h, or INV 3=!s
 2H = !NF INV, 5+!h
 2S = PRE 4+!s or CONST 3=!s
 2N = !FG, 4+!s
@@ -58,9 +58,6 @@ long hearts instead.  This treatment is inspired by Twisted 2/1 by Ting-Yu Ye
 
 https://hackmd.io/@TpKotoba/refx
 
-When there are 5 hearts in 1!s-1NT, it must be a balanced invitation without a
-spade fit, i.e. 2533.
-
 1S-2C-
 2D = !(R), 0--2!h or 5+!h
 2H = MIN, 2--3!h
@@ -73,14 +70,14 @@ spade fit, i.e. 2533.
 3N = MAX canapé, 5+!h
 
 1S-2D-
-2H = !MIN, 4=!s
-2S = MIN, 5=!s
-2N = BAL MAX, 5=!s
-3C = MAX, 4+!c
-3D = MAX canapé, 5+!d
+2H = !MIN, 0--3!h
+2S = !MIN, 4+!h, 5+!s
+2N = !MAX, 3=!h
+3C = MAX, 4+!c, 0--2!h
+3D = MAX canapé, 5+!d, 0--2!h
 3H = MAX canapé, 5+!h
-3S = MIN, 6+!s
-3N = !MAX, 6+!s
+3S = MAX, 6+!s, 0--2!h
+3N = MAX, 5233
 
 In this bidding system of limited openings, opener usually wants to reverse with
 a maximum.  However, keep in mind that there are hands with nowhere to jump over

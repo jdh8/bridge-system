@@ -4948,15 +4948,15 @@ compete.
           </span>
          </td>
          <td>
-          !F, CONST 4=
+          !NAT FG, CONST 4=
           <span class="hcolor">
            &hearts;
           </span>
-          or INV 3=
+          , or INV 3=
           <span class="hcolor">
            &hearts;
           </span>
-          or NAT FG, not 4=
+          .  Not 4=
           <span class="scolor">
            &spades;
           </span>
@@ -5100,11 +5100,7 @@ compete.
           </span>
          </td>
          <td>
-          !FG, 4+
-          <span class="dcolor">
-           &diams;
-          </span>
-          , not 4=
+          !NAT FG, not 4=
           <span class="scolor">
            &spades;
           </span>
@@ -5352,6 +5348,10 @@ compete.
           <span class="scolor">
            &spades;
           </span>
+          , 0&ndash;4
+          <span class="hcolor">
+           &hearts;
+          </span>
          </td>
         </tr>
        </table>
@@ -5366,11 +5366,14 @@ compete.
           </span>
          </td>
          <td>
-          !F, 5+
+          !NAT FG, NF 5+
           <span class="hcolor">
            &hearts;
           </span>
-          or NAT FG
+          , or CONST 4=
+          <span class="scolor">
+           &spades;
+          </span>
          </td>
         </tr>
        </table>
@@ -5385,15 +5388,14 @@ compete.
           </span>
          </td>
          <td>
-          !F, CONST 4=
+          !NAT FG, FG 5+
+          <span class="hcolor">
+           &hearts;
+          </span>
+          , or INV 3=
           <span class="scolor">
            &spades;
           </span>
-          or INV 3=
-          <span class="scolor">
-           &spades;
-          </span>
-          or NAT FG
          </td>
         </tr>
        </table>
@@ -5605,14 +5607,6 @@ long hearts instead.  This treatment is inspired by Twisted 2/1 by Ting-Yu Ye
   </p>
   <p>
    https://hackmd.io/@TpKotoba/refx
-  </p>
-  <p>
-   When there are 5 hearts in 1
-   <span class="scolor">
-    &spades;
-   </span>
-   -1NT, it must be a balanced invitation without a
-spade fit, i.e. 2533.
   </p>
   <div class="tree">
    <ul>
@@ -5828,9 +5822,9 @@ spade fit, i.e. 2533.
           </span>
          </td>
          <td>
-          !MIN, 4=
-          <span class="scolor">
-           &spades;
+          !MIN, 0&ndash;3
+          <span class="hcolor">
+           &hearts;
           </span>
          </td>
         </tr>
@@ -5846,7 +5840,11 @@ spade fit, i.e. 2533.
           </span>
          </td>
          <td>
-          MIN, 5=
+          !MIN, 4+
+          <span class="hcolor">
+           &hearts;
+          </span>
+          , 5+
           <span class="scolor">
            &spades;
           </span>
@@ -5861,9 +5859,9 @@ spade fit, i.e. 2533.
           2NT
          </td>
          <td>
-          BAL MAX, 5=
-          <span class="scolor">
-           &spades;
+          !MAX, 3=
+          <span class="hcolor">
+           &hearts;
           </span>
          </td>
         </tr>
@@ -5883,6 +5881,10 @@ spade fit, i.e. 2533.
           <span class="ccolor">
            &clubs;
           </span>
+          , 0&ndash;2
+          <span class="hcolor">
+           &hearts;
+          </span>
          </td>
         </tr>
        </table>
@@ -5900,6 +5902,10 @@ spade fit, i.e. 2533.
           MAX canap&eacute;, 5+
           <span class="dcolor">
            &diams;
+          </span>
+          , 0&ndash;2
+          <span class="hcolor">
+           &hearts;
           </span>
          </td>
         </tr>
@@ -5933,9 +5939,13 @@ spade fit, i.e. 2533.
           </span>
          </td>
          <td>
-          MIN, 6+
+          MAX, 6+
           <span class="scolor">
            &spades;
+          </span>
+          , 0&ndash;2
+          <span class="hcolor">
+           &hearts;
           </span>
          </td>
         </tr>
@@ -5948,10 +5958,7 @@ spade fit, i.e. 2533.
           3NT
          </td>
          <td>
-          !MAX, 6+
-          <span class="scolor">
-           &spades;
-          </span>
+          MAX, 5233
          </td>
         </tr>
        </table>

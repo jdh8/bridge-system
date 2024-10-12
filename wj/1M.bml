@@ -1,34 +1,34 @@
 * Major suit openings
 
 1H-
-1S = F, 4+!s, 5+ HCP
-1N = NF, 0--3!h, 7--11 HCP
+1S = F, 4+!s
+1N = NF, usually 7--11 HCP, 0--3!h, 
 2C = NAT FG
 2D = NAT FG
-2H = 3+!h, 8.5--9.5 NLTC
-2S = !INV, (54)+ in minors, 9--11 HCP
+2H = CONST, 3+!h
+2S = !INV, 9--11 HCP, (54)+ in minors
 2N = !FG, 4+!h
 3C = !INV, 4+!h
 3D = !CONST, 4+!h
 3H = !PRE, 4+!h
 3S = !FG SPL, 0--1!s, 4+!h
-3N = !Choice of games, 33(43), 12--15 HCP
+3N = !Choice of games, 12--15 HCP, 33(43)
 4C = !FG SPL, 0--1!c, 4+!h
 4D = !FG SPL, 0--1!d, 4+!h
 4H = PRE, 4+!h
 
 1S-
-1N = NF, 0--3!s, 0--5!h, 7--11 HCP
-2C = !F, 5+!h or NAT FG
-2D = !FG, 5+!h or NAT
+1N = NF, usually 7--11 HCP, 0--3!s, 0--4!h
+2C = !NAT FG or NF 5+!h
+2D = !FG, NAT or 5+!h
 2H = !NF INV, 5+!h
-2S = 3+!s, 8.5--9.5 NLTC
+2S = CONST, 3+!s
 2N = !FG, 4+!s
 3C = !INV or S/T, 0--1!d or 0--1!h, 4+!s
 3D = !INV or S/T, 0--1!c, 4+!s
 3H = !INV or S/T, 4+!s
 3S = !CONST, 4+!s
-3N = !Choice of games, 3(433), 12--15 HCP
+3N = !Choice of games, 12--15 HCP, 3(433)
 4X = !FG SPL, 0--1#, 4+!s
 4S = PRE, 4+!s
 
@@ -37,9 +37,6 @@ long hearts instead.  This treatment is inspired by Twisted 2/1 by Ting-Yu Ye
 (TpKotoba).  I untwist the 2/1 bids but keep weak hearts in 2!c.
 
 https://hackmd.io/@TpKotoba/refx
-
-When there are 5 hearts in 1!s-1NT, it must be a balanced invitation without a
-spade fit, i.e. 2533.
 
 1S-2C-
 2D = !(R), 0--2!h or 5+!h
@@ -87,13 +84,13 @@ We don't play Drury here.  For a 3-card limit raise without a 5-card side suit,
 #SEAT 34
 
 1H-
-2C = INV, 5+!c
-2D = INV, 5+!d
+2C = MAX, 5+!c
+2D = MAX, 5+!d
 
 1S-
-2C = INV, 5+!c
-2D = INV, 5+!d
-2H = INV, 5+!h
+2C = MAX 5+!c or NF 5+!h
+2D = MAX, 5+!d
+2H = MAX, 5+!h
 
 #SEAT 0
 
@@ -106,20 +103,20 @@ We play transfers over 1M-(Dbl) as suggested by /Polish Club 2020: Expert./
 - *Other bids*: same as uncontested
 
 1H-(D)-
-R  = BAL 2--3!h or 4144, 10+ HCP
+R  = INV+, BAL 2--3!h or 4144
 1S = F, 5+!s
 1N = !TRF, 5+!c
 2C = !TRF, 5+!d
 2D = !FG or weak, 3+!h
-2H = CONST, 3+!h, 8.5--9.0 NLTC
-2S = !INV, (54)+ in minors, 9--11 HCP
+2H = CONST, 3+!h
+2S = !INV, (54)+ in minors
 2N = !INV+, 4+!h, Truscott
 
 1S-(D)-
-R  = BAL 2--3!s or 1444, 10+ HCP
+R  = INV+, BAL 2--3!s or 1444
 1N = !TRF, 5+!c
 2C = !TRF, 5+!d
 2D = !TRF, 5+!h
 2H = !FG or weak, 3+!s
-2S = CONST, 3+!s, 8.5--9.0 NLTC
+2S = CONST, 3+!s
 2N = !INV+, 4+!s, Truscott
