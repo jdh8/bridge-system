@@ -53,13 +53,13 @@ spade fit, i.e. 2533.
 3N = MAX, 4=!h
 
 1S-2D-
-2H = MIN, 3+!h
-2S = MIN, 0--2!h
-2N = MAX, 53(32)
-3C = MAX, 4+!c
-3D = MAX, 4+!d
+2H = MIN, 4+!h
+2S = MIN, 0--3!h
+2N = !MAX, 3=!h
+3C = MAX, 4+!c, 0--2!h
+3D = MAX, 4+!d, 0--2!h
 3H = MAX, 4+!h
-3S = MAX, 6+!s
+3S = MAX, 6+!s, 0--2!h
 3N = MAX, 5233
 
 Note that we use difference 4-card raising structures for 1!h and 1!s.  Our
