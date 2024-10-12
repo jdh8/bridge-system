@@ -25,12 +25,12 @@ compete.
   3D = MAX canapé, 5+!d
   3H = MAX, 6+!h
 2D = !FG, 4+!d, not 4=!s
-2H = PRE, 7--9 HCP 3=!h or 0--7 HCP 4+!h
-2S = PRE, 0--7 HCP, 6+!s
+2H = PRE 4+!h or CONST 3=!h
+2S = PRE, 6+!s
 2N = !FG, 4+!h
-3C = INV, 9--11 HCP, 6+!c, 0--2!h
-3D = INV, 9--11 HCP, 6+!d, 0--2!h
-3H = INV, 10--11 HCP 4=!h or 7--9 HCP 5+!h
+3C = INV, 6+!c, 0--2!h
+3D = INV, 6+!d, 0--2!h
+3H = INV 4+!h or CONST 5+!h
 3S = !SPL, 0--1!s, 4+!h
 3N = !Choice of games, 3(433), 12--15 HCP
 4C = !SPL, 0--1!c, 4+!h
@@ -40,14 +40,14 @@ compete.
 1S-
 1N = NF, 0--3!s
 2C = !F, 5+!h or NAT FG
-2D = !F, CONST 4=!s or INV 3=!s or FG (NAT or 5+!h)
-2H = !NF INV, 9--11 HCP, 5+!h
-2S = PRE, 7--9 HCP 3=!s or 0--7 HCP 4+!s
+2D = !F, CONST 4=!s or INV 3=!s or NAT FG
+2H = !NF INV, 5+!h
+2S = PRE 4+!s or CONST 3=!s
 2N = !FG, 4+!s
-3C = INV, 9--11 HCP, 6+!c, 0--2!s
-3D = INV, 9--11 HCP, 6+!d, 0--2!s
-3H = INV, 9--11 HCP, 6+!h, 3=!s
-3S = INV, 10--11 HCP 4=!s or 7--9 HCP 5+!s
+3C = INV, 6+!c, 0--2!s
+3D = INV, 6+!d, 0--2!s
+3H = INV, 6+!h, 3=!s
+3S = INV 4+!s or CONST 5+!s
 3N = !Choice of games, (4333), 12--15 HCP
 4X = !SPL, 0--1#, 4+!s
 4S = S/O, 5+!s
@@ -68,19 +68,19 @@ spade fit, i.e. 2533.
 2N = BAL MAX, 3=!h
 3C = MAX, 4+!c, 3=!h
 3D = MAX canapé, 5+!d, 3=!h
-3H = MIN, 4=!h
+3H = MIN, 4=!h, 5+!s
 3S = MAX, 6+!s, 3=!h
 3N = MAX canapé, 5+!h
 
 1S-2D-
-2H = F, 3+!h, MIN or BAL MAX
-2S = !MIN, 4=!s, 0--2!h
-2N = !MAX, 6+!s
+2H = !MIN, 4=!s
+2S = MIN, 5=!s
+2N = BAL MAX, 5=!s
 3C = MAX, 4+!c
 3D = MAX canapé, 5+!d
 3H = MAX canapé, 5+!h
 3S = MIN, 6+!s
-3N = MAX, 5233
+3N = !MAX, 6+!s
 
 In this bidding system of limited openings, opener usually wants to reverse with
 a maximum.  However, keep in mind that there are hands with nowhere to jump over
