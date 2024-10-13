@@ -39,8 +39,8 @@ compete.
 
 1S-
 1N = NF, 0--3!s, 0--4!h
-2C = !NAT FG, NF 5+!h, or CONST 4=!s
-2D = !NAT FG, FG 5+!h, or INV 3=!s
+2C = !NAT FG, NF 5+!h, CONST 4=!s, or INV 3=!s
+2D = !FG, NAT or 5+!h
 2H = !NF INV, 5+!h
 2S = PRE 4+!s or CONST 3=!s
 2N = !FG, 4+!s
