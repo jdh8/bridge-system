@@ -21,6 +21,7 @@ hands elsewhere.
 2D = !FG, 5+!d
 2H = !P/C, 7--9 HCP, 4+!h, 5+!s
 2S = !INV, 9--11 HCP, (54)+ in minors
+  2N = !(R), ask for the better minor
 2N = !FG, 2--3!s, 2--3!h, 3--4!d, 3--4!c
 3C = !INV, 9--11 HCP, 6+!c
 3D = !INV, 9--11 HCP, 6+!d
@@ -468,15 +469,3 @@ The 2!h response shows a minimum positive with 5+ spades and 4+ hearts.
 4H = S/O, 4+!h
 4S = S/O, 3+!s
 4N = QUANT INV to 6NT
-
-** Unbalanced invitational 2!s
-
-The 2!s response shows an invitation with (54) or more in the minor suits.
-
-1C-2S-
-2N = NF, 3--4!s, 3--4!h, 2--3!d, 2--3!c
-3C = NF, 4+!c
-3D = NF, 4+!d
-3H = FG, 5+!h or ask for !s stopper
-3S = FG, 5+!s or ask for !h stopper
-3N = S/O
