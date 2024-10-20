@@ -65,22 +65,18 @@ applies to minimum game force.
 1S = 11--15 HCP, 4+!s
 1N = 14--16 HCP, 2--4!s, 2--4!h, 2--6!d, 2--6!c
 2C = NAT UNBAL 5+!c, 11--16 HCP
-2D = !PRE, 6+M, 4--10 HCP
-2H = PRE, 5+!h, 4+X, 4--10 HCP
-2S = PRE, 5+!s, 4+m, 4--10 HCP
-2N = !UNT, 5+!d, 5+!c, 4--10 HCP
-3X = PRE, 7+#, 4--10 HCP
+2D = !PRE, 6+M
+2M = PRE, 5=#, 4+m
+2N = !UNT, 5+!d, 5+!c
+3X = PRE, usually 7+#
 3N = !Gambling, SOL 7+m, 0--1 outside A/K
 4C = !PRE, S-SOL 8+M, 0--1 outside A/K
 4D = !PRE, SOL 8+M, no outside A/K
 4M = PRE, 8+#
-4N = !UNT, 6+!d, 6+!c, 10--16 HCP
+4N = !UNT, 6+!d, 6+!c
 
 Note that we don't open 11 HCP balanced hands.  Unlike aggressive sibling
 systems, we keep our opening range narrow for easier responses.
-
-Besides, we don't preempt with maximum (9--10 HCP) 4+!s and 5+!h.  Anticipate
-partner to open and respond to find a game.
 
 ** Choice of suit openings
 
@@ -125,7 +121,6 @@ canapé cannot happen if either the primary or secondary suit is clubs because
 #INCLUDE blue/1M.bml
 #INCLUDE common/1NT-STR.bml
 #INCLUDE blue/2C.bml
-#INCLUDE common/2D-Multi.bml
-#INCLUDE common/2M-Muiderberg.bml
+#INCLUDE common/2X-Multi-Muiderberg.bml
 #INCLUDE common/2NT-UNT.bml
 #INCLUDE common/4X-BTU.bml

@@ -79,16 +79,16 @@ problems, but I believe they can be solved by further adjustments.
 1H = 11--17 HCP, 5+!h
 1S = 11--17 HCP, 5+!s
 1N = 15--17 HCP, 2--4!s, 2--4!h, 2--6!d, 2--6!c
-2C = !PRE, 4--10 HCP, 4+!s, 4+!h, not 44(32) if VUL
-2D = !PRE, 4--10 HCP, 6+M, 
-2M = PRE, 4--10 HCP, 5=#, 4+m, 
-2N = !UNT, 4--10 HCP, 5+!d, 5+!c
-3X = PRE, 4--10 HCP, 7+#
+2C = !PRE, 4+!s, 4+!h, not 44(32) if VUL
+2D = !PRE, 6+M, 
+2M = PRE, 5=#, 4+m, 
+2N = !UNT, 5+!d, 5+!c
+3X = PRE, 7+#
 3N = !Gambling, SOL 7+m, 0--1 outside A/K
 4C = !PRE, S-SOL 8+M, 0--1 outside A/K
 4D = !PRE, SOL 8+M, no outside A/K
 4M = PRE, 8+#
-4N = !UNT, 11--15 HCP, 6+!d, 6+!c
+4N = !UNT, 6+!d, 6+!c
 
 ** The notrump ladder
 
@@ -103,7 +103,6 @@ problems, but I believe they can be solved by further adjustments.
 #INCLUDE wj/1M.bml
 #INCLUDE common/1NT-STR.bml
 #INCLUDE wj/2C.bml
-#INCLUDE common/2D-Multi.bml
-#INCLUDE common/2M-Muiderberg.bml
+#INCLUDE common/2X-Multi-Muiderberg.bml
 #INCLUDE common/2NT-UNT.bml
 #INCLUDE common/4X-BTU.bml

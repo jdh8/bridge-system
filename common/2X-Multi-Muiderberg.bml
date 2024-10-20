@@ -1,0 +1,36 @@
+* Multi 2!d
+
+Our Multi 2!d shows a 6-card weak two of either major.
+
+2D-
+2H = P/C
+2S = P/C
+2N = !INV+ (R)
+  3C = !MAX, 6+!h
+  3D = !MAX, 6+!s
+3C = NAT F
+3D = NAT F
+3H = P/C
+3S = P/C
+4C = !STR choice of games
+  4D = !TRF, 6+!h
+  4H = !TRF, 6+!s
+4D = !PRE choice of games
+4H = S/O
+
+* Muiderberg 2M
+
+Weak twos in this bidding system show exactly 5 cards in the bid major and a
+side minor suit.  Multi 2!d already takes care of 6+ cards.
+
+2M-
+2N = !INV+ (R)
+  3C = MIN, 4+!c
+  3D = MIN, 4+!d
+  3H = !MAX, 4+!c
+  3S = !MAX, 4+!d
+3C = !P/C
+3D = !INV+, 3+M
+
+2H-
+2S = NAT NF
