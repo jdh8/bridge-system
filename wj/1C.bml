@@ -172,7 +172,7 @@ alleviate the burden on 2NT.
 1C-1H-
 1S = F, 4+!s
 1N = BAL 12--14 HCP, 2--3!s, 2--3!h
-2C = !TRF, 12--17 HCP, 5+!d, 0--3!s, 0--3!h
+2C = 12--17 HCP, UNBAL 5+!c, 0--3!s, 0--3!h
 2D = !FG, 3+!h
 2H = 12--14 HCP, 4=!h
 2S = !FG, 18+ HCP, 5+!d, 5+!c
@@ -187,7 +187,7 @@ alleviate the burden on 2NT.
 
 1C-1S-
 1N = BAL 12--14 HCP, 2--3!s, 2--4!h
-2C = !TRF, 12--17 HCP, 5+!d, 0--3!s
+2C = 12--17 HCP, UNBAL 5+!c, 0--3!s
 2D = !FG, 3+!s
 2H = FG, 18+ HCP, 5+!h
 2S = 12--14 HCP, 4=!s
@@ -205,7 +205,7 @@ alleviate the burden on 2NT.
 
 There are 3 artificial relays in the three-way checkback:
 
-- *2!c*: minimum 5+!d, any invitation, or a choice of games of 44(32)
+- *2!c*: any invitation
 - *2!d*: game-forcing 5+!h or a slam try (maybe balanced)
 - *2NT*: transfer to clubs
 
@@ -213,7 +213,7 @@ As a corollary, 3X become shaped slam tries.
 
 1C-1H-1S-
 1N = MIN, 0--3!s
-2C = !XYZ, MIN 5+!d or any INV or CoG 44(32)
+2C = !F INV XYZ
 2D = !FG XYZ, 5+!h or S/T
 2H = MIN, 5+!h
 2S = MIN, 4+!s
@@ -225,7 +225,8 @@ As a corollary, 3X become shaped slam tries.
 3N = 12--15 HCP, 0--3!s, 4=!h, 0--5!d, 0--5!c
 
 1C-1H-1S-2C-
-2D = !MIN, 12--14 HCP
+P  = MIN, 11--12 HCP, 6+!c
+2D = !MIN, 11--14 HCP, 5+!c
 2H = FG, 18+ HCP, 5+!s, 3=!h
 2S = FG, 18+ HCP, 5+!s, 0--2!h
 2N = FG, 18+ HCP, 4=!s
@@ -240,7 +241,6 @@ As a corollary, 3X become shaped slam tries.
 3D = INV, 6+!d
 3H = MAX INV, 6+!h
 3S = INV, 4+!s, 5+!h
-3N = Choice of games, 12--15 HCP, 44(32)
 
 1C-1H-1S-2D-
 2H = MIN, 12--14 HCP, 3=!h
