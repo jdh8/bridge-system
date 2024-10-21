@@ -8,7 +8,8 @@
 
 Welcome to Litten Polish Club!  Polish Club is a 5-card major small club
 bidding system, where the 1!c opening is forcing but not necessarily strong.
-
+*Unbalanced* is this version of Polish Club.  To be specific, we swap the
+balanced minimum in 1!c and the minimum in the natural 1!d.
 This bidding system is also based on /Polish Club 2020: Expert./  Changes
 are made with /Good, Better, Best/ and my improvisation.
 
@@ -64,7 +65,7 @@ https://bridgewinners.com/convention-card/print/litten-polish-club/98013
 
 * Opening bids
 
-1C = !F, Polish Club with MIN (5+!d instead of BAL):
+1C = !F, Polish Club with MIN (5+!d or UNBAL):
      (a) 11--14 HCP, 5+!d
      (b) 11--17 HCP, (4441) or UNBAL 5+!c
      (c) 18+ HCP, any
