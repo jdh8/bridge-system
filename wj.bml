@@ -15,20 +15,39 @@ including a diamond suit.
 This bidding system is also based on /Polish Club 2020: Expert./  Changes
 are made with /Good, Better, Best/ and my improvisation.
 
-We use the distribution syntax and abbreviations provided by WBF.
+** Why Polish Club?
 
-http://www.worldbridge.org/wp-content/uploads/2017/04/Guidetocompletion.pdf
+Simulations in /Good, Better, Best/ show that forcing club systems tend to
+outperform other systems.  Polish Club serves as a gateway to the world of
+forcing clubs.  It is 5-card major.  Its main opening range is 12--17 HCP.
+Sharing these properties, it has similar bidding structure to 2/1, the lingua
+franca of modern bridge.
 
-The ACBL convention card of this system is at
+** Why the minor suit interchange?
 
-https://bridgewinners.com/convention-card/print/litten-polish-club/98013
+The auction 1!c-1!d is the Achilles heel of forcing club systems, especially
+Polish Club.  In the standard Polish Club, the negative 1!d is forcing because
+opener cannot hold a weak hand with long diamonds.  As a result, that negative
+1!d is prone to various doubles and preempts.  The wide range of 1!c makes the
+condition worse.
+
+The minor suit interchange solves this problem.  Opener can now pass 1!d with
+diamonds.  Though opponents usually prevent us from playing 1!d, the threat
+already takes away their bidding space.  Moreover, 1!c-1!d-2!c now has 15+ HCP.
+We get the soundness of /Polish Club 2020: Standard/ while retaining the
+preemptive 2!c opening from /Polish Club 2020: Expert/.
+
+A notable side effect is that 1!c-1X-2!c now show *diamonds*.  We keep
+1!c-1X-2!d as power auctions.  The transfers to diamonds allow responder to show
+extra strength by bypassing 2!d.
 
 ** Notable differences from /Polish Club 2020: Expert/
 
 *** Constructive auctions
 
 - The minor suit interchange: we open 1!d for clubs!
-- Natural 2/1 after 1!s may be hearts instead.  (Untwisted 2/1)
+- The 2/1 responses to 1!s are natural or contain hearts instead.
+  (Untwisted 2/1)
 - After 1M, we have 4-card support step responses from 2NT to 3M.
 - In our 3-way checkback over 1X-1M-1NT, the 2!c relay contains 2-level
   signoffs like Gladiator.

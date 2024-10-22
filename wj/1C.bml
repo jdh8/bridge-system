@@ -29,10 +29,9 @@ hands elsewhere.
 3N = 12--15 HCP, 33(43)
 4M = PRE, 0--4 HCP, 8+#
 
-Note that due to the minor suit interchange, *rebidding clubs by the 1!c opener
-often shows diamonds* instead of clubs.  Responder can then bid diamonds as
-negative or P/C.  This is a significant change from the standard and fairly
-natural variant of Polish Club.
+Note that due to the minor suit interchange, *1!c-1X-2!c show diamonds* instead
+of clubs.  Responder can then bid diamonds as negative or P/C.  This is a
+significant change from the standard and fairly natural variant of Polish Club.
 
 ** The 1!d relay
 
@@ -405,31 +404,25 @@ Odwrotka is a slam try with 11+ HCP or a certain fit and <= 8.0 NLTC.
 
 ** Balanced positive responses
 
-Balanced positive responses are pretty descriptive, so opener's rebids are
-mostly natural except the minor suit interchange.
+Balanced positive responses are pretty descriptive.  Opener can rebid
+fairly naturally.
 
 1C-1N-
-2C = !(R), 5+!d or 18+ HCP
-  2D = MIN P/C
-  2N = MAX, 1--2!d
-  3D = MAX P/C, 3+!d
-2D = !TRF, 5+!c or (441)4, 18+ HCP
-2H = 5+!h, 18+ HCP
-2S = 5+!s, 18+ HCP
-2N = INV, 14 HCP, 2--4!d
-3C = 6+!c, 18+ HCP
-3D = 6+!d, 18+ HCP
-3H = 7+!h, 18+ HCP
-3S = 7+!s, 18+ HCP
-3N = 15--17 HCP, 4441
+2C = MIN, 12--14 HCP, 4+!c
+2D = MIN, 12--14 HCP, usually 6+!d
+2H = FG, 18+ HCP, 5+!h
+2S = FG, 18+ HCP, 5+!s
+2N = BAL INV, ~14 HCP
+3C = FG, 18+ HCP, 6+!c
+3D = FG, 18+ HCP, 6+!d
+3H = !FG SPL, 18+ HCP, 0--1!h
+3S = !FG SPL, 18+ HCP, 0--1!s
 
 1C-2N-
-3C = !TRF, 5+!d or 15+ HCP
-3D = !TRF, 5+!c or (441)4, 18+ HCP
-3H = 5+!h, 18+ HCP
-3S = 5+!s, 18+ HCP
-3N = 12--14 HCP, 2--4!d
-4N = QUANT INV to 6NT, 18--19 HCP
+3C = 15+ HCP, 4+!c
+3D = 15+ HCP, 5+!d
+3H = 18+ HCP, 5+!h
+3S = 18+ HCP, 5+!s
 
 ** Game-forcing 2m responses
 

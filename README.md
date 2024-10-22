@@ -13,6 +13,10 @@ all strong hands is a superior treatment.
 - [Mijumaru Blue Club](https://jdh8.github.io/bridge-systems/blue.htm)
 - [Defensive bidding system](https://jdh8.github.io/bridge-systems/defense.htm)
 
+The [distribution syntax and abbreviations][syntax] are provided by WBF.
+
+[syntax]: http://www.worldbridge.org/wp-content/uploads/2017/04/Guidetocompletion.pdf
+
 Building HTML and BSS files
 ---------------------------
 
