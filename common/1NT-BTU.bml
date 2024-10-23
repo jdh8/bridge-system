@@ -45,6 +45,9 @@ We employ Smolen at both levels to take care of spade invitation.
 
 1N-2C-2D-
 2H = F INV, 5+!s
+  2S = MIN
+  2N = MAX, 2=!s
+  3S = MAX, 3=!s
 2S = NF INV Smolen, 4=!s, 5+!h
 2N = NAT INV
 3C = FG, 5+!c
