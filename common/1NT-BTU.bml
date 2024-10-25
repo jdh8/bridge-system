@@ -21,25 +21,16 @@ Stayman takes care of invitation with 5+ spades.
   4N = ! 3 aces
 4D = !Texas TRF, 6+!h
 4H = !Texas TRF, 6+!s
-4S = !F QUANT BW
+4S = !F QUANT
   4N = !NF, 15--16 HCP
     5N = !F to a 5-card suit or 6NT
     7C = !P/C to a 5-card suit or 7NT
-  5C = !F, 17 HCP, 0 or 4 aces
-  5D = !F, 17 HCP, 1 ace
-  5H = !F, 17 HCP, 2 aces
-  5S = !F, 17 HCP, 3 aces
-4N = QUANT BW, INV to 6NT, NF
-  5C = !F, 16--17 HCP, 0 or 4 aces
-  5D = !F, 16--17 HCP, 1 ace
-  5H = !F, 16--17 HCP, 2 aces
-  5S = !F, 16--17 HCP, 3 aces
-5N = QUANT BW, INV to 7NT, F
-  6C = !F, 16--17 HCP, 0 or 4 aces
-  6D = !F, 16--17 HCP, 1 ace
-  6H = !F, 16--17 HCP, 2 aces
-  6S = !F, 16--17 HCP, 3 aces
+  5N = !F, 17 HCP
+4N = QUANT INV to 6NT, NF
+  6N = S/O, 16--17 HCP
+5N = QUANT INV to 7NT, F
   6N = S/O, 15 HCP
+  7N = S/O, 16--17 HCP
 
 ** Stayman
 
@@ -74,9 +65,9 @@ We employ Smolen at both levels to take care of spade invitation.
 4C = !Gerber, ask for aces
 4D = !Texas TRF, 6+!h, 4+!s
 4H = !Texas TRF, 6+!s, 4+!h
-4S = !F QUANT BW
-4N = QUANT BW, INV to 6NT
-5N = QUANT BW, INV to 7NT
+4S = !F QUANT
+4N = QUANT INV to 6NT
+5N = QUANT INV to 7NT
 
 1N-2C-2H-
 2S = INV, 5=!s
@@ -87,9 +78,9 @@ We employ Smolen at both levels to take care of spade invitation.
 3S = !S/T, 4+!h
 4C = !S/T SPL, 0--1!c, 4+!h
 4D = !S/T SPL, 0--1!d, 4+!h
-4S = !F QUANT BW
-4N = QUANT BW, INV to 6NT, 0--3!h
-5N = QUANT BW, INV to 7NT, 0--3!h
+4S = !F QUANT
+4N = QUANT INV to 6NT, 0--3!h
+5N = QUANT INV to 7NT, 0--3!h
 
 1N-2C-2S-
 2N = INV, 0--3!s, 4=!h
@@ -100,8 +91,8 @@ We employ Smolen at both levels to take care of spade invitation.
 4C = !S/T SPL, 0--1!c, 4+!s
 4D = !S/T SPL, 0--1!d, 4+!s
 4H = !S/T SPL, 0--1!h, 4+!s
-4N = QUANT BW, INV to 6NT, 0--3!s
-5N = QUANT BW, INV to 7NT, 0--3!s
+4N = QUANT INV to 6NT, 0--3!s
+5N = QUANT INV to 7NT, 0--3!s
 
 ** Jacoby transfer
 
@@ -134,9 +125,9 @@ problems like 1NT-2!d-3!d!-3!h?.
 4C = !SPL, 0--1!c, 6+!h
 4D = !SPL, 0--1!d, 6+!h
 4H = Mild S/T, 6+!h
-4S = !F QUANT BW
-4N = QUANT BW, INV to 6NT
-5N = QUANT BW, INV to 7NT
+4S = !F QUANT
+4N = QUANT INV to 6NT
+5N = QUANT INV to 7NT
 
 1N-2H-
 2S = NF (R)
@@ -161,8 +152,8 @@ problems like 1NT-2!d-3!d!-3!h?.
 4D = !SPL, 0--1!d, 6+!s
 4H = !SPL, 0--1!h, 6+!s
 4S = Mild S/T, 6+!s
-4N = QUANT BW, INV to 6NT
-5N = QUANT BW, INV to 7NT
+4N = QUANT INV to 6NT
+5N = QUANT INV to 7NT
 
 ** Minor suit Multi/Stayman
 
@@ -184,9 +175,9 @@ Competition does not affect auctions at 3NT and above.
 4C = !Gerber, ask for aces
 4D = !Texas TRF, 6+!h
 4H = !Texas TRF, 6+!s
-4S = !F QUANT BW
-4N = QUANT BW, INV to 6NT
-5N = QUANT BW, INV to 7NT
+4S = !F QUANT
+4N = QUANT INV to 6NT
+5N = QUANT INV to 7NT
 
 *** Over (Dbl)
 
