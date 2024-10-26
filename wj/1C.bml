@@ -527,3 +527,14 @@ D  = !TRF, 7+ HCP, 4+!s
 D  = !NEG, 7+ HCP, 4+!h
 2H = NF, 7--11 HCP, 5+!h
 2S = !TRF, PRE 7+!c or FG 6+!c
+
+1C-(1N)-
+D  = PEN, nearly BAL, 10+ HCP
+2C = PRE, 3--9 HCP, 5+!c
+2X = PRE, 3--9 HCP, 5+#
+2N = !TRF, PRE 7+!c or FG 6+!c
+3C = !TRF, PRE 7+!d or FG 6+!d
+3D = !TRF, PRE 7+!h or FG 6+!h
+3H = !TRF, PRE 7+!s or FG 6+!s
+3S = !Gambling, SOL 7+ suit with no stopper outside
+3N = !Gambling, SOL 7+ suit with one stopper outside
