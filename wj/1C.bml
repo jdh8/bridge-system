@@ -212,86 +212,62 @@ alleviate the burden on 2NT.
 4D = !SPL, 0--1!d, 4+!s
 4H = !SPL, 0--1!h, 4+!s
 
-*** Three-way checkback for 1!c-1!h-1!s
+*** BTU XYZ or three-way checkback
 
-There are 3 artificial relays in the three-way checkback:
+We use BTU-style 3-way checkback to an XYZ auction.  There are 3 artificial
+relays in the three-way checkback:
 
-- *2!c*: minimum 5+!d, any invitation, or a choice of games of 44(32)
-- *2!d*: game-forcing 5+!h or a slam try (maybe balanced)
+- *2!c*: ...
+- *2!d*: game-forcing checkback, usually a choice of games
 - *2NT*: transfer to clubs
 
-As a corollary, 3X become shaped slam tries.
+The variants in 2!c are as follows:
+
+- To play 2X
+- Strongly shaped invitation
+- Balanced invitation or choice of games
+
+As a corollary, natural 2X are wide-range invitations and 3X become slam tries.
 
 1C-1H-1S-
 1N = MIN, 0--3!s
-2C = !XYZ, MIN 5+!d or any INV or CoG 44(32)
-2D = !FG XYZ, 5+!h or S/T
-2H = MIN, 5+!h
-2S = MIN, 4+!s
-2N = !TRF, 7--9 HCP, 6+!c
+2C = !BTU CB, F1
+2D = !FG CB
+2H = INV, 5+!h
+2S = INV, 4+!s
+2N = !TRF, PRE 6+!c or FG 5+!c
 3C = S/T, 5+!c, 5+!h
 3D = S/T, 5+!d, 5+!h
 3H = S/T, 6+!h
 3S = S/T, 4+!s
 3N = 12--15 HCP, 0--3!s, 4=!h, 0--5!d, 0--5!c
 
+We need ...2!c-3!c as a transfer so that responder can show attitude toward a
+15--17 HCP opener.
+
 1C-1H-1S-2C-
 2D = !MIN, 12--14 HCP
-2H = FG, 18+ HCP, 5+!s, 3=!h
+  2H = INV, 5+!h
+  2S = INV, 4+!s
+  2N = BAL INV
+  3C = INV, 6+!c
+  3D = INV, 6+!d
+  3H = INV, S-SOL 6+!h
+  3S = INV, 4+!s, 5+!h
+  3N = !Choice of games, 44(32) or 5!h(332)
+    4H = !P/C, usually not (4333)
+2H = INV, 15--17 HCP, 3=!h
 2S = FG, 18+ HCP, 5+!s, 0--2!h
 2N = FG, 18+ HCP, 4=!s
-3C = !P/C, 15+ HCP, 5+!d
-3D = !FG TRF, 18+ HCP, 5+!c
-
-1C-1H-1S-2C-2D-
-2H = INV, 5+!h
-2S = INV, 4+!s
-2N = BAL INV
-3C = INV, 6+!c
-3D = INV, 6+!d
-3H = MAX INV, 6+!h
-3S = INV, 4+!s, 5+!h
-3N = Choice of games, 12--15 HCP, 44(32)
-
-1C-1H-1S-2D-
-2H = MIN, 12--14 HCP, 3=!h
-2S = FG, 18+ HCP, 5+!s, 0--2!h
-2N = MIN, 12--14 HCP, 0--2!h
-3C = !FG TRF, 15+ HCP, 5+!d
+3C = !NF TRF, 15+ HCP, 5+!d
 3D = !FG TRF, 18+ HCP, 5+!c
 3H = FG, 18+ HCP, 5+!s, 3=!h
 
-1C-1H-1S-2D-2H-
-2N = BAL S/T
-3C = S/T, 4+!c, 5+!h
-3D = S/T, 4+!d, 5+!h
-3H = S/T, 5+!h
-3S = S/T, 4+!s
-3N = Choice of games, 12--15 HCP, 5!h(332)
-
-1C-1H-1S-2D-2N-
-3C = S/T, 4+!c
-3D = S/T, 4+!d
-3H = 6+!h
-3S = S/T, 3+!s
-3N = S/O
-
-*** Three-way checkback for 1!c-1!h!s-1NT
-
-We use BTU-style 3-way checkback to a 1NT rebid.  The 2!c response is a
-Gladiator-like relay because it puppets to 2!d anyway.  The contents of 2!c
-by further responses are:
-
-- *Pass and 2M*: signoff
-- *2NT*: balanced invitation
-- *3NT*: choice of games with 5M(332)
-- *Other suit bids*: strong invitations
-
 1C-1H-1N-
-2C = !Gladiator, PUP
-2D = !FG XYZ (R)
-  2H = 3=!h
-  2N = 2=!h
+2C = !BTU CB, F1
+  2D = !(R)
+  2H = MAX, 3=!h
+2D = !FG CB
 2H = INV, 5+!h
 2S = FG, 4+!s
 2N = !TRF, 7--9 HCP, 6+!c
@@ -310,15 +286,14 @@ P  = 5+!d
 2N = BAL INV
 3C = INV, 6+!c
 3D = INV, 6+!d
-3H = MAX INV, 6+!h
+3H = INV, S-SOL 6+!h
 3N = Choice of games, 5!h(332)
 
 1C-1S-1N-
-2C = !Gladiator, PUP
-2D = !FG XYZ (R)
-  2H = 4+!h
-  2S = 3=!s
-  2N = 2=!s
+2C = !BTU CB, F1
+  2D = !(R)
+  2S = MAX, 3=!s
+2D = !FG CB
 2H = INV, 4+!h, 5+!s
 2S = INV, 5+!s
 2N = !TRF, 7--9 HCP, 6+!c
@@ -339,7 +314,7 @@ P  = 5+!d
 3C = INV, 6+!c
 3D = INV, 6+!d
 3H = INV, 4+!h, 6+!s
-3S = MAX INV, 6+!s
+3S = INV, S-SOL 6+!s
 3N = Choice of games, 5(332)
 
 *** Odwrotka with the strong 2!h relay
