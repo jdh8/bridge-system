@@ -314,62 +314,36 @@ P  = 5+!d
 *** Odwrotka with the strong 2!h relay
 
 We use the relay structure in /Polish Club 2020: Expert./  The 2!h response to
-Odwrotka is a slam try with 11+ HCP or a certain fit and <= 8.0 NLTC.
+Odwrotka is a slam try with 11+ HCP or a certain fit and <= 8.0 NLTC.  The
+relay structure generally lets the strong opener declare notrump. 
 
 1C-1M-2D-
-2H = !S/T (R)
+2H = !S/T (R), ~11+ HCP
   2S = !(R)
-2S = ! 4=M, 7--10 HCP
-  2N = !(R)
-2N = ! 5=M, not BAL, 7--10 HCP
-  3C = !(R)
-3C = ! 5+!c, 4=M, 9--11 HCP
-3D = ! 5+!d, 4=M, 9--11 HCP
-3M = !BAL 5=M, 7--10 HCP
-3oM = !SPL, 0--1#, 6+M, 7--10 HCP
-3N = ! 6+M, 2+oM, 2+!d, 2+!c, 7--10 HCP
-4C = !SPL, 0--1!c, 6+M, 7--10 HCP
-4D = !SPL, 0--1!d, 6+M, 7--10 HCP
+2S = !NEG, 7--10 HCP, 4=M
+  2N = !Ask for a side suit, a 5-card minor or the other 4-card major
+2N = !MIN, 7--10 HCP, 5=M, not BAL
+  3C = !Ask for the side suit
+3C = !Mild S/T, 9--11 HCP, 5+!c, 4=M
+3D = !Mild S/T, 9--11 HCP, 5+!d, 4=M
+3M = !MIN, 7--10 HCP, BAL 5=M
+3oM = !SPL, 7--10 HCP, 0--1#, 6+M
+3N = !MIN, 7--10 HCP, 6+M
+4C = !SPL, 7--10 HCP, 0--1!c, 6+M
+4D = !SPL, 7--10 HCP, 0--1!d, 6+M
 
 1C-1M-2D-2H-2S-
 2N = ! 4=M
-  3C = !(R)
+  3C = !Ask for a side suit
+    3M = ! 4+!c
+    3N = 4M(333)
 3C = ! 4+!c, 5=M
 3D = ! 4+!d, 5=M
-3M = !BAL 5=M
 3oM = ! 4+#, 5=M
-3N = !6+M, 2+!d, 2+!c
+3M = !BAL 5=M
+3N = ! 6+M
 4C = !SPL, 0--1!c, 6+M
 4D = !SPL, 0--1!d, 6+M
-
-1C-1H-2D-2H-2S-2N-3C-
-3D = ! 4=!d
-3H = ! 4=!c
-3S = ! 44(xx)
-3N = ! 3433
-
-1C-1S-2D-2H-2S-2N-3C-
-3D = ! 4=!d
-3S = ! 4=!c
-3N = ! 4333
-
-1C-1H-2D-2S-2N-
-3C = ! 5+!c, 7--8 HCP
-3D = ! 5+!d, 7--8 HCP
-3H = ! 1444
-3S = ! 44(xx)
-3N = BAL
-
-1C-1S-2D-2S-2N-
-3C = ! 5+!c, 7--8 HCP
-3D = ! 5+!d, 7--8 HCP
-3S = ! 4144
-3N = BAL
-
-1C-1M-2D-2N-3C-
-3D = ! 4+!d
-3M = ! 4+!c
-3oM = ! 4+#
 
 ** Balanced positive responses
 
