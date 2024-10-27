@@ -239,8 +239,8 @@ invitational hands.  Consequently, we need to move game-forcing clubs to 3!s.
 
 1C-1H-1S-2C-
 2D = !MIN, 12--14 HCP
-  2H = INV, 5+!h
-  2S = INV, 4+!s
+  2H = 5+!h
+  2S = 4+!s
   2N = BAL INV
   3C = INV, 6+!c
   3D = INV, 6+!d
@@ -259,7 +259,7 @@ invitational hands.  Consequently, we need to move game-forcing clubs to 3!s.
 
 1C-1H-1N-
 2C = !BTU CB, F1
-  2D = !(R)
+  2D = !NF (R)
   2H = MAX, 3=!h
 2D = !FG CB
 2H = INV, 5+!h
@@ -274,7 +274,6 @@ invitational hands.  Consequently, we need to move game-forcing clubs to 3!s.
 4D = !SPL, 0--1!d, 6+!h
 
 1C-1H-1N-2C-2D-
-P  = 5+!d
 2H = 5+!h
 2S = INV, 4+!s, 6+!h
 2N = BAL INV
@@ -285,7 +284,8 @@ P  = 5+!d
 
 1C-1S-1N-
 2C = !BTU CB, F1
-  2D = !(R)
+  2D = !NF (R)
+  2H = MAX, 4+!h
   2S = MAX, 3=!s
 2D = !FG CB
 2H = INV, 4+!h, 5+!s
@@ -301,7 +301,6 @@ P  = 5+!d
 4H = !SPL, 0--1!h, 6+!s
 
 1C-1S-1N-2C-2D-
-P  = 5+!d
 2H = INV, 5+!h, 5+!s
 2S = 5+!s
 2N = BAL INV

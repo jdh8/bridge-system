@@ -52,25 +52,30 @@ The precedence with 15--17 HCP is 4-card support > 4-card side suit > 3-card
 support.  Therefore, the reverse in the other major showing 3-card support
 promises either 6+!c.
 
-*** Three-way checkback for 1!d-1!h-1!s
+*** BTU XYZ or three-way checkback
 
-There are 3 artificial relays in the three-way checkback:
+We use BTU-style 3-way checkback to an XYZ auction.  There are 3 artificial
+relays in the three-way checkback:
 
-- *2!c*: constructive 6+!d, any invitation, or a choice of games of 44(32)
-- *2!d*: game-forcing 5+!h or a slam try (maybe balanced)
+- *2!c*: ...
+- *2!d*: game-forcing checkback, usually a choice of games
 - *2NT*: transfer to clubs
 
-As a corollary, 3X become shaped slam tries.  Note that the variant of minimum
-diamonds becomes constructive (~8--9 HCP and 6+!d) because we could have
-passed 1!d with weaker hands.
+The variants in 2!c are as follows:
+
+- To play 2X
+- Strongly shaped invitation
+- Balanced invitation or choice of games
+
+As a corollary, natural 2X are wide-range invitations and 3X become slam tries.
 
 1D-1H-1S-
 1N = MIN, 0--3!s
-2C = !XYZ, CONST 6+!d or any INV or CoG 4441
-2D = !FG XYZ, 5+!h or S/T
-2H = MIN, 5+!h
-2S = MIN, 4+!s
-2N = !TRF, 7--9 HCP or 12+ HCP, 4+!c
+2C = !BTU CB, F1
+2D = !FG CB
+2H = INV, 5+!h
+2S = INV, 4+!s
+2N = !TRF, PRE 6+!c or FG 5+!c
 3C = S/T, 4+!c, 5+!h
 3D = S/T, 5+!d, 5+!h
 3H = S/T, 6+!h
@@ -79,30 +84,27 @@ passed 1!d with weaker hands.
 
 1D-1H-1S-2C-
 2D = !MIN, 12--14 HCP
+  2H = 5+!h
+  2S = 4+!s
+  2N = BAL INV
+  3C = INV, 4+!c
+  3D = INV, 6+!d
+  3H = INV, S-SOL 6+!h
+  3S = INV, 4+!s, 5+!h
+  3N = !Choice of games, 3541
 2H = MAX, 15--17 HCP, 3=!h
-2S = MAX, 15--17 HCP, 5+!s
-2N = MAX, 15--17 HCP, 4135 or 4045
+2S = MAX, 15--17 HCP, at most partial stop in !d
+2N = MAX, 15--17 HCP, likely stop in !d
 3C = MAX, 15--17 HCP, 6+!c, 0--2!h
 
-*** Three-way checkback for 1!d-1!h!s-1NT
-
-We use BTU-style 3-way checkback to a 1NT rebid.  The 2!c response is a
-Gladiator-like relay because it puppets to 2!d anyway.  The contents of 2!c
-by further responses are:
-
-- *2M or below*: signoff
-- *2NT*: balanced invitation
-- *3NT*: choice of games with 5=M and a singleton club
-- *Other suit bids*: strong invitations
-
 1D-1H-1N-
-2C = !Gladiator, PUP
-2D = !FG XYZ (R)
-  2H = 3=!h
-  2N = 2=!h
+2C = !BTU CB, F1
+  2D = !NF (R)
+  2H = MAX, 3=!h
+2D = !FG CB
 2H = INV, 5+!h
 2S = FG, 4+!s
-2N = !TRF, 7--9 or 12+ HCP, 4+!c
+2N = !TRF, PRE 4+!c or FG 3+!c
 3C = S/T, 4+!c, 5+!h
 3D = S/T, 5+!d, 5+!h
 3H = S/T, 6+!h
@@ -112,25 +114,24 @@ by further responses are:
 4D = !SPL, 0--1!d, 6+!h
 
 1D-1H-1N-2C-2D-
-P  = 5+!d
 2H = 5+!h
 2S = INV, 4+!s, 6+!h
 2N = BAL INV
 3C = INV, 4+!c
 3D = INV, 6+!d
-3H = MAX INV, 6+!h
+3H = INV, S-SOL 6+!h
 3S = Choice of games, 4531
 3N = Choice of games, 3541
 
 1D-1S-1N-
-2C = !Gladiator, PUP
-2D = !FG XYZ (R)
-  2H = 4+!h
-  2S = 3=!s
-  2N = 2=!s
+2C = !BTU CB, F1
+  2D = !NF (R)
+  2H = MAX, 4+!h
+  2S = MAX, 3=!s
+2D = !FG CB
 2H = INV, 4+!h, 5+!s
 2S = INV, 5+!s
-2N = !TRF, 7--9 or 12+ HCP, 4+!c
+2N = !TRF, PRE 4+!c or FG 3+!c
 3C = S/T, 4+!c, 5+!s
 3D = S/T, 5+!d, 5+!s
 3H = S/T, 5+!h, 5+!s
@@ -141,14 +142,13 @@ P  = 5+!d
 4H = !SPL, 0--1!h, 6+!s
 
 1D-1S-1N-2C-2D-
-P  = 5+!d
 2H = 4+!h, 5+!s
 2S = 5+!s
 2N = BAL INV
 3C = INV, 4+!c
 3D = INV, 6+!d
 3H = INV, 5+!h, 5+!s
-3S = MAX INV, 6+!s
+3S = INV, S-SOL 6+!s
 3N = Choice of games, 5341
 
 ** The 1NT response

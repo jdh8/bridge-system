@@ -4219,7 +4219,7 @@ invitational hands.  Consequently, we need to move game-forcing clubs to 3
             </span>
            </td>
            <td>
-            INV, 5+
+            5+
             <span class="hcolor">
              &hearts;
             </span>
@@ -4237,7 +4237,7 @@ invitational hands.  Consequently, we need to move game-forcing clubs to 3
             </span>
            </td>
            <td>
-            INV, 4+
+            4+
             <span class="scolor">
              &spades;
             </span>
@@ -4560,7 +4560,7 @@ invitational hands.  Consequently, we need to move game-forcing clubs to 3
             </span>
            </td>
            <td>
-            !(R)
+            !NF (R)
            </td>
           </tr>
          </table>
@@ -4822,21 +4822,6 @@ invitational hands.  Consequently, we need to move game-forcing clubs to 3
        <table>
         <tr>
          <td class="node" rowspan="1">
-          Pass
-         </td>
-         <td>
-          5+
-          <span class="dcolor">
-           &diams;
-          </span>
-         </td>
-        </tr>
-       </table>
-      </li>
-      <li class="node">
-       <table>
-        <tr>
-         <td class="node" rowspan="1">
           2
           <span class="hcolor">
            &hearts;
@@ -4997,7 +4982,25 @@ invitational hands.  Consequently, we need to move game-forcing clubs to 3
             </span>
            </td>
            <td>
-            !(R)
+            !NF (R)
+           </td>
+          </tr>
+         </table>
+        </li>
+        <li class="node">
+         <table>
+          <tr>
+           <td class="node" rowspan="1">
+            2
+            <span class="hcolor">
+             &hearts;
+            </span>
+           </td>
+           <td>
+            MAX, 4+
+            <span class="hcolor">
+             &hearts;
+            </span>
            </td>
           </tr>
          </table>
@@ -5281,21 +5284,6 @@ invitational hands.  Consequently, we need to move game-forcing clubs to 3
       &diams;
      </span>
      <ul>
-      <li class="node">
-       <table>
-        <tr>
-         <td class="node" rowspan="1">
-          Pass
-         </td>
-         <td>
-          5+
-          <span class="dcolor">
-           &diams;
-          </span>
-         </td>
-        </tr>
-       </table>
-      </li>
       <li class="node">
        <table>
         <tr>
@@ -8538,21 +8526,11 @@ promises either 6+
    .
   </p>
   <h3>
-   Three-way checkback for 1
-   <span class="dcolor">
-    &diams;
-   </span>
-   -1
-   <span class="hcolor">
-    &hearts;
-   </span>
-   -1
-   <span class="scolor">
-    &spades;
-   </span>
+   BTU XYZ or three-way checkback
   </h3>
   <p>
-   There are 3 artificial relays in the three-way checkback:
+   We use BTU-style 3-way checkback to an XYZ auction.  There are 3 artificial
+relays in the three-way checkback:
   </p>
   <ul>
    <li>
@@ -8562,11 +8540,7 @@ promises either 6+
       &clubs;
      </span>
     </strong>
-    : constructive 6+
-    <span class="dcolor">
-     &diams;
-    </span>
-    , any invitation, or a choice of games of 44(32)
+    : ...
    </li>
    <li>
     <strong>
@@ -8575,11 +8549,7 @@ promises either 6+
       &diams;
      </span>
     </strong>
-    : game-forcing 5+
-    <span class="hcolor">
-     &hearts;
-    </span>
-    or a slam try (maybe balanced)
+    : game-forcing checkback, usually a choice of games
    </li>
    <li>
     <strong>
@@ -8589,17 +8559,25 @@ promises either 6+
    </li>
   </ul>
   <p>
-   As a corollary, 3X become shaped slam tries.  Note that the variant of minimum
-diamonds becomes constructive (~8&ndash;9 HCP and 6+
-   <span class="dcolor">
-    &diams;
+   The variants in 2
+   <span class="ccolor">
+    &clubs;
    </span>
-   ) because we could have
-passed 1
-   <span class="dcolor">
-    &diams;
-   </span>
-   with weaker hands.
+   are as follows:
+  </p>
+  <ul>
+   <li>
+    To play 2X
+   </li>
+   <li>
+    Strongly shaped invitation
+   </li>
+   <li>
+    Balanced invitation or choice of games
+   </li>
+  </ul>
+  <p>
+   As a corollary, natural 2X are wide-range invitations and 3X become slam tries.
   </p>
   <div class="tree">
    <ul>
@@ -8642,11 +8620,7 @@ passed 1
           </span>
          </td>
          <td>
-          !XYZ, CONST 6+
-          <span class="dcolor">
-           &diams;
-          </span>
-          or any INV or CoG 4441
+          !BTU CB, F1
          </td>
         </tr>
        </table>
@@ -8661,11 +8635,7 @@ passed 1
           </span>
          </td>
          <td>
-          !FG XYZ, 5+
-          <span class="hcolor">
-           &hearts;
-          </span>
-          or S/T
+          !FG CB
          </td>
         </tr>
        </table>
@@ -8680,7 +8650,7 @@ passed 1
           </span>
          </td>
          <td>
-          MIN, 5+
+          INV, 5+
           <span class="hcolor">
            &hearts;
           </span>
@@ -8698,7 +8668,7 @@ passed 1
           </span>
          </td>
          <td>
-          MIN, 4+
+          INV, 4+
           <span class="scolor">
            &spades;
           </span>
@@ -8713,7 +8683,11 @@ passed 1
           2NT
          </td>
          <td>
-          !TRF, 7&ndash;9 HCP or 12+ HCP, 4+
+          !TRF, PRE 6+
+          <span class="ccolor">
+           &clubs;
+          </span>
+          or FG 5+
           <span class="ccolor">
            &clubs;
           </span>
@@ -8866,6 +8840,144 @@ passed 1
          </td>
         </tr>
        </table>
+       <ul>
+        <li class="node">
+         <table>
+          <tr>
+           <td class="node" rowspan="1">
+            2
+            <span class="hcolor">
+             &hearts;
+            </span>
+           </td>
+           <td>
+            5+
+            <span class="hcolor">
+             &hearts;
+            </span>
+           </td>
+          </tr>
+         </table>
+        </li>
+        <li class="node">
+         <table>
+          <tr>
+           <td class="node" rowspan="1">
+            2
+            <span class="scolor">
+             &spades;
+            </span>
+           </td>
+           <td>
+            4+
+            <span class="scolor">
+             &spades;
+            </span>
+           </td>
+          </tr>
+         </table>
+        </li>
+        <li class="node">
+         <table>
+          <tr>
+           <td class="node" rowspan="1">
+            2NT
+           </td>
+           <td>
+            BAL INV
+           </td>
+          </tr>
+         </table>
+        </li>
+        <li class="node">
+         <table>
+          <tr>
+           <td class="node" rowspan="1">
+            3
+            <span class="ccolor">
+             &clubs;
+            </span>
+           </td>
+           <td>
+            INV, 4+
+            <span class="ccolor">
+             &clubs;
+            </span>
+           </td>
+          </tr>
+         </table>
+        </li>
+        <li class="node">
+         <table>
+          <tr>
+           <td class="node" rowspan="1">
+            3
+            <span class="dcolor">
+             &diams;
+            </span>
+           </td>
+           <td>
+            INV, 6+
+            <span class="dcolor">
+             &diams;
+            </span>
+           </td>
+          </tr>
+         </table>
+        </li>
+        <li class="node">
+         <table>
+          <tr>
+           <td class="node" rowspan="1">
+            3
+            <span class="hcolor">
+             &hearts;
+            </span>
+           </td>
+           <td>
+            INV, S-SOL 6+
+            <span class="hcolor">
+             &hearts;
+            </span>
+           </td>
+          </tr>
+         </table>
+        </li>
+        <li class="node">
+         <table>
+          <tr>
+           <td class="node" rowspan="1">
+            3
+            <span class="scolor">
+             &spades;
+            </span>
+           </td>
+           <td>
+            INV, 4+
+            <span class="scolor">
+             &spades;
+            </span>
+            , 5+
+            <span class="hcolor">
+             &hearts;
+            </span>
+           </td>
+          </tr>
+         </table>
+        </li>
+        <li class="last node">
+         <table>
+          <tr>
+           <td class="node" rowspan="1">
+            3NT
+           </td>
+           <td>
+            !Choice of games, 3541
+           </td>
+          </tr>
+         </table>
+        </li>
+       </ul>
       </li>
       <li class="node">
        <table>
@@ -8895,9 +9007,9 @@ passed 1
           </span>
          </td>
          <td>
-          MAX, 15&ndash;17 HCP, 5+
-          <span class="scolor">
-           &spades;
+          MAX, 15&ndash;17 HCP, at most partial stop in
+          <span class="dcolor">
+           &diams;
           </span>
          </td>
         </tr>
@@ -8910,7 +9022,10 @@ passed 1
           2NT
          </td>
          <td>
-          MAX, 15&ndash;17 HCP, 4135 or 4045
+          MAX, 15&ndash;17 HCP, likely stop in
+          <span class="dcolor">
+           &diams;
+          </span>
          </td>
         </tr>
        </table>
@@ -8941,62 +9056,6 @@ passed 1
     </li>
    </ul>
   </div>
-  <h3>
-   Three-way checkback for 1
-   <span class="dcolor">
-    &diams;
-   </span>
-   -1
-   <span class="hcolor">
-    &hearts;
-   </span>
-   <span class="scolor">
-    &spades;
-   </span>
-   -1NT
-  </h3>
-  <p>
-   We use BTU-style 3-way checkback to a 1NT rebid.  The 2
-   <span class="ccolor">
-    &clubs;
-   </span>
-   response is a
-Gladiator-like relay because it puppets to 2
-   <span class="dcolor">
-    &diams;
-   </span>
-   anyway.  The contents of 2
-   <span class="ccolor">
-    &clubs;
-   </span>
-   by further responses are:
-  </p>
-  <ul>
-   <li>
-    <strong>
-     2M or below
-    </strong>
-    : signoff
-   </li>
-   <li>
-    <strong>
-     2NT
-    </strong>
-    : balanced invitation
-   </li>
-   <li>
-    <strong>
-     3NT
-    </strong>
-    : choice of games with 5=M and a singleton club
-   </li>
-   <li>
-    <strong>
-     Other suit bids
-    </strong>
-    : strong invitations
-   </li>
-  </ul>
   <div class="tree">
    <ul>
     <li class="root">
@@ -9020,10 +9079,45 @@ Gladiator-like relay because it puppets to 2
           </span>
          </td>
          <td>
-          !Gladiator, PUP
+          !BTU CB, F1
          </td>
         </tr>
        </table>
+       <ul>
+        <li class="node">
+         <table>
+          <tr>
+           <td class="node" rowspan="1">
+            2
+            <span class="dcolor">
+             &diams;
+            </span>
+           </td>
+           <td>
+            !NF (R)
+           </td>
+          </tr>
+         </table>
+        </li>
+        <li class="last node">
+         <table>
+          <tr>
+           <td class="node" rowspan="1">
+            2
+            <span class="hcolor">
+             &hearts;
+            </span>
+           </td>
+           <td>
+            MAX, 3=
+            <span class="hcolor">
+             &hearts;
+            </span>
+           </td>
+          </tr>
+         </table>
+        </li>
+       </ul>
       </li>
       <li class="node">
        <table>
@@ -9035,45 +9129,10 @@ Gladiator-like relay because it puppets to 2
           </span>
          </td>
          <td>
-          !FG XYZ (R)
+          !FG CB
          </td>
         </tr>
        </table>
-       <ul>
-        <li class="node">
-         <table>
-          <tr>
-           <td class="node" rowspan="1">
-            2
-            <span class="hcolor">
-             &hearts;
-            </span>
-           </td>
-           <td>
-            3=
-            <span class="hcolor">
-             &hearts;
-            </span>
-           </td>
-          </tr>
-         </table>
-        </li>
-        <li class="last node">
-         <table>
-          <tr>
-           <td class="node" rowspan="1">
-            2NT
-           </td>
-           <td>
-            2=
-            <span class="hcolor">
-             &hearts;
-            </span>
-           </td>
-          </tr>
-         </table>
-        </li>
-       </ul>
       </li>
       <li class="node">
        <table>
@@ -9118,7 +9177,11 @@ Gladiator-like relay because it puppets to 2
           2NT
          </td>
          <td>
-          !TRF, 7&ndash;9 or 12+ HCP, 4+
+          !TRF, PRE 4+
+          <span class="ccolor">
+           &clubs;
+          </span>
+          or FG 3+
           <span class="ccolor">
            &clubs;
           </span>
@@ -9293,21 +9356,6 @@ Gladiator-like relay because it puppets to 2
       &diams;
      </span>
      <ul>
-      <li class="node">
-       <table>
-        <tr>
-         <td class="node" rowspan="1">
-          Pass
-         </td>
-         <td>
-          5+
-          <span class="dcolor">
-           &diams;
-          </span>
-         </td>
-        </tr>
-       </table>
-      </li>
       <li class="node">
        <table>
         <tr>
@@ -9406,7 +9454,7 @@ Gladiator-like relay because it puppets to 2
           </span>
          </td>
          <td>
-          MAX INV, 6+
+          INV, S-SOL 6+
           <span class="hcolor">
            &hearts;
           </span>
@@ -9468,10 +9516,63 @@ Gladiator-like relay because it puppets to 2
           </span>
          </td>
          <td>
-          !Gladiator, PUP
+          !BTU CB, F1
          </td>
         </tr>
        </table>
+       <ul>
+        <li class="node">
+         <table>
+          <tr>
+           <td class="node" rowspan="1">
+            2
+            <span class="dcolor">
+             &diams;
+            </span>
+           </td>
+           <td>
+            !NF (R)
+           </td>
+          </tr>
+         </table>
+        </li>
+        <li class="node">
+         <table>
+          <tr>
+           <td class="node" rowspan="1">
+            2
+            <span class="hcolor">
+             &hearts;
+            </span>
+           </td>
+           <td>
+            MAX, 4+
+            <span class="hcolor">
+             &hearts;
+            </span>
+           </td>
+          </tr>
+         </table>
+        </li>
+        <li class="last node">
+         <table>
+          <tr>
+           <td class="node" rowspan="1">
+            2
+            <span class="scolor">
+             &spades;
+            </span>
+           </td>
+           <td>
+            MAX, 3=
+            <span class="scolor">
+             &spades;
+            </span>
+           </td>
+          </tr>
+         </table>
+        </li>
+       </ul>
       </li>
       <li class="node">
        <table>
@@ -9483,63 +9584,10 @@ Gladiator-like relay because it puppets to 2
           </span>
          </td>
          <td>
-          !FG XYZ (R)
+          !FG CB
          </td>
         </tr>
        </table>
-       <ul>
-        <li class="node">
-         <table>
-          <tr>
-           <td class="node" rowspan="1">
-            2
-            <span class="hcolor">
-             &hearts;
-            </span>
-           </td>
-           <td>
-            4+
-            <span class="hcolor">
-             &hearts;
-            </span>
-           </td>
-          </tr>
-         </table>
-        </li>
-        <li class="node">
-         <table>
-          <tr>
-           <td class="node" rowspan="1">
-            2
-            <span class="scolor">
-             &spades;
-            </span>
-           </td>
-           <td>
-            3=
-            <span class="scolor">
-             &spades;
-            </span>
-           </td>
-          </tr>
-         </table>
-        </li>
-        <li class="last node">
-         <table>
-          <tr>
-           <td class="node" rowspan="1">
-            2NT
-           </td>
-           <td>
-            2=
-            <span class="scolor">
-             &spades;
-            </span>
-           </td>
-          </tr>
-         </table>
-        </li>
-       </ul>
       </li>
       <li class="node">
        <table>
@@ -9588,7 +9636,11 @@ Gladiator-like relay because it puppets to 2
           2NT
          </td>
          <td>
-          !TRF, 7&ndash;9 or 12+ HCP, 4+
+          !TRF, PRE 4+
+          <span class="ccolor">
+           &clubs;
+          </span>
+          or FG 3+
           <span class="ccolor">
            &clubs;
           </span>
@@ -9785,21 +9837,6 @@ Gladiator-like relay because it puppets to 2
       &diams;
      </span>
      <ul>
-      <li class="node">
-       <table>
-        <tr>
-         <td class="node" rowspan="1">
-          Pass
-         </td>
-         <td>
-          5+
-          <span class="dcolor">
-           &diams;
-          </span>
-         </td>
-        </tr>
-       </table>
-      </li>
       <li class="node">
        <table>
         <tr>
@@ -9920,7 +9957,7 @@ Gladiator-like relay because it puppets to 2
           </span>
          </td>
          <td>
-          MAX INV, 6+
+          INV, S-SOL 6+
           <span class="scolor">
            &spades;
           </span>
