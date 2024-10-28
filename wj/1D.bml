@@ -7,16 +7,17 @@ P  = 0--7 HCP, 5+!d
 1H = F, 4+!h
 1S = F, 4+!s
 1N = NF, 8--11 HCP, 4+!d
-2C = PRE, 0--7 HCP, 3+!c
-2D = FG, 5+!d
+2C = PRE, 0--8 HCP, 3+!c
+2D = INV, 6+!d
 2H = !INV+, 3+!c, shows !h stopper or asks for !s stopper
 2S = !INV+, 3+!c, shows !s stopper or asks for !h stopper
-2N = !PRE, 0--7 HCP, 4+!c
+2N = !TRF, PRE 4+!c or BAL FG
 3C = !Mixed raise, 8--9 HCP, 4+!c
-3D = !SPL, 0--1!d, 4+!c, 12--15 HCP
-3H = !SPL, 0--1!h, 4+!c, 12--15 HCP
-3S = !SPL, 0--1!s, 4+!c, 12--15 HCP
-3N = 12--15 HCP, 2--3!s, 2--3!h, 2--4!d, 2--4!c
+3D = FG, 6+!d
+3H = !FG SPL, 0--1!h, 0--3!s, 4+!c
+3S = !FG SPL, 0--1!s, 0--3!h, 4+!c
+3N = To play, 12--15 HCP, 1--3!s, 1--3!h, 1--3!c
+4C = S/T, 15+ HCP, 4+!c
 
 ** The 1M responses
 
