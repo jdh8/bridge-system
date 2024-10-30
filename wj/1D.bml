@@ -203,7 +203,7 @@ R  = NF BAL G/T, 10+ HCP
 2C = !TRF, PRE or FG, 3+!d
 2D = CONST, 7--9 HCP, 3+!d
 2M = PRE, 3--9 HCP, 6+#
-2N = !G/T, 10+ HCP, 4+!d
+2N = !G/T, 10+ HCP, 4+!d, Truscott
 3C = !CONST, 7--9 HCP, 4+!d
 3D = PRE, 4--6 HCP, 4+!d
 3H = !FG SPL, 0--1!h, 0--3!s, 4+!d
@@ -230,3 +230,12 @@ D  = !TRF, 7+ HCP, 4+!s
 D  = !NEG, 7+ HCP, 4+!h
 2H = NF, 7--11 HCP, 5+!h
 3H = PRE, 7+!h or S-SOL 6=!h
+
+1D-(1N)-
+D  = PEN, nearly BAL, 10+ HCP
+2D = PRE, 3--9 HCP, 3+!d
+2X = PRE, 3--9 HCP, 5+#
+2N = !PRE 7+!c, INV+ 4+!d, or UNBAL FG
+3C = !CONST, 7--9 HCP, 4+!d
+3D = PRE, 4--6 HCP, 4+!d
+3M = PRE, 7+#

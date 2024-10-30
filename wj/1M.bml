@@ -99,25 +99,38 @@ We don't play Drury here.  For a 3-card limit raise without a 5-card side suit,
 
 We play transfers over 1M-(Dbl) as suggested by /Polish Club 2020: Expert./
 
-- *From 1NT to 2M-1*: transfers
-- *Simple raise*: constructive raise
-- *Other bids*: same as uncontested
-
 1H-(D)-
-R  = INV+, BAL 2--3!h or 4144
+R  = Nearly BAL INV+, 1--3!h
 1S = F, 5+!s
 1N = !TRF, 5+!c
 2C = !TRF, 5+!d
-2D = !FG or weak, 3+!h
+2D = !PRE or FG, 3+!h
 2H = CONST, 3+!h
-2S = !INV, (54)+ in minors
-2N = !INV+, 4+!h, Truscott
+2S = !INV+ T/O, 4+!d, 4+!c
+2N = !G/T, 4+!h, Truscott
+3X = PRE, 7+#
+3H = PRE, 4+!h
 
 1S-(D)-
-R  = INV+, BAL 2--3!s or 1444
+R  = Nearly BAL INV+, 1--3!s
 1N = !TRF, 5+!c
 2C = !TRF, 5+!d
 2D = !TRF, 5+!h
-2H = !FG or weak, 3+!s
+2H = !PRE or FG, 3+!s
 2S = CONST, 3+!s
-2N = !INV+, 4+!s, Truscott
+2N = !G/T, 4+!s, Truscott
+3X = PRE, 7+#
+3S = PRE, 4+!s
+
+We treat 1!h-(1!s) as 1!h-(X) for their similarities.
+
+1H-(1S)-
+D  = Nearly BAL INV+, 1--3!h
+1N = !TRF, 5+!c
+2C = !TRF, 5+!d
+2D = !PRE or FG, 3+!h
+2H = CONST, 3+!h
+2S = !INV+ T/O, 4+!d, 4+!c
+2N = !G/T, 4+!h, Truscott
+3X = PRE, 7+#
+3H = PRE, 4+!h
