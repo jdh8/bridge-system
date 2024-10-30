@@ -17,6 +17,7 @@ point count increases.
 2S = !INV+, 4+!d or 6+!c
   2N = MIN P/C, 0--1!c
   3C = MIN P/C, 2+!c
+  3D = MIN, 6+!d
 2N = BAL INV, 10--11 HCP
 3C = !CONST, 7--9 HCP, 4+!d
 3D = !PRE, 5--7 HCP, 4+!d
@@ -152,3 +153,25 @@ As a corollary, natural 2X are wide-range invitations and 3X become slam tries.
 3H = INV, 5+!h, 5+!s
 3S = INV, S-SOL 6+!s
 3N = Choice of games, 5314
+
+*** Reverses and Lebensohl
+
+For a precise game try, we sacrifice 2NT as Lebensohl to park minimum hands.
+
+1D-1H-2S-
+2N = !F MIN
+  3C = !MIN (R), 15--17 HCP
+3C = !“4SFG”
+3D = INV, 2+!d
+3H = INV, 5+!h
+3S = FG, 4+!s
+
+1D-1S-2H-
+2S = NF, 5+!s
+2N = !F MIN
+  3C = !MIN (R), 15--17 HCP, 4+!h
+  3D = MIN, 6+!d, 3=!s
+3C = !4SFG
+3D = INV, 2+!d
+3H = FG, 4+!h
+3S = FG, 5+!s
