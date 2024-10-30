@@ -20,7 +20,7 @@ point count increases.
   3D = MIN, 6+!d
 2N = BAL INV, 10--11 HCP
 3C = !CONST, 7--9 HCP, 4+!d
-3D = !PRE, 5--7 HCP, 4+!d
+3D = PRE, 4--6 HCP, 4+!d
 3H = !FG SPL, 0--1!h, 0--3!s, 4+!d
 3S = !FG SPL, 0--1!s, 0--3!h, 4+!d
 
@@ -170,8 +170,63 @@ For a precise game try, we sacrifice 2NT as Lebensohl to park minimum hands.
 2S = NF, 5+!s
 2N = !F MIN
   3C = !MIN (R), 15--17 HCP, 4+!h
-  3D = MIN, 6+!d, 3=!s
+  3D = MIN, 15--17 HCP, 6+!d, 3=!s
 3C = !4SFG
 3D = INV, 2+!d
 3H = FG, 4+!h
 3S = FG, 5+!s
+
+** The game-forcing 2!c
+
+The 2!c response is considered 2/1 FG in this bidding system.  It either is
+natural or conceals a fit in diamonds.
+
+1D-2C-
+2D = MIN, 12--14 HCP
+2H = S/T, 15+ HCP, 4+!h
+2S = S/T, 15+ HCP, 4+!s
+2N = S/T, 15--17 HCP, 4441
+3C = S/T, 15+ HCP, 4+!c
+3D = S/T, 15+ HCP, 6+!d
+3H = !SPL, 12--14 or 18--20 HCP, 0--1!h, 0--3!s, 4+!c
+3S = !SPL, 12--14 or 18--20 HCP, 0--1!s, 0--3!h, 4+!c
+3N = MIN, 12--14 HCP, 4441
+
+** Competitive bidding
+
+Our competitive bidding structure is similar to the 1!c opening.
+
+1D-(D)-
+R  = NF BAL G/T, 10+ HCP
+1M = F, 6+ HCP, 4+#
+1N = !TRF, 6+ HCP, 5+!c
+2C = !TRF, PRE or FG, 3+!d
+2D = CONST, 7--9 HCP, 3+!d
+2M = PRE, 3--9 HCP, 6+#
+2N = !G/T, 10+ HCP, 4+!d
+3C = !CONST, 7--9 HCP, 4+!d
+3D = PRE, 4--6 HCP, 4+!d
+3H = !FG SPL, 0--1!h, 0--3!s, 4+!d
+3S = !FG SPL, 0--1!s, 0--3!h, 4+!d
+
+1D-(1M)-
+1N = BAL INV, 9--11 HCP
+2C = !TRF INV+, 10+ HCP, 3+!d
+2D = CONST, 7--9 HCP, 3+!d
+2M = !TRF INV+, 10+ HCP, 5+!c
+2N = !BAL FG with stopper
+3C = !CONST, 7--9 HCP, 4+!d
+3D = PRE, 4--6 HCP, 4+!d
+3M = !FG SPL, 0--1#, 4+!d
+
+1D-(1H)-
+D  = !TRF, 7+ HCP, 4+!s
+  1S = MIN, 12--14 HCP, 3=!s
+1S = !TRF to 1NT, 7+ HCP
+2S = PRE, 3--9 HCP, 6+!s
+3S = PRE, 7+!s
+
+1D-(1S)-
+D  = !NEG, 7+ HCP, 4+!h
+2H = NF, 7--11 HCP, 5+!h
+3H = PRE, 7+!h or S-SOL 6=!h
