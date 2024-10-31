@@ -35,24 +35,24 @@ suit.  We mix 15--17 HCP 6+!d and 18--20 HCP 5+!d hands in the same group.
 2C = 12--17 HCP, 4+!c
 2D = 12--14 HCP, 6+!d
 2H = 12--14 HCP, 4+!h
-2S = !F G/T, 15+ HCP, 3=!h
-2N = F G/T, 15+ HCP, 2=!h
+2S = !F G/T, 15--20 HCP, 3=!h
+2N = F G/T, 15--20 HCP, 2=!h
 3C = 15--17 HCP, 5+!c
 3D = 15--17 HCP, 6+!d, 0--1!h
 3H = INV, 15--17 HCP, 4+!h
-3S = !FRAG, 18+ HCP, 0--1!h
+3S = !FRAG, 18--20 HCP, 0--1!h
 3N = SOL 7+!d, partial stops in !s and !c
 
 1D-1S-
 1N = 12--14 HCP, 4--5!d
 2C = 12--17 HCP, 4+!c
 2D = 12--14 HCP, 6+!d
-2H = !F G/T, 15+ HCP, 4+!h or 3=!s
+2H = !F G/T, 15--20 HCP, 4+!h or 3=!s
 2S = 12--14 HCP, 4+!s or 3451
-2N = F G/T, 15+ HCP, 2=!s
+2N = F G/T, 15--20 HCP, 2=!s
 3C = 15--17 HCP, 5+!c
 3D = 15--17 HCP, 6+!d, 0--1!s
-3H = !FRAG, 18+ HCP, 0--1!s
+3H = !FRAG, 18--20 HCP, 0--1!s
 3S = INV, 15--17 HCP, 4+!s
 3N = SOL 7+!d, partial stops in !h and !c
 
@@ -183,11 +183,11 @@ natural or conceals a fit in diamonds.
 
 1D-2C-
 2D = MIN, 12--14 HCP
-2H = S/T, 15+ HCP, 4+!h
-2S = S/T, 15+ HCP, 4+!s
+2H = S/T, 15--20 HCP, 4+!h
+2S = S/T, 15--20 HCP, 4+!s
 2N = S/T, 15--17 HCP, 4441
-3C = S/T, 15+ HCP, 4+!c
-3D = S/T, 15+ HCP, 6+!d
+3C = S/T, 15--20 HCP, 4+!c
+3D = S/T, 15--20 HCP, 6+!d
 3H = !SPL, 12--14 or 18--20 HCP, 0--1!h, 0--3!s, 4+!c
 3S = !SPL, 12--14 or 18--20 HCP, 0--1!s, 0--3!h, 4+!c
 3N = MIN, 12--14 HCP, 4441
