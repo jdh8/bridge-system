@@ -326,14 +326,14 @@ fairly naturally.
 
 1C-1N-
 2C = MIN, 12--14 HCP, 6+!c
-2D = INV, 13--14 HCP, 4+!d
+2D = FG, 18+ HCP, 5+!d
 2H = FG, 18+ HCP, 5+!h
 2S = FG, 18+ HCP, 5+!s
 2N = BAL INV, ~14 HCP
-3C = FG, 18+ HCP, 6+!c
-3D = FG, 18+ HCP, 6+!d
-3H = !FG SPL, 18+ HCP, 0--1!h
-3S = !FG SPL, 18+ HCP, 0--1!s
+3C = FG, 18+ HCP, 5+!c
+3D = !FG SPL, 0--1!d
+3H = !FG SPL, 0--1!h
+3S = !FG SPL, 0--1!s
 
 1C-2N-
 3C = 15+ HCP, 4+!c
