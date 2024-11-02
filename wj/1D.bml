@@ -26,8 +26,8 @@ point count increases.
 
 ** The 1M responses
 
-Opener rebids fairly naturally.  We group G/T hands by the length of the major
-suit.  We mix 15--17 HCP 6+!d and 18--20 HCP 5+!d hands in the same group.
+Opener rebids fairly naturally.  Apart from /Polish Club 2020: Expert/, we move
+fit reverses to the 3-level.  This allows more exploration of a 2-6 major fit.
 
 1D-1H-
 1S = 12--17 HCP, 4+!s
@@ -35,24 +35,24 @@ suit.  We mix 15--17 HCP 6+!d and 18--20 HCP 5+!d hands in the same group.
 2C = 12--17 HCP, 4+!c
 2D = 12--14 HCP, 6+!d
 2H = 12--14 HCP, 4+!h
-2S = !F G/T, 15--20 HCP, 3=!h
-2N = F G/T, 15--20 HCP, 2=!h
+2S = !F, 15--17 HCP, 6+!d, 0--2!h
+2N = 18--20 HCP, 0--2!h
 3C = 15--17 HCP, 5+!c
-3D = 15--17 HCP, 6+!d, 0--1!h
+3D = !NF, 15--17 HCP, 6+!d, 3=!h
 3H = INV, 15--17 HCP, 4+!h
-3S = !FRAG, 18--20 HCP, 0--1!h
+3S = !FG, 18--20 HCP, 3=!h
 3N = SOL 7+!d, partial stops in !s and !c
 
 1D-1S-
 1N = 12--14 HCP, 4--5!d
 2C = 12--17 HCP, 4+!c
 2D = 12--14 HCP, 6+!d
-2H = !F G/T, 15--20 HCP, 4+!h or 3=!s
+2H = !F, 15--20 HCP, 4+!h or 6+!d 0--2!s
 2S = 12--14 HCP, 4+!s or 3451
-2N = F G/T, 15--20 HCP, 2=!s
+2N = 18--20 HCP, 0--2!s
 3C = 15--17 HCP, 5+!c
-3D = 15--17 HCP, 6+!d, 0--1!s
-3H = !FRAG, 18--20 HCP, 0--1!s
+3D = !NF, 15--17 HCP, 6+!d, 3=!s
+3H = !FG, 18--20 HCP, 3=!s
 3S = INV, 15--17 HCP, 4+!s
 3N = SOL 7+!d, partial stops in !h and !c
 
@@ -159,22 +159,23 @@ As a corollary, natural 2X are wide-range invitations and 3X become slam tries.
 For a precise game try, we sacrifice 2NT as Lebensohl to park minimum hands.
 
 1D-1H-2S-
-2N = !F MIN
-  3C = !MIN (R), 15--17 HCP
-3C = !“4SFG”
-3D = INV, 2+!d
-3H = INV, 5+!h
-3S = FG, 4+!s
+2N = !PUP, MIN
+3C = !“4SFG”, ask for 3=!s or stopper
+3D = FG, 2+!d
+3H = FG, 6+!h
+3S = FG, 6+!s
 
 1D-1S-2H-
-2S = NF, 5+!s
-2N = !F MIN
-  3C = !MIN (R), 15--17 HCP, 4+!h
-  3D = MIN, 15--17 HCP, 6+!d, 3=!s
+2S = NF, 6+!s
+2N = !(R), MIN
+  3C = 4+!h
+  3D = 6+!d
 3C = !4SFG
-3D = INV, 2+!d
+  3D = 6+!d
+  3H = 4+!h
+3D = FG, 3+!d
 3H = FG, 4+!h
-3S = FG, 5+!s
+3S = FG, 6+!s
 
 ** The game-forcing 2!c
 
