@@ -1,26 +1,26 @@
 * Over natural (1X)
 
 (1Y)-
-D  = T/O 25+ ZP (~11+ HCP) or any 33+ ZP (good 16+ HCP)
-1Z = 5+#, 21--32 ZP (9--17 points)
-1N = 29--32 ZP (15--17 HCP) w/ likely stop
-2X = 5+#, 25--32 ZP (11--17 HCP)
-2Z = 6+#, 15--25 ZP (4--10 HCP)
-2N = !UNT, 55+ in lowest two unbid suits
-3X = 7+#, 21--25 ZP (5--9 HCP)
-3Y = !Gambling, SOL 7+m, at most partial stop
-3Z = 7+#, 21--25 ZP (5--9 HCP)
-3N = !Gambling, SOL 7+m w/ likely stop
+D  = T/O, 13+ points
+1Z = NAT, 9--17 points, usually 5+#
+1N = NAT, 15--17 HCP with stopper
+2X = NAT, 12--17 points, 5+#
+2Z = PRE, 4--10 HCP, 6+#
+2N = !UNT, 5+ 5+ in lowest two unbid suits
+3X = PRE, 5--9 HCP, usually 7+#
+3Y = !Gambling, SOL 7+ suit without stopper
+3Z = PRE, 5--9 HCP, usually 7+#
+3N = !Gambling, SOL 7+ suit with stopper
 
 (1C)-
 2C = !Landy, 4+!s, 4+!h
-  2D = !(R), equal preference
+  2D = !Equal preference
 
 (1D)-
-2D = !Michaels, 5+!s, 5+!h
+2D = !Michaels, 4+!s, 5+!h
 
 (1H)-
-2H = !Michaels, 5+!s, 5+m
+2H = !Michaels, 5+!s, 4+m
 
 (1S)-
 2S = !Michaels, 5+!h, 5+m
@@ -30,66 +30,94 @@ Due to insufficient strength, 1NT by passed hand becomes unusual.
 #SEAT 4
 
 (1X)-
-1N = !UNT, 55+ in lowest two unbid suits
+1N = !UNT, 4+ 4+ in lowest two unbid suits
 
 #SEAT 0
 
 ** Balancing overcall
 
+Different from a direct overcall, a simple balancing overcall is tentative,
+while a jump overcall is sound.
+
 (1Y)-P-
-D  = T/O 21+ ZP (8+ HCP) or any 29+ ZP (15+ HCP)
-1Z = 4+#, 21--28 ZP (8--14 HCP)
-2X = 5+#, 21--28 ZP (8--14 HCP)
-2Z = 6+#, 21--25 ZP (8--11 HCP)
+D  = T/O, 8+ HCP
+1Z = NAT, 8--15 HCP, 4+#
+2X = NAT, 8--15 HCP, 5+#
+2Z = NAT, 11--15 HCP, 6+#
+3X = NAT, 11--15 HCP, 6+#
 
 *** Notrump overcalls
 
 #SEAT 1
 
+By unpassed hand, notrump overcalls are natural because we want a sound 2NT.
+
+- 13--15 HCP: 1NT
+- 16--18 HCP: X, then notrump
+- 19--21 HCP: 2NT
+
 (1X)-P-
-1N = 12--15 HCP w/ stop
-2N = 19--21 HCP w/ stop
+1N = 13--15 HCP with stopper
+2N = 19--21 HCP with stopper
 
 #SEAT 0
 
 Like a direct overcall, 1NT by passed hand is unusual.
 
 (1X)-P-
-1N = !UNT, 55+ in lowest two unbid suits
+1N = !UNT, 4+ 4+ in lowest two unbid suits
 
 ** Advances to (1X)-1Y
 
-Raises and the higher new suit are more suit-oriented, so we use evaluations
-better for suit contracts.  We use the jump cuebid as a mixed raise.
+Raises are natural and non-forcing.  Note that the overcall occasionally
+contains only 4 cards.  We always raise to the 3-level with 4+ trumps.
+
+Z, a suit higher than Y, is always a major suit.  Bidding 1Z is forcing for
+constructiveness. Jump advances in Z are preemptive.
+
+Notrump advances are natural in the sense of showing length or a stopper in the
+adverse suit.
 
 (1X)-1Y-
-1Z = F, 4+#, usually 21+ ZP (8+ HCP)
-2Y = CONST, 21--24 ZP (8--11 HCP), 3+#
-2Z = PRE, 8--20 ZP (0--7 HCP), 6+#
-3X = !Mixed raise, 21--24 ZP (8--10 HCP), 4+Y
-3Y = PRE, 8--20 ZP (0--7 HCP), 4+#
+1Z = F, 4+#, usually 8+ HCP
+1N = NAT, 9--12 HCP
+2Y = CONST, 3+#
+2Z = PRE, 6+#
+2N = NAT INV, 13--15 HCP
+3Y = PRE, 4+#
 
-Notrump and the lower new suit are natural and non-forcing.  Note that the lower
-new suit is always a minor suit.  We are more interested in 3NT than a minor
-suit game.  If you have a strong hand without a stopper, cuebid to ask for a
-stopper.
+Let's reword the auction as (1Y)-1Z to discuss X, a suit lower than Y. X is
+always a minor suit.  We are more interested in 3NT than a minor suit game.
+Therefore, we bear the presence of a stopper in mind.  Sometimes we have to bid
+a 4-card 2X because we lack a stopper to bid notrump.
+
+Aggressor still has the chance to query a stopper with a cuebid.  That is why we
+can bid fairly naturally here.
 
 (1Y)-1Z-
-1N = NAT, 9--12 HCP
-2X = NF, 9--13 HCP, 5+#
-2N = NAT INV, 13--15 HCP
-3X = NF, 14--15 HCP, 6+#
+2X = F unless by PH, 9+ HCP, usually 5+#
+3X = INV, 6+#
 
-We use Rubens advances, where calls from the direct cuebid to the suit below the single raise are transfers.
+The other suits are Rubens advances.  Cuebids and suits in between are
+transfers.  After rephrasing the auction as (1X)-1Z, Y is a suit in between.
+There is no distinction between X and Y.  Transfer supports are special
+nevertheless.
 
-- *Transfer to a new suit*: 9+ HCP, 5+ cards in the new suit
-- *Transfer support*: INV+, 3+ card support, opening strength (or 10+ HCP by PH)
+- *4steps = 2Z − 1*: limit raise or better, 3+ support
+- *9steps = 3Z − 1*: mixed raise, 4+ support
+- *Other 2XY*: 9+ HCP, usually 5+ cards
+- *Other 3XY*: Game try with 6+ cards
 
-The direct cuebid also asks for a stopper for the strong hands.
+Despite that we have skipped the cuebid, aggressor can dissuade further
+investigation by simply accepting the transfer.
 
 (1X)-1Z-
-2X = !F, TRF or 14+ HCP
-2Y = !TRF
+4steps = !TRF LIM+, 3+ support
+9steps = !TRF CONST, 4+ support
+2X = !TRF, 9+ HCP, usually 5+ cards
+2Y = !TRF, 9+ HCP, usually 5+ cards
+3X = !TRF G/T, 6+ cards
+3Y = !TRF G/T, 6+ cards
 
 ** Advances to (1X)-1NT
 

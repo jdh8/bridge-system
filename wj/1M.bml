@@ -137,7 +137,10 @@ D  = Nearly BAL INV+, 1--3!h
 3X = PRE, 7+#
 3H = PRE, 4+!h
 
+The sequences 1M-(1NT) and 1M-(2!c) are also similar.
+
 1M-(1N)-
+D  = Nearly BAL INV+
 2X = PRE, 5+#
 2M = PRE, 3+#
 2N = !TRF, PRE 7+!c or FG 6+!c
@@ -147,19 +150,25 @@ D  = Nearly BAL INV+, 1--3!h
 3S = !Gambling, SOL 7+ suit with no stopper outside
 3N = !Gambling, SOL 7+ suit with one stopper outside
 
+1H-(1N)-
+3D = !TRF G/T, 4+!h
+
 1S-(1N)-
 3H = !TRF G/T, 4+!s
 
-Here comes something different between 1!h and 1!s.  Over 1!h, we yearn
-a negative free bid in spades before 2!h.  A transfer scheme fulfills such
-wish.  On the other hand, this sorcery does not fit 1!s.
-
-1H-(1N)-
-2C = !TRF, 5+!d
-2D = !TRF, 5+!s
-2S = !TRF, usually 6+!c
-3D = !TRF G/T, 4+!h
+1M-(2C)-
+D  = Nearly BAL INV+
+2X = NF, 5+#
+2M = NF, 3+#
+2N = !TRF, PRE 7+!c or FG 6+!c
+3C = !TRF, PRE 7+!d or FG 6+!d
+3D = !TRF, PRE 7+!h or FG 6+!h
+3H = !TRF, PRE 7+!s or FG 6+!s
+3S = !Gambling, SOL 7+ suit without stopper
+3N = !Gambling, SOL 7+ suit with stopper
 
 1H-(2C)-
-2D = !TRF, 5+!s
-2S = !TRF G/T, 5+!d
+3D = !TRF G/T, 4+!h
+
+1S-(2C)-
+3H = !TRF G/T, 4+!s
