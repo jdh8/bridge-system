@@ -69,6 +69,8 @@ Like a direct overcall, 1NT by passed hand is unusual.
 
 ** Advances to (1X)-1Y
 
+*** High strains
+
 Raises are natural and non-forcing.  Note that the overcall occasionally
 contains only 4 cards.  We always raise to the 3-level with 4+ trumps.
 
@@ -86,6 +88,25 @@ adverse suit.
 2N = NAT INV, 13--15 HCP
 3Y = PRE, 4+#
 
+As 1Z is pretty similar to a direct overcall, aggressor somehow mirrors the
+auction but without Rubens advances.  Aggressor does not have a weak hand with
+6+# because they would have jumped in the first place.
+
+(1m)-1Y-1M-
+1N = NAT, at most 12 HCP
+2m = LIM+, 3+ SUPP
+2X = NAT, 9--14 points, 4+#
+2Y = NAT, 12--14 points, 6+#
+2Z = NAT, 12--17 points, 4+#
+2M = CONST, 3+#
+2N = NAT INV, 13--15 HCP
+3m = CONST, 4+ SUPP
+3X = NAT, 15--17 points, 4+#
+3Y = NAT, 15--17 points, 6+#
+3M = PRE, 4+#
+
+*** Low strains
+
 Let's reword the auction as (1Y)-1Z to discuss X, a suit lower than Y. X is
 always a minor suit.  We are more interested in 3NT than a minor suit game.
 Therefore, we bear the presence of a stopper in mind.  Sometimes we have to bid
@@ -97,6 +118,19 @@ can bid fairly naturally here.
 (1Y)-1Z-
 2X = F unless by PH, 9+ HCP, usually 5+#
 3X = INV, 6+#
+
+Rebidding to a lower strain is similar to 2/1 or Drury.  Returning to the own
+suit is the weakest action.  If advancer has passed, it is also good to pass
+with a balanced minimum.
+
+(1Y)-1M-2m-
+2Y = F, 12--17 points
+2M = MIN, 9--11 points, 5+#
+2N = NAT INV, 12--14 HCP
+3m = MIN, 9--11 points, usually 4+#
+3M = NAT, 15--17 points, 6+#
+
+*** Middle strains
 
 The other suits are Rubens advances.  Cuebids and suits in between are
 transfers.  After rephrasing the auction as (1X)-1Z, Y is a suit in between.
