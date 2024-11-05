@@ -1945,97 +1945,6 @@ still threat to stop in our natural 2
    By passed hand, we play Meckwell DONT as if against a strong notrump.
   </p>
   <h1>
-   Over strong (2
-   <span class="ccolor">
-    &clubs;
-   </span>
-   )
-  </h1>
-  <p>
-   We simply play Mathe with follow-ups same as Landy over (2
-   <span class="ccolor">
-    &clubs;
-   </span>
-   ).  The strong 2
-   <span class="ccolor">
-    &clubs;
-   </span>
-   is already self-preemptive, so we don't need to worry about that.
-  </p>
-  <div class="tree">
-   <ul>
-    <li class="root">
-     (2
-     <span class="ccolor">
-      &clubs;
-     </span>
-     )
-     <ul>
-      <li class="node">
-       <table>
-        <tr>
-         <td class="node" rowspan="1">
-          Dbl
-         </td>
-         <td>
-          !Mathe/Landy, (54)+ in majors
-         </td>
-        </tr>
-       </table>
-       <ul>
-        <li class="last node">
-         <table>
-          <tr>
-           <td class="node" rowspan="1">
-            2
-            <span class="dcolor">
-             &diams;
-            </span>
-           </td>
-           <td>
-            !Equal preference
-           </td>
-          </tr>
-         </table>
-        </li>
-       </ul>
-      </li>
-      <li class="node">
-       <table>
-        <tr>
-         <td class="node" rowspan="1">
-          2X
-         </td>
-         <td>
-          5+#
-         </td>
-        </tr>
-       </table>
-      </li>
-      <li class="last node">
-       <table>
-        <tr>
-         <td class="node" rowspan="1">
-          2NT
-         </td>
-         <td>
-          !UNT, 5+
-          <span class="dcolor">
-           &diams;
-          </span>
-          , 5+
-          <span class="ccolor">
-           &clubs;
-          </span>
-         </td>
-        </tr>
-       </table>
-      </li>
-     </ul>
-    </li>
-   </ul>
-  </div>
-  <h1>
    Over natural (2X)
   </h1>
   <div class="tree">
@@ -2267,9 +2176,75 @@ advancer is more likely to have a stopper.  Inviting with 2NT right-sides the
 contract more often than not.
   </p>
   <p>
-   There are subtle differences among adverse suits.  We adjust them case by
-case.
+   I put special cases before general rules to generate correct BSS files.
   </p>
+  <div class="tree">
+   <ul>
+    <li class="root">
+     (2
+     <span class="scolor">
+      &spades;
+     </span>
+     )-Dbl-2NT
+     <ul>
+      <li class="node">
+       <table>
+        <tr>
+         <td class="node" rowspan="1">
+          3
+          <span class="dcolor">
+           &diams;
+          </span>
+         </td>
+         <td>
+          !FG, 3=
+          <span class="hcolor">
+           &hearts;
+          </span>
+         </td>
+        </tr>
+       </table>
+      </li>
+      <li class="node">
+       <table>
+        <tr>
+         <td class="node" rowspan="1">
+          3
+          <span class="hcolor">
+           &hearts;
+          </span>
+         </td>
+         <td>
+          FG, 4+
+          <span class="hcolor">
+           &hearts;
+          </span>
+         </td>
+        </tr>
+       </table>
+      </li>
+      <li class="last node">
+       <table>
+        <tr>
+         <td class="node" rowspan="1">
+          3
+          <span class="scolor">
+           &spades;
+          </span>
+         </td>
+         <td>
+          !FG, 0&ndash;2
+          <span class="hcolor">
+           &hearts;
+          </span>
+         </td>
+        </tr>
+       </table>
+      </li>
+     </ul>
+    </li>
+   </ul>
+  </div>
   <div class="tree">
    <ul>
     <li class="root">
@@ -2277,13 +2252,37 @@ case.
      <span class="ccolor">
       &clubs;
      </span>
-     )-Dbl
+     )-Dbl-2NT-3
+     <span class="ccolor">
+      &clubs;
+     </span>
+     <ul>
+      <li class="last node">
+       <table>
+        <tr>
+         <td class="node" rowspan="1">
+          3X
+         </td>
+         <td>
+          MIN INV, usually 4=#
+         </td>
+        </tr>
+       </table>
+      </li>
+     </ul>
+    </li>
+   </ul>
+  </div>
+  <div class="tree">
+   <ul>
+    <li class="root">
+     (2Y)-Dbl
      <ul>
       <li class="node">
        <table>
         <tr>
          <td class="node" rowspan="1">
-          2X
+          2Z
          </td>
          <td>
           COMP, 4+#
@@ -2317,6 +2316,44 @@ case.
            </td>
           </tr>
          </table>
+         <ul>
+          <li class="node">
+           <table>
+            <tr>
+             <td class="node" rowspan="1">
+              3X
+             </td>
+             <td>
+              S/O
+             </td>
+            </tr>
+           </table>
+          </li>
+          <li class="node">
+           <table>
+            <tr>
+             <td class="node" rowspan="1">
+              3Y
+             </td>
+             <td>
+              !TRF, 4= next suit
+             </td>
+            </tr>
+           </table>
+          </li>
+          <li class="last node">
+           <table>
+            <tr>
+             <td class="node" rowspan="1">
+              3Z
+             </td>
+             <td>
+              !TRF, 4= next suit
+             </td>
+            </tr>
+           </table>
+          </li>
+         </ul>
         </li>
         <li class="node">
          <table>
@@ -2330,149 +2367,11 @@ case.
           </tr>
          </table>
         </li>
-        <li class="last node">
-         <table>
-          <tr>
-           <td class="node" rowspan="1">
-            3NT
-           </td>
-           <td>
-            MAX BAL
-           </td>
-          </tr>
-         </table>
-        </li>
-       </ul>
-      </li>
-      <li class="node">
-       <table>
-        <tr>
-         <td class="node" rowspan="1">
-          3
-          <span class="ccolor">
-           &clubs;
-          </span>
-         </td>
-         <td>
-          !TRF INV+, 4+
-          <span class="dcolor">
-           &diams;
-          </span>
-         </td>
-        </tr>
-       </table>
-      </li>
-      <li class="node">
-       <table>
-        <tr>
-         <td class="node" rowspan="1">
-          3
-          <span class="dcolor">
-           &diams;
-          </span>
-         </td>
-         <td>
-          !TRF INV+, 4+
-          <span class="hcolor">
-           &hearts;
-          </span>
-         </td>
-        </tr>
-       </table>
-      </li>
-      <li class="node">
-       <table>
-        <tr>
-         <td class="node" rowspan="1">
-          3
-          <span class="hcolor">
-           &hearts;
-          </span>
-         </td>
-         <td>
-          !TRF INV+, 4+
-          <span class="scolor">
-           &spades;
-          </span>
-         </td>
-        </tr>
-       </table>
-      </li>
-      <li class="last node">
-       <table>
-        <tr>
-         <td class="node" rowspan="1">
-          3
-          <span class="scolor">
-           &spades;
-          </span>
-         </td>
-         <td>
-          !Ask for stopper
-         </td>
-        </tr>
-       </table>
-      </li>
-     </ul>
-    </li>
-   </ul>
-  </div>
-  <div class="tree">
-   <ul>
-    <li class="root">
-     (2
-     <span class="dcolor">
-      &diams;
-     </span>
-     )-Dbl
-     <ul>
-      <li class="node">
-       <table>
-        <tr>
-         <td class="node" rowspan="1">
-          2M
-         </td>
-         <td>
-          COMP, 4+#
-         </td>
-        </tr>
-       </table>
-      </li>
-      <li class="node">
-       <table>
-        <tr>
-         <td class="node" rowspan="1">
-          2NT
-         </td>
-         <td>
-          !INV+ (R)
-         </td>
-        </tr>
-       </table>
-       <ul>
         <li class="node">
          <table>
           <tr>
            <td class="node" rowspan="1">
-            3
-            <span class="ccolor">
-             &clubs;
-            </span>
-           </td>
-           <td>
-            !NF MIN (R)
-           </td>
-          </tr>
-         </table>
-        </li>
-        <li class="node">
-         <table>
-          <tr>
-           <td class="node" rowspan="1">
-            3
-            <span class="dcolor">
-             &diams;
-            </span>
+            3Y
            </td>
            <td>
             !FG, 4+
@@ -2487,382 +2386,10 @@ case.
          <table>
           <tr>
            <td class="node" rowspan="1">
-            3M
+            3Z
            </td>
            <td>
             FG, 4+#
-           </td>
-          </tr>
-         </table>
-        </li>
-        <li class="last node">
-         <table>
-          <tr>
-           <td class="node" rowspan="1">
-            3NT
-           </td>
-           <td>
-            MAX BAL
-           </td>
-          </tr>
-         </table>
-        </li>
-       </ul>
-      </li>
-      <li class="node">
-       <table>
-        <tr>
-         <td class="node" rowspan="1">
-          3
-          <span class="ccolor">
-           &clubs;
-          </span>
-         </td>
-         <td>
-          !STAY
-         </td>
-        </tr>
-       </table>
-      </li>
-      <li class="node">
-       <table>
-        <tr>
-         <td class="node" rowspan="1">
-          3
-          <span class="dcolor">
-           &diams;
-          </span>
-         </td>
-         <td>
-          !TRF INV+, 4+
-          <span class="hcolor">
-           &hearts;
-          </span>
-         </td>
-        </tr>
-       </table>
-      </li>
-      <li class="node">
-       <table>
-        <tr>
-         <td class="node" rowspan="1">
-          3
-          <span class="hcolor">
-           &hearts;
-          </span>
-         </td>
-         <td>
-          !TRF INV+, 4+
-          <span class="scolor">
-           &spades;
-          </span>
-         </td>
-        </tr>
-       </table>
-      </li>
-      <li class="last node">
-       <table>
-        <tr>
-         <td class="node" rowspan="1">
-          3
-          <span class="scolor">
-           &spades;
-          </span>
-         </td>
-         <td>
-          !Ask for stopper
-         </td>
-        </tr>
-       </table>
-      </li>
-     </ul>
-    </li>
-   </ul>
-  </div>
-  <div class="tree">
-   <ul>
-    <li class="root">
-     (2
-     <span class="hcolor">
-      &hearts;
-     </span>
-     )-Dbl
-     <ul>
-      <li class="node">
-       <table>
-        <tr>
-         <td class="node" rowspan="1">
-          2
-          <span class="scolor">
-           &spades;
-          </span>
-         </td>
-         <td>
-          COMP, 4+
-          <span class="scolor">
-           &spades;
-          </span>
-         </td>
-        </tr>
-       </table>
-      </li>
-      <li class="node">
-       <table>
-        <tr>
-         <td class="node" rowspan="1">
-          2NT
-         </td>
-         <td>
-          !INV+ (R)
-         </td>
-        </tr>
-       </table>
-       <ul>
-        <li class="node">
-         <table>
-          <tr>
-           <td class="node" rowspan="1">
-            3
-            <span class="ccolor">
-             &clubs;
-            </span>
-           </td>
-           <td>
-            !NF MIN (R)
-           </td>
-          </tr>
-         </table>
-        </li>
-        <li class="node">
-         <table>
-          <tr>
-           <td class="node" rowspan="1">
-            3
-            <span class="dcolor">
-             &diams;
-            </span>
-           </td>
-           <td>
-            FG, 4+
-            <span class="dcolor">
-             &diams;
-            </span>
-           </td>
-          </tr>
-         </table>
-        </li>
-        <li class="node">
-         <table>
-          <tr>
-           <td class="node" rowspan="1">
-            3
-            <span class="hcolor">
-             &hearts;
-            </span>
-           </td>
-           <td>
-            !FG, 4+
-            <span class="ccolor">
-             &clubs;
-            </span>
-           </td>
-          </tr>
-         </table>
-        </li>
-        <li class="node">
-         <table>
-          <tr>
-           <td class="node" rowspan="1">
-            3
-            <span class="scolor">
-             &spades;
-            </span>
-           </td>
-           <td>
-            FG, 4+
-            <span class="scolor">
-             &spades;
-            </span>
-           </td>
-          </tr>
-         </table>
-        </li>
-        <li class="last node">
-         <table>
-          <tr>
-           <td class="node" rowspan="1">
-            3NT
-           </td>
-           <td>
-            MAX BAL
-           </td>
-          </tr>
-         </table>
-        </li>
-       </ul>
-      </li>
-      <li class="node">
-       <table>
-        <tr>
-         <td class="node" rowspan="1">
-          3
-          <span class="ccolor">
-           &clubs;
-          </span>
-         </td>
-         <td>
-          COMP, 4+
-          <span class="ccolor">
-           &clubs;
-          </span>
-         </td>
-        </tr>
-       </table>
-      </li>
-      <li class="node">
-       <table>
-        <tr>
-         <td class="node" rowspan="1">
-          3
-          <span class="dcolor">
-           &diams;
-          </span>
-         </td>
-         <td>
-          COMP, 4+
-          <span class="dcolor">
-           &diams;
-          </span>
-         </td>
-        </tr>
-       </table>
-      </li>
-      <li class="node">
-       <table>
-        <tr>
-         <td class="node" rowspan="1">
-          3
-          <span class="hcolor">
-           &hearts;
-          </span>
-         </td>
-         <td>
-          !TRF INV+, 4+
-          <span class="scolor">
-           &spades;
-          </span>
-         </td>
-        </tr>
-       </table>
-      </li>
-      <li class="last node">
-       <table>
-        <tr>
-         <td class="node" rowspan="1">
-          3
-          <span class="scolor">
-           &spades;
-          </span>
-         </td>
-         <td>
-          INV, 5+
-          <span class="scolor">
-           &spades;
-          </span>
-         </td>
-        </tr>
-       </table>
-      </li>
-     </ul>
-    </li>
-   </ul>
-  </div>
-  <div class="tree">
-   <ul>
-    <li class="root">
-     (2
-     <span class="scolor">
-      &spades;
-     </span>
-     )-Dbl
-     <ul>
-      <li class="node">
-       <table>
-        <tr>
-         <td class="node" rowspan="1">
-          2NT
-         </td>
-         <td>
-          !INV+ (R)
-         </td>
-        </tr>
-       </table>
-       <ul>
-        <li class="node">
-         <table>
-          <tr>
-           <td class="node" rowspan="1">
-            3
-            <span class="ccolor">
-             &clubs;
-            </span>
-           </td>
-           <td>
-            !NF MIN (R)
-           </td>
-          </tr>
-         </table>
-        </li>
-        <li class="node">
-         <table>
-          <tr>
-           <td class="node" rowspan="1">
-            3
-            <span class="dcolor">
-             &diams;
-            </span>
-           </td>
-           <td>
-            !FG, 3=
-            <span class="hcolor">
-             &hearts;
-            </span>
-           </td>
-          </tr>
-         </table>
-        </li>
-        <li class="node">
-         <table>
-          <tr>
-           <td class="node" rowspan="1">
-            3
-            <span class="hcolor">
-             &hearts;
-            </span>
-           </td>
-           <td>
-            FG, 4+
-            <span class="hcolor">
-             &hearts;
-            </span>
-           </td>
-          </tr>
-         </table>
-        </li>
-        <li class="node">
-         <table>
-          <tr>
-           <td class="node" rowspan="1">
-            3
-            <span class="scolor">
-             &spades;
-            </span>
-           </td>
-           <td>
-            !FG, 0&ndash;2
-            <span class="hcolor">
-             &hearts;
-            </span>
            </td>
           </tr>
          </table>
@@ -2897,13 +2424,10 @@ case.
        <table>
         <tr>
          <td class="node" rowspan="1">
-          3
-          <span class="scolor">
-           &spades;
-          </span>
+          3Y
          </td>
          <td>
-          !Ask for stopper
+          !TRF INV+, 5+ next suit
          </td>
         </tr>
        </table>
@@ -2912,16 +2436,10 @@ case.
        <table>
         <tr>
          <td class="node" rowspan="1">
-          4
-          <span class="ccolor">
-           &clubs;
-          </span>
+          3Z
          </td>
          <td>
-          F, 5+
-          <span class="ccolor">
-           &clubs;
-          </span>
+          !TRF INV+, 5+ next suit
          </td>
         </tr>
        </table>
@@ -2930,15 +2448,103 @@ case.
        <table>
         <tr>
          <td class="node" rowspan="1">
-          4
-          <span class="dcolor">
-           &diams;
+          3
+          <span class="scolor">
+           &spades;
           </span>
          </td>
          <td>
-          F, 5+
+          !Ask for stopper, usually a long minor suit
+         </td>
+        </tr>
+       </table>
+      </li>
+     </ul>
+    </li>
+   </ul>
+  </div>
+  <h1>
+   Over strong (2
+   <span class="ccolor">
+    &clubs;
+   </span>
+   )
+  </h1>
+  <p>
+   We simply play Mathe with follow-ups same as Landy over (2
+   <span class="ccolor">
+    &clubs;
+   </span>
+   ).  The strong 2
+   <span class="ccolor">
+    &clubs;
+   </span>
+   is already self-preemptive, so we don't need to worry about that.
+  </p>
+  <div class="tree">
+   <ul>
+    <li class="root">
+     (2
+     <span class="ccolor">
+      &clubs;
+     </span>
+     )
+     <ul>
+      <li class="node">
+       <table>
+        <tr>
+         <td class="node" rowspan="1">
+          Dbl
+         </td>
+         <td>
+          !Mathe/Landy, (54)+ in majors
+         </td>
+        </tr>
+       </table>
+       <ul>
+        <li class="last node">
+         <table>
+          <tr>
+           <td class="node" rowspan="1">
+            2
+            <span class="dcolor">
+             &diams;
+            </span>
+           </td>
+           <td>
+            !Equal preference
+           </td>
+          </tr>
+         </table>
+        </li>
+       </ul>
+      </li>
+      <li class="node">
+       <table>
+        <tr>
+         <td class="node" rowspan="1">
+          2X
+         </td>
+         <td>
+          5+#
+         </td>
+        </tr>
+       </table>
+      </li>
+      <li class="last node">
+       <table>
+        <tr>
+         <td class="node" rowspan="1">
+          2NT
+         </td>
+         <td>
+          !UNT, 5+
           <span class="dcolor">
            &diams;
+          </span>
+          , 5+
+          <span class="ccolor">
+           &clubs;
           </span>
          </td>
         </tr>
@@ -2948,9 +2554,5 @@ case.
     </li>
    </ul>
   </div>
-  <p>
-   Note that this structure also works for artificial (2m) openings without
-further modification.
-  </p>
  </body>
 </html>

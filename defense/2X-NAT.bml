@@ -32,56 +32,28 @@ suit below 3X is weak.  Since an in-shape takeout is short in the adverse suit,
 advancer is more likely to have a stopper.  Inviting with 2NT right-sides the
 contract more often than not.
 
-There are subtle differences among adverse suits.  We adjust them case by
-case.
+I put special cases before general rules to generate correct BSS files.
 
-(2C)-D-
-2X = COMP, 4+#
+(2S)-D-2N-
+3D = !FG, 3=!h
+3H = FG, 4+!h
+3S = !FG, 0--2!h
+
+(2C)-D-2N-3C-
+3X = MIN INV, usually 4=#
+
+(2Y)-D-
+2Z = COMP, 4+#
 2N = !INV+ (R)
   3C = !NF MIN (R)
+    3X = S/O
+    3Y = !TRF, 4= next suit
+    3Z = !TRF, 4= next suit
   3X = FG, 4+#
-  3N = MAX BAL
-3C = !TRF INV+, 4+!d
-3D = !TRF INV+, 4+!h
-3H = !TRF INV+, 4+!s
-3S = !Ask for stopper
-
-(2D)-D-
-2M = COMP, 4+#
-2N = !INV+ (R)
-  3C = !NF MIN (R)
-  3D = !FG, 4+!c
-  3M = FG, 4+#
-  3N = MAX BAL
-3C = !STAY
-3D = !TRF INV+, 4+!h
-3H = !TRF INV+, 4+!s
-3S = !Ask for stopper
-
-(2H)-D-
-2S = COMP, 4+!s
-2N = !INV+ (R)
-  3C = !NF MIN (R)
-  3D = FG, 4+!d
-  3H = !FG, 4+!c
-  3S = FG, 4+!s
-  3N = MAX BAL
-3C = COMP, 4+!c
-3D = COMP, 4+!d
-3H = !TRF INV+, 4+!s
-3S = INV, 5+!s
-
-(2S)-D-
-2N = !INV+ (R)
-  3C = !NF MIN (R)
-  3D = !FG, 3=!h
-  3H = FG, 4+!h
-  3S = !FG, 0--2!h
+  3Y = !FG, 4+!c
+  3Z = FG, 4+#
   3N = MAX BAL
 3X = COMP, 4+#
-3S = !Ask for stopper
-4C = F, 5+!c
-4D = F, 5+!d
-
-Note that this structure also works for artificial (2m) openings without
-further modification.
+3Y = !TRF INV+, 5+ next suit
+3Z = !TRF INV+, 5+ next suit
+3S = !Ask for stopper, usually a long minor suit
