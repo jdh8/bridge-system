@@ -42,6 +42,9 @@ I put special cases before general rules to generate correct BSS files.
 (2C)-D-2N-3C-
 3X = MIN INV, usually 4=#
 
+(2C)-D-
+3C = !FG STAY
+
 (2Y)-D-
 2Z = COMP, 4+#
 2N = !INV+ (R)
