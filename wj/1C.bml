@@ -6,12 +6,11 @@ We move invitational hands out of the 1!d relay to make it non-forcing.
 1D = !NF NEG, 0--9 HCP
 1H = F, 7+ HCP, 4+!h
 1S = F, 7+ HCP, 4+!s
-1N = BAL INV, 9--11 HCP, 2--3!s, 2--3!h, 2--5!d, 2--5!c
+1N = BAL CONST, 7--10 HCP, 2--3!s, 2--3!h, 2--5!d, 2--5!c
 2C = !FG, 5+!c
 2D = !FG, 5+!d
 2H = !P/C, 7--9 HCP, 4+!h, 5+!s
-2S = !INV, 9--11 HCP, 5+ 4+ in minors
-  2N = !Ask for the better minor
+2S = !INV, 9--11 HCP, 0--3!s, 0--3!h
 2N = !FG, 2--3!s, 2--3!h, 3--4!d, 3--4!c
 3C = !INV, 9--11 HCP, 6+!c
 3D = !INV, 9--11 HCP, 6+!d
@@ -68,12 +67,11 @@ The 2!c rebid is wide, but worry not.  Lebensohl fits in this reverse-like
 auction.
 
 1C-1D-2C-
-2D = NF, 7--9 HCP, 5+!d
+2D = NF, 7--9 HCP, 6+!d
 2H = NF, 4--6 HCP, 5+!h
 2S = NF, 4--6 HCP, 5+!s
 2N = !PRE, 3+!c or 7+!d
-3C = NF, 7--9 HCP, 3+!c
-3D = NF, 6--9 HCP, 7+!d or S-SOL 6+!d
+3C = NF, 7--9 HCP, 4+!c
 
 The 2!d rebid shows a nearly balanced hand with 21--23 HCP.  If you can force
 to game, bid as if partner opened a natural 2NT.  Otherwise, try to sign off at
@@ -326,11 +324,11 @@ Balanced positive responses are pretty descriptive.  Opener can rebid
 fairly naturally.
 
 1C-1N-
-2C = MIN, 12--14 HCP, 6+!c
+2C = INV, 15--17 HCP, 5+!c
 2D = FG, 18+ HCP, 5+!d
 2H = FG, 18+ HCP, 5+!h
 2S = FG, 18+ HCP, 5+!s
-2N = BAL INV, ~14 HCP
+2N = INV, 15--17 HCP, (441)4
 3C = FG, 18+ HCP, 5+!c
 3D = !FG SPL, 0--1!d
 3H = !FG SPL, 0--1!h
