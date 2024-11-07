@@ -156,10 +156,19 @@ investigation by simply accepting the transfer.
 ** Advances to (1X)-1NT
 
 (1X)-1N-
-2N = NAT INV
-3N = S/O
-4N = QUANT INV to 6NT
-5N = QUANT INV to 7NT
+4C = !Gerber BW
+4D = !Texas TRF, 6+!h
+4H = !Texas TRF, 6+!s
+4S = !F QUANT
+  4N = !NF, 15--16 HCP
+    5N = !F to a 5-card suit or 6NT
+    7C = !P/C to a 5-card suit or 7NT
+  5N = !F, 17 HCP
+4N = QUANT INV to 6NT, NF
+  6N = S/O, 16--17 HCP
+5N = QUANT INV to 7NT, F
+  6N = S/O, 15 HCP
+  7N = S/O, 16--17 HCP
 
 (1m)-1N-
 2C = !STAY, may be Garbage
