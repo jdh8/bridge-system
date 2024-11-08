@@ -57,6 +57,6 @@ I put special cases before general rules to generate correct BSS files.
   3Z = FG, 4+#
   3N = MAX BAL
 3X = COMP, 4+#
+3S = !Ask for stopper, usually a long minor suit
 3Y = !TRF INV+, 5+ next suit
 3Z = !TRF INV+, 5+ next suit
-3S = !Ask for stopper, usually a long minor suit
