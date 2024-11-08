@@ -155,7 +155,74 @@ investigation by simply accepting the transfer.
 
 ** Advances to (1X)-1NT
 
+We play Gladiator at (1M)-1NT, which is more effective against a major suit
+opening, especially 1!s.  Aggressor can have 5 hearts at (1!s)-1NT because 2!h
+would be an underbid.  We get an additional cuebid to invite with 3 hearts,
+roughly equivalent to Puppet Stayman.  There is also an indirect 3NT for choice
+of games with 3 hearts.
+
+This version of Gladiator originates from a BTU gadget:
+
+https://www.ptt.cc/man/BridgeClub/D6D1/D49B/M.983965409.A.html
+
+(1S)-1N-
+2C = !(R), Gladiator
+  2D = !P/C
+    P  = S/O, 5+!d
+    2H = S/O, 5+!h
+    2S = !INV, 3=!h
+    2N = BAL INV
+    3C = S/O, 6+!c
+    3D = INV, 6+!d
+    3H = INV, 6+!h
+    3S = !SPL, 0--1!s, 0--3!h
+    3N = !Choice of games, 3=!h
+  2H = !P/C, 5+!d
+  2S = !P/C, MAX, 4=!h, 4+!d
+2X = INV, 5+#
+2S = !STAY, INV+ 4=!h
+  3S = !Choice of games, e.g. MAX 3433
+2N = !NF INV, 5+!c
+3X = !FG, 5+#
+3S = !SPL, 0--1!s, 4=!h
+4m = !Leaping Michaels, 5+!h, usually 5+#
+4H = S/O, 6+!h
+4S = !Leaping Michaels, 5+!d, 5+!c
+
+(1H)-1N-
+2C = !(R), Gladiator
+  2D = !P/C
+    P  = S/O, 5+!d
+    2S = S/O, 5+!s
+    2N = BAL INV
+    3C = S/O, 6+!c
+    3D = INV, 6+!d
+    3H = !SPL, 0--1!h, 0--3!s
+    3S = INV, 6+!s
+  2H = !P/C, 5+!d
+  2S = !P/C, MAX, 4=!s, 4+!d
+2X = INV, 5+#
+2H = !STAY, INV+ 4=!s
+  3H = !Choice of games, e.g. MAX 4333
+2N = !NF INV, 5+!c
+3X = !FG, 5+#
+3H = !SPL, 0--1!h, 4=!s
+4m = !Leaping Michaels, 5+!s, usually 5+#
+4H = !Leaping Michaels, 5+!d, 5+!c
+4S = S/O, 6+!s
+
+Otherwise, we simply ignore the opening.  Take the 1NT overcall as an opening.
+
 (1X)-1N-
+2C = !STAY, Garbage STAY, or INV 5=!s
+2D = !TRF, 5+!h
+2H = !TRF, 5+!s
+2S = !Minor suit Multi/STAY, 6+m or FG 4+!d 4+!c
+2N = NAT INV
+3C = INV, 6+!c, KQxxxx or better, usually 6--7 HCP
+3D = INV, 6+!d, KQxxxx or better, usually 6--7 HCP
+3H = !INV, 5+!s, 5+!h
+3S = !Choice of games, 5+!s, 5+!h
 4C = !Gerber BW
 4D = !Texas TRF, 6+!h
 4H = !Texas TRF, 6+!s
@@ -169,32 +236,3 @@ investigation by simply accepting the transfer.
 5N = QUANT INV to 7NT, F
   6N = S/O, 15 HCP
   7N = S/O, 16--17 HCP
-
-(1m)-1N-
-2C = !STAY, may be Garbage
-2D = !TRF, 5+!h
-2H = !TRF, 5+!s
-2S = !TRF, 6+om
-3C = !FG, 5+om, 5+M
-3D = !FG, 5+!s, 5+!h
-3M = FG, 6+#
-
-(1H)-1N-
-2C = !TRF, 5+!d
-2D = !STAY, INV+ 4=!s
-2H = !TRF, 5+!s
-2S = !TRF, 6+!c
-3C = !FG, 5+!c, 5+!s
-3D = !FG, 5+!d, 5+!s
-3H = !FG, 5+!d, 5+!c
-3S = FG, 6+!s
-
-(1S)-1N-
-2C = !TRF, 5+!d
-2D = !TRF, 5+!h
-2H = !STAY, INV+ 4=!h
-2S = !TRF, 6+!c
-3C = !FG, 5+!c, 5+!h
-3D = !FG, 5+!d, 5+!h
-3H = FG, 6+!h
-3S = !FG, 5+!d, 5+!c
