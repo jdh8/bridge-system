@@ -234,7 +234,7 @@ After the BTU checkback of 1!c-1!h-1!s-2!c, we need to bid game-forcing clubs at
 
 1C-1H-1N-
 2C = !BTU CB, F1
-  2D = !NF (R)
+  2D = !P/C
   2H = MAX, 3=!h
 2D = !FG CB
 2H = INV, 5+!h
@@ -259,7 +259,7 @@ After the BTU checkback of 1!c-1!h-1!s-2!c, we need to bid game-forcing clubs at
 
 1C-1S-1N-
 2C = !BTU CB, F1
-  2D = !NF (R)
+  2D = !P/C
   2H = MAX, 4+!h
   2S = MAX, 3=!s
 2D = !FG CB
@@ -293,7 +293,8 @@ relay structure generally lets the strong opener declare notrump.
 
 1C-1M-2D-
 2H = !S/T (R), ~11+ HCP
-  2S = !(R)
+  2S = !Default (R)
+  2N = Probably (4333)
 2S = !NEG, 7--10 HCP, 4=M
   2N = !Ask for a side suit, a 5-card minor or the other 4-card major
 2N = !MIN, 7--10 HCP, 5=M, not BAL
@@ -306,16 +307,30 @@ relay structure generally lets the strong opener declare notrump.
 4C = !SPL, 7--10 HCP, 0--1!c, 6+M
 4D = !SPL, 7--10 HCP, 0--1!d, 6+M
 
+Relay systems can be cryptic!  I am summing up why we arrange the steps in this
+way.
+
+- *2!h*: The lowest step layers *strong hands.*  We can repeat the whole
+  structure inside.  This step follows the logic of (reverse) Lebensohl.
+- *2!s*: The second step holds the possibility of a misfit, *4 cards.*  We
+  need space to explore games in the other strains.
+- *2NT*: *Unbalanced fit!*  Opener never settles in 3NT.  Feel free to bid
+  notrump.
+- *3M*: *Balanced fit!*  Give opener a chance to declare 3NT with a flat hand.
+- *3m*: Take some hands out of the nebulous 2!s.  These hands suggests a 
+  *minor suit* slam.
+- *Others*: These Splinter-level steps are made for *big fits.*
+
 1C-1M-2D-2H-2S-
-2N = ! 4=M
+2N = 4=M
   3C = !Ask for a side suit
-    3M = ! 4+!c
+    3M = !TRF, 4+!c
     3N = 4M(333)
-3C = ! 4+!c, 5=M
-3D = ! 4+!d, 5=M
-3oM = ! 4+#, 5=M
-3M = !BAL 5=M
-3N = ! 6+M
+3C = 4+!c, 5=M
+3D = 4+!d, 5=M
+3oM = 4+#, 5=M
+3M = !ART, BAL 5=M
+3N = !ART, 6+M
 4C = !SPL, 0--1!c, 6+M
 4D = !SPL, 0--1!d, 6+M
 

@@ -97,7 +97,6 @@ trumps.  We /hide/ the doubleton just below the trump to avoid retransferring
 problems like 1NT-2!d-3!d!-3!h?.
 
 1N-2D-
-2H = NF (R)
 2S = !MAX, 1--2!s, 4=!h
   3D = !Retransfer
 2N = !MAX, 3433
@@ -126,7 +125,6 @@ problems like 1NT-2!d-3!d!-3!h?.
 5N = QUANT INV to 7NT
 
 1N-2H-
-2S = NF (R)
 2N = !MAX, 4333
   3H = !Retransfer
 3C = !MAX, 1--2!c, 4=!s
@@ -234,12 +232,13 @@ We play Transfer Lebensohl against overcalls 2!d!h!s.
 D  = !OPT, BAL INV
 2M = S/O, 5+#
 2N = !TRF Lebensohl
-  3C = !NF (R)
+  3C = !P/C
     3D = !FG, 5+!c, at most partial stop in !d
     3H = !FG, 5+!h, likely stop in !d
     3S = !FG, 5+!s, likely stop in !d
     3N = !FG, 5+!c, likely stop in !d
-  3D = !NF, 5+!c
+  3D = !P/C, 5+!c
+  3H = !P/C, MAX, 4+!d, 4+!c
 3C = !FG STAY
 3D = !TRF, INV+, 5+!h
 3H = !TRF, INV+, 5+!s
@@ -250,12 +249,13 @@ D  = !OPT, BAL INV
 D  = !OPT, BAL INV
 2S = S/O, 5+!s
 2N = !TRF Lebensohl
-  3C = !NF (R)
+  3C = !P/C
     3D = S/O
     3H = !FG, 5+!c, at most partial stop in !h
     3S = !FG, 5+!s, likely stop in !h
     3N = !FG, 5+!c, likely stop in !h
-  3D = !NF, 5+!c
+  3D = !P/C, 5+!c
+  3H = !P/C, MAX, 4+!d, 4+!c
 3C = !TRF, 5+!d
 3D = !FG STAY, 4+!s
 3H = !TRF, INV+, 5+!s
@@ -265,11 +265,12 @@ D  = !OPT, BAL INV
 1N-(2S)-
 D  = !OPT, BAL INV
 2N = !TRF Lebensohl
-  3C = !NF (R)
+  3C = !P/C
     3DH = S/O
     3S = !FG, 5+!c, at most partial stop in !s
     3N = !FG, 5+!c, likely stop in !s
-  3D = !NF, 5+!c
+  3D = !P/C, 5+!c
+  3H = !P/C, MAX, 4+!d, 4+!c
 3C = !TRF, INV+, 5+!d
 3D = !TRF, INV+, 5+!h
 3H = !FG STAY, 4+!h

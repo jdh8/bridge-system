@@ -7,7 +7,7 @@
 2D = NAT FG
 2H = CONST, 3+!h
 2S = !INV, 9--11 HCP, (54)+ in minors
-  2N = !(R), ask for the better minor
+  2N = !Ask for the better minor
 2N = !FG, 4+!h
 3C = !INV, 4+!h
 3D = !CONST, 4+!h

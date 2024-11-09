@@ -48,7 +48,7 @@ I put special cases before general rules to generate correct BSS files.
 (2Y)-D-
 2Z = COMP, 4+#
 2N = !INV+ (R)
-  3C = !NF MIN (R)
+  3C = !MIN P/C
     3X = S/O
     3Y = !TRF, 4= next suit
     3Z = !TRF, 4= next suit
