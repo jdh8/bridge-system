@@ -6546,6 +6546,18 @@ double&rdquo; by accepting the transfer.
     </li>
    </ul>
   </div>
+  <p>
+   Negative free bid of hearts works well with the negative double of 1
+   <span class="ccolor">
+    &clubs;
+   </span>
+   -(1
+   <span class="scolor">
+    &spades;
+   </span>
+   )-X.
+Otherwise, we employ standard forcing free bids for minor suits.
+  </p>
   <div class="tree">
    <ul>
     <li class="root">
@@ -6596,6 +6608,58 @@ double&rdquo; by accepting the transfer.
     </li>
    </ul>
   </div>
+  <p>
+   We treat 1
+   <span class="ccolor">
+    &clubs;
+   </span>
+   as a weak noturmp more than a club opening.  Club support is not
+very effective. We have a transfer scheme for all levels below 3NT.
+  </p>
+  <ul>
+   <li>
+    <strong>
+     1
+     <span class="dcolor">
+      &diams;
+     </span>
+     <span class="hcolor">
+      &hearts;
+     </span>
+     <span class="scolor">
+      &spades;
+     </span>
+    </strong>
+    : Transfer to the next strain.  The low-level
+    <em>
+     cuebid
+    </em>
+    of 1
+    <span class="scolor">
+     &spades;
+    </span>
+    lets 
+  opener declare notrump.
+   </li>
+   <li>
+    <strong>
+     From 2Q to 3
+     <span class="hcolor">
+      &hearts;
+     </span>
+    </strong>
+    (skipping 2NT): A weak or strong transfer of 6+ cards.
+   </li>
+   <li>
+    <strong>
+     3
+     <span class="scolor">
+      &spades;
+     </span>
+    </strong>
+    : Transfer Gambling 3NT.
+   </li>
+  </ul>
   <div class="tree">
    <ul>
     <li class="root">
@@ -9916,7 +9980,7 @@ natural or conceals a fit in diamonds.
           1M
          </td>
          <td>
-          F, 6+ HCP, 4+#
+          F, 7+ HCP, 4+#
          </td>
         </tr>
        </table>
@@ -9928,7 +9992,7 @@ natural or conceals a fit in diamonds.
           1NT
          </td>
          <td>
-          !TRF, 6+ HCP, 5+
+          !TRF, 7+ HCP, 5+
           <span class="ccolor">
            &clubs;
           </span>
@@ -10092,6 +10156,18 @@ natural or conceals a fit in diamonds.
     </li>
    </ul>
   </div>
+  <p>
+   We still have the transfer structure after 1
+   <span class="dcolor">
+    &diams;
+   </span>
+   -(1M).  It is not as obvious as
+1
+   <span class="ccolor">
+    &clubs;
+   </span>
+   -(1X) though.
+  </p>
   <div class="tree">
    <ul>
     <li class="root">
@@ -10099,7 +10175,7 @@ natural or conceals a fit in diamonds.
      <span class="dcolor">
       &diams;
      </span>
-     -(1M)
+     -(1X)
      <ul>
       <li class="node">
        <table>
@@ -10108,7 +10184,7 @@ natural or conceals a fit in diamonds.
           1NT
          </td>
          <td>
-          BAL INV, 9&ndash;11 HCP
+          BAL CONST, 8&ndash;10 HCP
          </td>
         </tr>
        </table>
@@ -10123,9 +10199,9 @@ natural or conceals a fit in diamonds.
           </span>
          </td>
          <td>
-          !TRF INV+, 10+ HCP, 3+
-          <span class="dcolor">
-           &diams;
+          INV+, 10+ HCP, 5+
+          <span class="ccolor">
+           &clubs;
           </span>
          </td>
         </tr>
@@ -10153,12 +10229,15 @@ natural or conceals a fit in diamonds.
        <table>
         <tr>
          <td class="node" rowspan="1">
-          2M
+          2
+          <span class="scolor">
+           &spades;
+          </span>
          </td>
          <td>
-          !TRF INV+, 10+ HCP, 5+
-          <span class="ccolor">
-           &clubs;
+          !TRF INV+, 10+ HCP, 4+
+          <span class="dcolor">
+           &diams;
           </span>
          </td>
         </tr>
@@ -10171,7 +10250,7 @@ natural or conceals a fit in diamonds.
           2NT
          </td>
          <td>
-          !BAL FG with stopper
+          BAL INV with stopper, 10&ndash;11 HCP
          </td>
         </tr>
        </table>
@@ -10212,11 +10291,26 @@ natural or conceals a fit in diamonds.
         </tr>
        </table>
       </li>
+      <li class="node">
+       <table>
+        <tr>
+         <td class="node" rowspan="1">
+          3X
+         </td>
+         <td>
+          !FG SPL, 0&ndash;1#, 4+
+          <span class="dcolor">
+           &diams;
+          </span>
+         </td>
+        </tr>
+       </table>
+      </li>
       <li class="last node">
        <table>
         <tr>
          <td class="node" rowspan="1">
-          3M
+          3Y
          </td>
          <td>
           !FG SPL, 0&ndash;1#, 4+
@@ -10294,35 +10388,17 @@ natural or conceals a fit in diamonds.
         </tr>
        </table>
       </li>
-      <li class="node">
-       <table>
-        <tr>
-         <td class="node" rowspan="1">
-          2
-          <span class="scolor">
-           &spades;
-          </span>
-         </td>
-         <td>
-          PRE, 3&ndash;9 HCP, 6+
-          <span class="scolor">
-           &spades;
-          </span>
-         </td>
-        </tr>
-       </table>
-      </li>
       <li class="last node">
        <table>
         <tr>
          <td class="node" rowspan="1">
-          3
-          <span class="scolor">
-           &spades;
+          2
+          <span class="hcolor">
+           &hearts;
           </span>
          </td>
          <td>
-          PRE, 7+
+          !TRF, PRE or INV+, 6+
           <span class="scolor">
            &spades;
           </span>
@@ -11848,11 +11924,14 @@ Ting-Yu Ye (TpKotoba).
           2NT
          </td>
          <td>
-          !G/T, 4+
-          <span class="hcolor">
-           &hearts;
+          !TRF, PRE 7+
+          <span class="ccolor">
+           &clubs;
           </span>
-          , Truscott
+          or FG 6+
+          <span class="ccolor">
+           &clubs;
+          </span>
          </td>
         </tr>
        </table>
@@ -11861,15 +11940,43 @@ Ting-Yu Ye (TpKotoba).
        <table>
         <tr>
          <td class="node" rowspan="1">
-          3X
+          3
+          <span class="ccolor">
+           &clubs;
+          </span>
          </td>
          <td>
-          PRE, 7+#
+          !TRF, PRE 7+
+          <span class="dcolor">
+           &diams;
+          </span>
+          or FG 6+
+          <span class="dcolor">
+           &diams;
+          </span>
          </td>
         </tr>
        </table>
       </li>
-      <li class="last node">
+      <li class="node">
+       <table>
+        <tr>
+         <td class="node" rowspan="1">
+          3
+          <span class="dcolor">
+           &diams;
+          </span>
+         </td>
+         <td>
+          !TRF CONST, 4+
+          <span class="hcolor">
+           &hearts;
+          </span>
+         </td>
+        </tr>
+       </table>
+      </li>
+      <li class="node">
        <table>
         <tr>
          <td class="node" rowspan="1">
@@ -11883,6 +11990,33 @@ Ting-Yu Ye (TpKotoba).
           <span class="hcolor">
            &hearts;
           </span>
+         </td>
+        </tr>
+       </table>
+      </li>
+      <li class="node">
+       <table>
+        <tr>
+         <td class="node" rowspan="1">
+          3
+          <span class="scolor">
+           &spades;
+          </span>
+         </td>
+         <td>
+          !Gambling, SOL 7+ suit with no stopper outside
+         </td>
+        </tr>
+       </table>
+      </li>
+      <li class="last node">
+       <table>
+        <tr>
+         <td class="node" rowspan="1">
+          3NT
+         </td>
+         <td>
+          !Gambling, SOL 7+ suit with one stopper outside
          </td>
         </tr>
        </table>
@@ -12009,11 +12143,14 @@ Ting-Yu Ye (TpKotoba).
           2NT
          </td>
          <td>
-          !G/T, 4+
-          <span class="scolor">
-           &spades;
+          !TRF, PRE 7+
+          <span class="ccolor">
+           &clubs;
           </span>
-          , Truscott
+          or FG 6+
+          <span class="ccolor">
+           &clubs;
+          </span>
          </td>
         </tr>
        </table>
@@ -12022,15 +12159,65 @@ Ting-Yu Ye (TpKotoba).
        <table>
         <tr>
          <td class="node" rowspan="1">
-          3X
+          3
+          <span class="ccolor">
+           &clubs;
+          </span>
          </td>
          <td>
-          PRE, 7+#
+          !TRF, PRE 7+
+          <span class="dcolor">
+           &diams;
+          </span>
+          or FG 6+
+          <span class="dcolor">
+           &diams;
+          </span>
          </td>
         </tr>
        </table>
       </li>
-      <li class="last node">
+      <li class="node">
+       <table>
+        <tr>
+         <td class="node" rowspan="1">
+          3
+          <span class="dcolor">
+           &diams;
+          </span>
+         </td>
+         <td>
+          !TRF, PRE 7+
+          <span class="hcolor">
+           &hearts;
+          </span>
+          or FG 6+
+          <span class="hcolor">
+           &hearts;
+          </span>
+         </td>
+        </tr>
+       </table>
+      </li>
+      <li class="node">
+       <table>
+        <tr>
+         <td class="node" rowspan="1">
+          3
+          <span class="hcolor">
+           &hearts;
+          </span>
+         </td>
+         <td>
+          !TRF CONST, 4+
+          <span class="scolor">
+           &spades;
+          </span>
+         </td>
+        </tr>
+       </table>
+      </li>
+      <li class="node">
        <table>
         <tr>
          <td class="node" rowspan="1">
@@ -12044,6 +12231,18 @@ Ting-Yu Ye (TpKotoba).
           <span class="scolor">
            &spades;
           </span>
+         </td>
+        </tr>
+       </table>
+      </li>
+      <li class="last node">
+       <table>
+        <tr>
+         <td class="node" rowspan="1">
+          3NT
+         </td>
+         <td>
+          !Gambling, SOL 7+ suit with 0&ndash;1 stopper outside
          </td>
         </tr>
        </table>
@@ -12138,7 +12337,7 @@ Ting-Yu Ye (TpKotoba).
           </span>
          </td>
          <td>
-          !CONST+, 3+
+          !PRE or FG, 3+
           <span class="hcolor">
            &hearts;
           </span>
@@ -12156,7 +12355,7 @@ Ting-Yu Ye (TpKotoba).
           </span>
          </td>
          <td>
-          PRE, 3+
+          CONST, 3+
           <span class="hcolor">
            &hearts;
           </span>
@@ -12193,11 +12392,14 @@ Ting-Yu Ye (TpKotoba).
           2NT
          </td>
          <td>
-          !G/T, 4+
-          <span class="hcolor">
-           &hearts;
+          !TRF, PRE 7+
+          <span class="ccolor">
+           &clubs;
           </span>
-          , Truscott
+          or FG 6+
+          <span class="ccolor">
+           &clubs;
+          </span>
          </td>
         </tr>
        </table>
@@ -12206,15 +12408,43 @@ Ting-Yu Ye (TpKotoba).
        <table>
         <tr>
          <td class="node" rowspan="1">
-          3X
+          3
+          <span class="ccolor">
+           &clubs;
+          </span>
          </td>
          <td>
-          PRE, 7+#
+          !TRF, PRE 7+
+          <span class="dcolor">
+           &diams;
+          </span>
+          or FG 6+
+          <span class="dcolor">
+           &diams;
+          </span>
          </td>
         </tr>
        </table>
       </li>
-      <li class="last node">
+      <li class="node">
+       <table>
+        <tr>
+         <td class="node" rowspan="1">
+          3
+          <span class="dcolor">
+           &diams;
+          </span>
+         </td>
+         <td>
+          !TRF CONST, 4+
+          <span class="hcolor">
+           &hearts;
+          </span>
+         </td>
+        </tr>
+       </table>
+      </li>
+      <li class="node">
        <table>
         <tr>
          <td class="node" rowspan="1">
@@ -12227,366 +12457,6 @@ Ting-Yu Ye (TpKotoba).
           PRE, 4+
           <span class="hcolor">
            &hearts;
-          </span>
-         </td>
-        </tr>
-       </table>
-      </li>
-     </ul>
-    </li>
-   </ul>
-  </div>
-  <p>
-   The sequences 1M-(1NT) and 1M-(2
-   <span class="ccolor">
-    &clubs;
-   </span>
-   ) are also similar.
-  </p>
-  <div class="tree">
-   <ul>
-    <li class="root">
-     1M-(1NT)
-     <ul>
-      <li class="node">
-       <table>
-        <tr>
-         <td class="node" rowspan="1">
-          Dbl
-         </td>
-         <td>
-          Nearly BAL INV+
-         </td>
-        </tr>
-       </table>
-      </li>
-      <li class="node">
-       <table>
-        <tr>
-         <td class="node" rowspan="1">
-          2X
-         </td>
-         <td>
-          PRE, 5+#
-         </td>
-        </tr>
-       </table>
-      </li>
-      <li class="node">
-       <table>
-        <tr>
-         <td class="node" rowspan="1">
-          2M
-         </td>
-         <td>
-          PRE, 3+#
-         </td>
-        </tr>
-       </table>
-      </li>
-      <li class="node">
-       <table>
-        <tr>
-         <td class="node" rowspan="1">
-          2NT
-         </td>
-         <td>
-          !TRF, PRE 7+
-          <span class="ccolor">
-           &clubs;
-          </span>
-          or FG 6+
-          <span class="ccolor">
-           &clubs;
-          </span>
-         </td>
-        </tr>
-       </table>
-      </li>
-      <li class="node">
-       <table>
-        <tr>
-         <td class="node" rowspan="1">
-          3
-          <span class="ccolor">
-           &clubs;
-          </span>
-         </td>
-         <td>
-          !TRF, PRE 7+
-          <span class="dcolor">
-           &diams;
-          </span>
-          or FG 6+
-          <span class="dcolor">
-           &diams;
-          </span>
-         </td>
-        </tr>
-       </table>
-      </li>
-      <li class="node">
-       <table>
-        <tr>
-         <td class="node" rowspan="1">
-          3
-          <span class="dcolor">
-           &diams;
-          </span>
-         </td>
-         <td>
-          !TRF, PRE 7+
-          <span class="hcolor">
-           &hearts;
-          </span>
-          or FG 6+
-          <span class="hcolor">
-           &hearts;
-          </span>
-         </td>
-        </tr>
-       </table>
-      </li>
-      <li class="node">
-       <table>
-        <tr>
-         <td class="node" rowspan="1">
-          3
-          <span class="hcolor">
-           &hearts;
-          </span>
-         </td>
-         <td>
-          !TRF, PRE 7+
-          <span class="scolor">
-           &spades;
-          </span>
-          or FG 6+
-          <span class="scolor">
-           &spades;
-          </span>
-         </td>
-        </tr>
-       </table>
-      </li>
-      <li class="node">
-       <table>
-        <tr>
-         <td class="node" rowspan="1">
-          3
-          <span class="scolor">
-           &spades;
-          </span>
-         </td>
-         <td>
-          !Gambling, SOL 7+ suit with no stopper outside
-         </td>
-        </tr>
-       </table>
-      </li>
-      <li class="last node">
-       <table>
-        <tr>
-         <td class="node" rowspan="1">
-          3NT
-         </td>
-         <td>
-          !Gambling, SOL 7+ suit with one stopper outside
-         </td>
-        </tr>
-       </table>
-      </li>
-     </ul>
-    </li>
-   </ul>
-  </div>
-  <div class="tree">
-   <ul>
-    <li class="root">
-     1
-     <span class="hcolor">
-      &hearts;
-     </span>
-     -(1NT)
-     <ul>
-      <li class="last node">
-       <table>
-        <tr>
-         <td class="node" rowspan="1">
-          3
-          <span class="dcolor">
-           &diams;
-          </span>
-         </td>
-         <td>
-          !TRF G/T, 4+
-          <span class="hcolor">
-           &hearts;
-          </span>
-         </td>
-        </tr>
-       </table>
-      </li>
-     </ul>
-    </li>
-   </ul>
-  </div>
-  <div class="tree">
-   <ul>
-    <li class="root">
-     1
-     <span class="scolor">
-      &spades;
-     </span>
-     -(1NT)
-     <ul>
-      <li class="last node">
-       <table>
-        <tr>
-         <td class="node" rowspan="1">
-          3
-          <span class="hcolor">
-           &hearts;
-          </span>
-         </td>
-         <td>
-          !TRF G/T, 4+
-          <span class="scolor">
-           &spades;
-          </span>
-         </td>
-        </tr>
-       </table>
-      </li>
-     </ul>
-    </li>
-   </ul>
-  </div>
-  <div class="tree">
-   <ul>
-    <li class="root">
-     1M-(2
-     <span class="ccolor">
-      &clubs;
-     </span>
-     )
-     <ul>
-      <li class="node">
-       <table>
-        <tr>
-         <td class="node" rowspan="1">
-          Dbl
-         </td>
-         <td>
-          Nearly BAL INV+
-         </td>
-        </tr>
-       </table>
-      </li>
-      <li class="node">
-       <table>
-        <tr>
-         <td class="node" rowspan="1">
-          2X
-         </td>
-         <td>
-          NF, 5+#
-         </td>
-        </tr>
-       </table>
-      </li>
-      <li class="node">
-       <table>
-        <tr>
-         <td class="node" rowspan="1">
-          2M
-         </td>
-         <td>
-          NF, 3+#
-         </td>
-        </tr>
-       </table>
-      </li>
-      <li class="node">
-       <table>
-        <tr>
-         <td class="node" rowspan="1">
-          2NT
-         </td>
-         <td>
-          !TRF, PRE 7+
-          <span class="ccolor">
-           &clubs;
-          </span>
-          or FG 6+
-          <span class="ccolor">
-           &clubs;
-          </span>
-         </td>
-        </tr>
-       </table>
-      </li>
-      <li class="node">
-       <table>
-        <tr>
-         <td class="node" rowspan="1">
-          3
-          <span class="ccolor">
-           &clubs;
-          </span>
-         </td>
-         <td>
-          !TRF, PRE 7+
-          <span class="dcolor">
-           &diams;
-          </span>
-          or FG 6+
-          <span class="dcolor">
-           &diams;
-          </span>
-         </td>
-        </tr>
-       </table>
-      </li>
-      <li class="node">
-       <table>
-        <tr>
-         <td class="node" rowspan="1">
-          3
-          <span class="dcolor">
-           &diams;
-          </span>
-         </td>
-         <td>
-          !TRF, PRE 7+
-          <span class="hcolor">
-           &hearts;
-          </span>
-          or FG 6+
-          <span class="hcolor">
-           &hearts;
-          </span>
-         </td>
-        </tr>
-       </table>
-      </li>
-      <li class="node">
-       <table>
-        <tr>
-         <td class="node" rowspan="1">
-          3
-          <span class="hcolor">
-           &hearts;
-          </span>
-         </td>
-         <td>
-          !TRF, PRE 7+
-          <span class="scolor">
-           &spades;
-          </span>
-          or FG 6+
-          <span class="scolor">
-           &spades;
           </span>
          </td>
         </tr>
@@ -12615,76 +12485,6 @@ Ting-Yu Ye (TpKotoba).
          </td>
          <td>
           !Gambling, SOL 7+ suit with stopper
-         </td>
-        </tr>
-       </table>
-      </li>
-     </ul>
-    </li>
-   </ul>
-  </div>
-  <div class="tree">
-   <ul>
-    <li class="root">
-     1
-     <span class="hcolor">
-      &hearts;
-     </span>
-     -(2
-     <span class="ccolor">
-      &clubs;
-     </span>
-     )
-     <ul>
-      <li class="last node">
-       <table>
-        <tr>
-         <td class="node" rowspan="1">
-          3
-          <span class="dcolor">
-           &diams;
-          </span>
-         </td>
-         <td>
-          !TRF G/T, 4+
-          <span class="hcolor">
-           &hearts;
-          </span>
-         </td>
-        </tr>
-       </table>
-      </li>
-     </ul>
-    </li>
-   </ul>
-  </div>
-  <div class="tree">
-   <ul>
-    <li class="root">
-     1
-     <span class="scolor">
-      &spades;
-     </span>
-     -(2
-     <span class="ccolor">
-      &clubs;
-     </span>
-     )
-     <ul>
-      <li class="last node">
-       <table>
-        <tr>
-         <td class="node" rowspan="1">
-          3
-          <span class="hcolor">
-           &hearts;
-          </span>
-         </td>
-         <td>
-          !TRF G/T, 4+
-          <span class="scolor">
-           &spades;
-          </span>
          </td>
         </tr>
        </table>

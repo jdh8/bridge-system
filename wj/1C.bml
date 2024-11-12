@@ -416,9 +416,20 @@ R  = NF BAL G/T, 10+ HCP
 3S = !Gambling, SOL 7+ suit with no stopper outside
 3N = !Gambling, SOL 7+ suit with one stopper outside
 
+Negative free bid of hearts works well with the negative double of 1!c-(1!s)-X.
+Otherwise, we employ standard forcing free bids for minor suits.
+
 1C-(1S)-
 D  = !NEG, 7+ HCP, 4+!h
 2H = NF, 7--11 HCP, 5+!h
+
+We treat 1!c as a weak noturmp more than a club opening.  Club support is not
+very effective. We have a transfer scheme for all levels below 3NT.
+
+- *1!d!h!s*: Transfer to the next strain.  The low-level /cuebid/ of 1!s lets 
+  opener declare notrump.
+- *From 2Q to 3!h* (skipping 2NT): A weak or strong transfer of 6+ cards.
+- *3!s*: Transfer Gambling 3NT.
 
 1C-(1Y)-
 1H = !TRF, 7+ HCP, 4+!s

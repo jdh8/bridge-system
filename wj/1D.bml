@@ -199,8 +199,8 @@ Our competitive bidding structure is similar to the 1!c opening.
 
 1D-(D)-
 R  = NF BAL G/T, 10+ HCP
-1M = F, 6+ HCP, 4+#
-1N = !TRF, 6+ HCP, 5+!c
+1M = F, 7+ HCP, 4+#
+1N = !TRF, 7+ HCP, 5+!c
 2C = !TRF, PRE or FG, 3+!d
 2D = CONST, 7--9 HCP, 3+!d
 2M = PRE, 3--9 HCP, 6+#
@@ -210,22 +210,25 @@ R  = NF BAL G/T, 10+ HCP
 3H = !FG SPL, 0--1!h, 0--3!s, 4+!d
 3S = !FG SPL, 0--1!s, 0--3!h, 4+!d
 
-1D-(1M)-
-1N = BAL INV, 9--11 HCP
-2C = !TRF INV+, 10+ HCP, 3+!d
+We still have the transfer structure after 1!d-(1M).  It is not as obvious as
+1!c-(1X) though.
+
+1D-(1X)-
+1N = BAL CONST, 8--10 HCP
+2C = INV+, 10+ HCP, 5+!c
 2D = CONST, 7--9 HCP, 3+!d
-2M = !TRF INV+, 10+ HCP, 5+!c
-2N = !BAL FG with stopper
+2S = !TRF INV+, 10+ HCP, 4+!d
+2N = BAL INV with stopper, 10--11 HCP
 3C = !CONST, 7--9 HCP, 4+!d
 3D = PRE, 4--6 HCP, 4+!d
-3M = !FG SPL, 0--1#, 4+!d
+3X = !FG SPL, 0--1#, 4+!d
+3Y = !FG SPL, 0--1#, 4+!d
 
 1D-(1H)-
 D  = !TRF, 7+ HCP, 4+!s
   1S = MIN, 12--14 HCP, 3=!s
 1S = !TRF to 1NT, 7+ HCP
-2S = PRE, 3--9 HCP, 6+!s
-3S = PRE, 7+!s
+2H = !TRF, PRE or INV+, 6+!s
 
 1D-(1S)-
 D  = !NEG, 7+ HCP, 4+!h
