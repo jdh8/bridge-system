@@ -1,8 +1,12 @@
 * Major suit openings
 
+Only to 1!s do we have forcing 1NT.  Unlike 1!h-1NT, there are still reasonable
+chances of a major suit game (especially 4!h) after 1!s-1NT and a balanced
+minimum opener.
+
 1H-
 1S = F, 4+!s
-1N = NF, usually 7--11 HCP, 0--3!h, 
+1N = NF, usually 7--11 HCP, 0--3!s, 0--3!h
 2C = NAT FG
 2D = NAT FG
 2H = CONST, 3+!h
@@ -18,26 +22,18 @@
 4D = !FG SPL, 0--1!d, 4+!h
 4H = PRE, 4+!h
 
-
 We play Untwisted 2/1 over 1!s.  The 2/1 bids are either natural or contain
 long hearts instead.  This treatment is inspired by Twisted 2/1 by Ting-Yu Ye
 (TpKotoba).  I untwist the 2/1 bids but keep weak hearts in 2!c.
 
-https://hackmd.io/@TpKotoba/refx
+Responding to 1!s with 5+ hearts, we bid according to strength:
 
-We restrict the heart variant in 1!s-1NT to mild inviation, i.e. 9--11 HCP, 
-5=!h, 0--2!s.  With either a spade fit or an extra heart, upgrade it to a 
-strong invitation.  The following list shows how we *respond to 1!s with 5+
-hearts.*
-
-- *Game force (or invitation by PH):* 2!h
-- *Strong invitation:* 2!c, 6+ hearts or 3= spades
-- *Mild invitation:* 1NT
-- *Constructive:* 2!c
-- *Weak:* Consider 2!c if 6+ hearts.  Pass otherwise.
+- *Game-forcing:* 2!h
+- *Invitational:* 1NT
+- *Weak:* 2!c
 
 1S-
-1N = NF, usually 7--11 HCP, 0--3!s, 0--5!h
+1N = F, usually 7--11 HCP, 0--3!s
 2C = !NAT FG or NF 5+!h
 2D = !FG, 4+!d
 2H = !FG, 5+!h
@@ -52,15 +48,13 @@ hearts.*
 4S = PRE, 4+!s
 
 1S-1N-
-2C = NF, usually 3+!c
+2C = NF, 4+!c or BAL MIN
 2D = NF, 4+!d
 2H = NF, 4+!h
 2S = MIN, 6+!s
-  3H = INV, 25(xx)
-2N = BAL INV, 15--16 HCP
+2N = BAL MAX
 3S = MAX, 6+!s
 3X = MAX, 5+#
-3N = BAL, 17 HCP
 
 1S-2C-
 2D = !(R), 0--1!h or MAX
@@ -96,6 +90,12 @@ use reverse Bergen raises for hearts for several reasons:
 We don't play Drury here.  For a 3-card limit raise without a 5-card side suit,
 1NT is decent.
 
+The heart ladder over 1!s also steps down half a trick:
+
+- *Invitational:* 2!h
+- *Constructive:* 1NT
+- *Weak:* 2!c
+
 #SEAT 34
 
 1H-
@@ -103,6 +103,7 @@ We don't play Drury here.  For a 3-card limit raise without a 5-card side suit,
 2D = MAX, 5+!d
 
 1S-
+1N = NF, usually 7--11 HCP, 0--3!s
 2C = MAX 5+!c or NF 5+!h
 2D = MAX, 5+!d
 2H = MAX, 5+!h
