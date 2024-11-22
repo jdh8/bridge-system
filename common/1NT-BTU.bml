@@ -226,7 +226,11 @@ penalty since a takeout can usually penalize the other major.
 
 *** Over (2!d!h!s)
 
-We play Transfer Lebensohl against overcalls 2!d!h!s.
+We play BTU Transfer Lebensohl against overcalls 2!d!h!s (link lost).
+Specially against 2!s, we use Larry Cohen's version to avoid declaring hearts
+via Stayman.
+
+https://www.larryco.com/bridge-articles/transfer-lebensohl
 
 1N-(2D)-
 D  = !OPT, BAL INV
@@ -242,7 +246,7 @@ D  = !OPT, BAL INV
 3C = !FG STAY
 3D = !TRF, INV+, 5+!h
 3H = !TRF, INV+, 5+!s
-3S = !FG, usually short !d
+3S = !FG, usually 6+!c
 3N = S/O, likely stop in !d
 
 1N-(2H)-
@@ -256,10 +260,10 @@ D  = !OPT, BAL INV
     3N = !FG, 5+!c, likely stop in !h
   3D = !P/C, 5+!c
   3H = !P/C, MAX, 4+!d, 4+!c
-3C = !TRF, 5+!d
+3C = !TRF, INV+, 5+!d
 3D = !FG STAY, 4+!s
 3H = !TRF, INV+, 5+!s
-3S = !FG, usually short !h
+3S = !FG, usually 6+!c
 3N = S/O, likely stop in !h
 
 1N-(2S)-
@@ -273,8 +277,8 @@ D  = !OPT, BAL INV
   3H = !P/C, MAX, 4+!d, 4+!c
 3C = !TRF, INV+, 5+!d
 3D = !TRF, INV+, 5+!h
-3H = !FG STAY, 4+!h
-3S = !FG, usually short !s
+3H = !FG, usually 6+!c
+3S = !FG STAY, 4+!h
 3N = S/O, likely stop in !s
 
 *** Over (2NT)
@@ -284,7 +288,7 @@ not yet shown a suit.
 
 1N-(2N)-
 D  = INV+, 2--4!s, 2--4!h, 2+!d, 2+!c
-3C = INV+, 5+!h
-3D = INV+, 5+!s
+3C = INV+, 5+!s
+3D = INV+, 5+!h
 3H = S/O, 5+!h
 3S = S/O, 5+!s
