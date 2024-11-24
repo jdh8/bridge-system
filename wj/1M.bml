@@ -85,6 +85,34 @@ use reverse Bergen raises for hearts for several reasons:
 1S-3D-
 3H = F1, 4+!h
 
+** Modified Stenberg Jacoby 2NT
+
+The principle of fast arrival should not apply to an unlimited Jacoby 2NT.
+The weaker opener is, the more likely responder has something to say.
+Therefore, we import responses from Stenberg AKA Swedish Jacoby 2NT.
+
+1M-2N-
+3C = !MIN
+  3D = !Ask for distribution
+    3M = No SPL, not BAL
+    3oM = !SPL, 0--1#
+    3N = BAL
+    4C = !SPL, 0--1!c
+    4D = !SPL, 0--1!d
+3D = !MAX, no SPL
+3H = !MAX FRAG, 0--1!c
+3S = !MAX FRAG, 0--1!d
+3N = !MAX FRAG, 0--1oM
+4C = MAX, 5+!c
+4D = MAX, 5+!d
+
+1H-2N-
+4H = MAX, 6+!h, 4+!s
+
+1S-2N-
+4H = MAX, 5+!h
+4S = !MIN, 5+!h
+
 ** Natural invitational 2/1 by passed hand
 
 We don't play Drury here.  For a 3-card limit raise without a 5-card side suit,
