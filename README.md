@@ -9,8 +9,8 @@ gpaulissen/bml#21 gets fixes.
 The below are my pet forcing club bidding systems.  I believe bidding 1♣ for
 all strong hands is a superior treatment.
 
-- [Litten Polish Club](https://jdh8.github.io/bridge-systems/wj.htm)
-- [Mijumaru Blue Club](https://jdh8.github.io/bridge-systems/blue.htm)
+- [Strawberry Polish Club](https://jdh8.github.io/bridge-systems/wj.htm)
+- [Blueberry Club](https://jdh8.github.io/bridge-systems/blue.htm)
 - [Defensive bidding system](https://jdh8.github.io/bridge-systems/defense.htm)
 
 The [distribution syntax and abbreviations][syntax] are provided by WBF.
