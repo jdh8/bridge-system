@@ -1,8 +1,15 @@
 * Major suit openings
 
-Only to 1!s do we have forcing 1NT.  Unlike 1!h-1NT, there are still reasonable
-chances of a major suit game (especially 4!h) after 1!s-1NT and a balanced
-minimum opener.
+Most 5-card major bidding systems have highly similar structures to 1!h and 1!s.
+However, there are notable differences between the major suits.
+
+1. 1!h-1NT does not conceal a major fit.  1!s-1NT may conceal a heart fit.
+2. 1!h-2!h does not preempt 2!s.  1!s-2!s preempts 2!h.
+
+My suggested continuations reflect these differences:
+
+1. Only unpassed 1!s-1NT is forcing.  Any 1!h-1NT is non/semi-forcing.
+2. Bergen raises are for hearts, Monolo raises for spades.
 
 1H-
 1S = F, 4+!s
@@ -31,6 +38,9 @@ Responding to 1!s with 5+ hearts, we bid according to strength:
 - *Game-forcing:* 2!h
 - *Invitational:* 1NT
 - *Weak:* 2!c
+
+Monolo was a bidding system developed by Fei Chen (Doizi).  Monolo raises pack
+mini-Splinters in 3!c!d, leaving mixed+ raises in 3!h!s.
 
 1S-
 1N = F, usually 7--11 HCP, 0--3!s
