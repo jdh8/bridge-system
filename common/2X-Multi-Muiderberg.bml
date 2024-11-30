@@ -27,7 +27,7 @@ unbid (minor) suits.
 https://chrisryall.net/bridge/multi-v-multi-2d.htm
 
 (2D)-
-D  = !OPT, 12+ HCP and 5+M or 18+ HCP
+D  = !OPT, 12+ HCP and 5+M or BAL 19+ HCP
 2H = !BAL, 16--18 HCP
 2S = !TRF, 14+ points, 5+!c
   2N = !NF NEG, 0--2!c
@@ -36,6 +36,25 @@ D  = !OPT, 12+ HCP and 5+M or 18+ HCP
 3C = NAT, 8--13 HCP, 6+!c
 3D = NAT, 8--13 HCP, 6+!d
 3M = !NF Michaels, 5+#, usually 5+m
+
+We often pass 2!dx with balanced hands to ease slam exploration, especially
+for minor suit slams.
+
+(2D)-D-
+2M = !P/C
+2N = !INV+ (R)
+  3C = !MAX, 5+!h
+  3D = !MAX, 5+!s
+  3M = MIN, 5+#
+  3N = BAL, 19+ HCP
+3C = To play, usually 6+!c
+3D = !Ask for stopper, usually 6+!c
+3M = !P/C
+3N = To play, usually long clubs with a short diamond stopper
+
+When RHO bids, X is penalty and usually short in the other major.  Please
+refrain from penalizing with length in both major suits.  It is usually better
+to make our own game than setting their doubled partscore.
 
 * Muiderberg 2M
 
