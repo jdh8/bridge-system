@@ -43,10 +43,10 @@ for minor suit slams.
 (2D)-D-
 2M = !P/C
 2N = !INV+ (R)
-  3C = !MAX, 5+!h
-  3D = !MAX, 5+!s
-  3M = MIN, 5+#
-  3N = BAL, 19+ HCP
+  3C = !BAL, 19+ HCP
+    3D = !STAY
+  3D = !MIN
+  3M = !MAX, 5+#
 3C = To play, usually 6+!c
 3D = !Ask for stopper, usually 6+!c
 3M = !P/C
@@ -54,7 +54,7 @@ for minor suit slams.
 
 When RHO bids, X is penalty and usually short in the other major.  Please
 refrain from penalizing with length in both major suits.  It is usually better
-to make our own game than setting their doubled partscore.
+to make our own contract than setting their doubled partscore.
 
 * Muiderberg 2M
 
