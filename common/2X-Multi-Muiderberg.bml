@@ -42,7 +42,7 @@ for minor suit slams.
 
 (2D)-D-
 2M = !P/C
-2N = !CONST+ Lebensohl
+2N = !F CONST+, Reverse Lebensohl
   3C = !P/C, 12--17 HCP, 5+M
   3D = !BAL, 19+ HCP
   3M = NAT, 18+ HCP, 5+#
@@ -50,14 +50,38 @@ for minor suit slams.
 3D = !INV+ (R), usually tolerance in both majors
   3M = MIN, 5+#
   3N = BAL, 19+ HCP
-  4C = !MAX, 5+!h
-  4D = !MAX, 5+!s
-3M = !INV+ P/C
+  4C = !FG, 5+!h
+  4D = !FG, 5+!s
+  4M = S/T, 5+#
+3M = !P/C
 3N = !P/C, choice of games
 
-When RHO bids, X is penalty and usually short in the other major.  Please
-refrain from penalizing with length in both major suits.  It is usually better
-to make our own contract than setting their doubled partscore.
+When RHO bids, X is penalty and usually short in the other major.  We play
+Rubinsohl here because we need to bid diamonds.  Please refrain from penalizing
+with length in both major suits.  It is usually better to make our own contract
+than setting their doubled partscore.
+
+(2D)-D-(2HS)-
+P  = PEN, good 4+# and usually short in the other major
+2N = !TRF, 5+!c
+3C = !TRF, 5+!d
+3D = !INV+ (R), usually tolerance in both majors
+3HS = !P/C
+3N = !P/C, choice of games
+
+(2D)-D-(2H)-
+2S = P/C
+
+(2D)-D-(3HS)-
+D = PEN, usuaully short in the other major
+
+After opener shows their major, doubler always penalizes when holding the same
+suit.  This action is mostly safe because doubler sits behind the opener.  More
+importantly, this treatment creates a negative inference that a pass implies
+holding the other major.
+
+- (2!d)-X-(2!s); (3!h)-X = Usually hearts
+- (2!d)-X-(2!s); (3!h)-P = Spades!
 
 * Muiderberg 2M
 
