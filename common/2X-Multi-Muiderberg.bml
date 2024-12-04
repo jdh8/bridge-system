@@ -42,19 +42,16 @@ for minor suit slams.
 
 (2D)-D-
 2M = !P/C
-2N = !F CONST+, Reverse Lebensohl
-  3C = !P/C, 12--17 HCP, 5+M
-  3D = !BAL, 19+ HCP
-  3M = NAT, 18+ HCP, 5+#
+2N = !F INV+, Reverse Lebensohl
+  3C = !P/C, 12--14 HCP, 5+M
+  3D = !S/T, 18+ HCP
+  3M = NAT, 15--17 HCP, 5+#
 3C = PRE, usually 5+!c
-3D = !INV+ (R), usually tolerance in both majors
-  3M = MIN, 5+#
-  3N = BAL, 19+ HCP
-  4C = !FG, 5+!h
-  4D = !FG, 5+!s
-  4M = S/T, 5+#
-3M = !P/C
-3N = !P/C, choice of games
+3D = !TRF INV+, 5+!h
+3H = !TRF INV+, 5+!s
+3S = !TRF FG, usually 6+!c
+4C = !STR choice of games
+4D = !PRE choice of games
 
 When RHO bids, X is penalty and usually short in the other major.  We play
 Rubinsohl here because we need to bid diamonds.  Please refrain from penalizing
@@ -62,15 +59,18 @@ with length in both major suits.  It is usually better to make our own contract
 than setting their doubled partscore.
 
 (2D)-D-(2HS)-
-P  = PEN, good 4+# and usually short in the other major
+D  = PEN, good 4+# and usually short in the other major
 2N = !TRF, 5+!c
 3C = !TRF, 5+!d
-3D = !INV+ (R), usually tolerance in both majors
-3HS = !P/C
-3N = !P/C, choice of games
+3H = !P/C, INV in !h, INV+ in !s
+3S = !P/C, INV in !s, FG in !h
 
 (2D)-D-(2H)-
 2S = P/C
+3D = !TRF, 5+!s
+
+(2D)-D-(2S)-
+3D = !TRF, 5+!h
 
 (2D)-D-(3HS)-
 D = PEN, usuaully short in the other major
