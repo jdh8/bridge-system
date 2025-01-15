@@ -38,8 +38,9 @@ franca of modern bridge.
 
 *** Slam try
 
-- We use kickback RKCB 0314 for all suits.
-- When we have found two fits X and Y, 4Y+1 is 7-key Blackwood (7KCB), RKCB in
+- We use RKCB 0314 by default.  Advanced players may use Turbo 4NT for minor 
+  suits.
+- When we have found two fits X and Y, 4NT is 7-key Blackwood (7KCB), RKCB in
   both suits with each trump Q regarded as half a keycard.
 - New suits above RKCB are control asking RKCB.  Return to 5X if you lack a
   control in that suit.  Otherwise, use the other steps like RKCB.
